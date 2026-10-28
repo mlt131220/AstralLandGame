@@ -1,0 +1,88 @@
+{
+ "crops": {
+  "spring_radish": {
+   "name": "Radish"
+  },
+  "spring_pea": {
+   "name": "Pea"
+  },
+  "spring_lettuce": {
+   "name": "Lettuce"
+  },
+  "spring_carrot": {
+   "name": "Carrot"
+  },
+  "spring_cauliflower": {
+   "name": "Cauliflower"
+  },
+  "spring_strawberry": {
+   "name": "Strawberry"
+  },
+  "spring_flax": {
+   "name": "Flax"
+  },
+  "spring_daisy": {
+   "name": "Daisy"
+  },
+  "summer_tomato": {
+   "name": "Tomato"
+  },
+  "summer_cucumber": {
+   "name": "Cucumber"
+  },
+  "summer_pepper": {
+   "name": "Bell Pepper"
+  },
+  "summer_melon": {
+   "name": "Melon"
+  },
+  "summer_corn": {
+   "name": "Corn"
+  },
+  "summer_sunflower": {
+   "name": "Sunflower"
+  },
+  "summer_blueberry": {
+   "name": "Blueberry"
+  },
+  "summer_cotton": {
+   "name": "Cotton"
+  },
+  "autumn_pumpkin": {
+   "name": "Pumpkin"
+  },
+  "autumn_sweet_potato": {
+   "name": "Sweet Potato"
+  },
+  "autumn_eggplant": {
+   "name": "Eggplant"
+  },
+  "autumn_beet": {
+   "name": "Beet"
+  },
+  "autumn_cranberry": {
+   "name": "Cranberry"
+  },
+  "autumn_sorghum": {
+   "name": "Sorghum"
+  },
+  "autumn_chrysanthemum": {
+   "name": "Chrysanthemum"
+  },
+  "autumn_buckwheat": {
+   "name": "Buckwheat"
+  },
+  "winter_radish": {
+   "name": "Snow Radish"
+  },
+  "winter_kale": {
+   "name": "Kale"
+  },
+  "winter_leek": {
+   "name": "Winter Leek"
+  },
+  "winter_wheat": {
+   "name": "Frost Wheat"
+  }
+ }
+}

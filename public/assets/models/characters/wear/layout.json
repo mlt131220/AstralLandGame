@@ -1,0 +1,387 @@
+{
+  "size": 256,
+  "base": [
+    0,
+    0,
+    128,
+    128
+  ],
+  "top": [
+    128,
+    0,
+    64,
+    64
+  ],
+  "bottom": [
+    192,
+    0,
+    64,
+    64
+  ],
+  "origin": "左上角，像素坐标；glTF UV 的 v=0 为图像上方",
+  "baseResampling": "原 colormap 为 512×512，最近点等比缩至 128×128，UV 乘 0.5",
+  "hatSpace": "head 骨骼局部空间，+Y 向上、+Z 朝前；模型根节点再继承角色整体比例",
+  "textureSampling": "保留原 glTF 采样器；运行时替换 top/bottom 对应 64×64 子图并刷新纹理",
+  "looks": {
+    "male-a": {
+      "hat": {
+        "pos": [
+          0,
+          0.31875,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/male-a_top.png",
+      "defaultBottom": "wear/default/male-a_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 121,
+          "charts": 11,
+          "pixelsPerMeter": 85
+        },
+        "bottom": {
+          "triangles": 100,
+          "charts": 6,
+          "pixelsPerMeter": 114
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "male-b": {
+      "hat": {
+        "pos": [
+          0,
+          0.30875,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/male-b_top.png",
+      "defaultBottom": "wear/default/male-b_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 105,
+          "charts": 11,
+          "pixelsPerMeter": 81
+        },
+        "bottom": {
+          "triangles": 100,
+          "charts": 6,
+          "pixelsPerMeter": 102
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "male-c": {
+      "hat": {
+        "pos": [
+          0,
+          0.37175,
+          -0.02
+        ],
+        "scale": 1.07
+      },
+      "defaultTop": "wear/default/male-c_top.png",
+      "defaultBottom": "wear/default/male-c_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 103,
+          "charts": 11,
+          "pixelsPerMeter": 84
+        },
+        "bottom": {
+          "triangles": 100,
+          "charts": 6,
+          "pixelsPerMeter": 102
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "male-d": {
+      "hat": {
+        "pos": [
+          0,
+          0.35875,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/male-d_top.png",
+      "defaultBottom": "wear/default/male-d_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 194,
+          "charts": 21,
+          "pixelsPerMeter": 74
+        },
+        "bottom": {
+          "triangles": 100,
+          "charts": 6,
+          "pixelsPerMeter": 102
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "male-e": {
+      "hat": {
+        "pos": [
+          0,
+          0.31975,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/male-e_top.png",
+      "defaultBottom": "wear/default/male-e_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 126,
+          "charts": 17,
+          "pixelsPerMeter": 60
+        },
+        "bottom": {
+          "triangles": 100,
+          "charts": 11,
+          "pixelsPerMeter": 97
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "male-f": {
+      "hat": {
+        "pos": [
+          0,
+          0.31875,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/male-f_top.png",
+      "defaultBottom": "wear/default/male-f_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 146,
+          "charts": 23,
+          "pixelsPerMeter": 54
+        },
+        "bottom": {
+          "triangles": 100,
+          "charts": 6,
+          "pixelsPerMeter": 102
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "female-a": {
+      "hat": {
+        "pos": [
+          0,
+          0.32175,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/female-a_top.png",
+      "defaultBottom": "wear/default/female-a_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 105,
+          "charts": 11,
+          "pixelsPerMeter": 81
+        },
+        "bottom": {
+          "triangles": 100,
+          "charts": 6,
+          "pixelsPerMeter": 108
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "female-b": {
+      "hat": {
+        "pos": [
+          0,
+          0.33775,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/female-b_top.png",
+      "defaultBottom": "wear/default/female-b_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 97,
+          "charts": 11,
+          "pixelsPerMeter": 98
+        },
+        "bottom": {
+          "triangles": 100,
+          "charts": 6,
+          "pixelsPerMeter": 108
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "female-c": {
+      "hat": {
+        "pos": [
+          0,
+          0.32175,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/female-c_top.png",
+      "defaultBottom": "wear/default/female-c_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 97,
+          "charts": 11,
+          "pixelsPerMeter": 84
+        },
+        "bottom": {
+          "triangles": 72,
+          "charts": 11,
+          "pixelsPerMeter": 82
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "female-d": {
+      "hat": {
+        "pos": [
+          0,
+          0.32175,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/female-d_top.png",
+      "defaultBottom": "wear/default/female-d_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 179,
+          "charts": 19,
+          "pixelsPerMeter": 70
+        },
+        "bottom": {
+          "triangles": 128,
+          "charts": 12,
+          "pixelsPerMeter": 68
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "female-e": {
+      "hat": {
+        "pos": [
+          0,
+          0.32175,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/female-e_top.png",
+      "defaultBottom": "wear/default/female-e_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 130,
+          "charts": 12,
+          "pixelsPerMeter": 74
+        },
+        "bottom": {
+          "triangles": 100,
+          "charts": 6,
+          "pixelsPerMeter": 108
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    },
+    "female-f": {
+      "hat": {
+        "pos": [
+          0,
+          0.31875,
+          -0.02
+        ],
+        "scale": 1.0
+      },
+      "defaultTop": "wear/default/female-f_top.png",
+      "defaultBottom": "wear/default/female-f_bottom.png",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceScale": 0.25,
+      "uv": {
+        "top": {
+          "triangles": 129,
+          "charts": 17,
+          "pixelsPerMeter": 62
+        },
+        "bottom": {
+          "triangles": 100,
+          "charts": 6,
+          "pixelsPerMeter": 108
+        }
+      },
+      "preservedAccessories": "原头饰、发髻、腰带、鞋、手套及背包保留"
+    }
+  }
+}

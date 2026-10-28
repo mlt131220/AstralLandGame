@@ -1,0 +1,37 @@
+{
+  "name": "星界 Astral Land",
+  "short_name": "星界",
+  "description": "四季农场生活：种田、钓鱼、矿洞、节庆与谷地里的邻居们。Four-season farm life: crops, fishing, mines, festivals and the neighbours of the valley.",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#2a3a24",
+  "theme_color": "#6b4524",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "belt_toolbag",
+      "name": "工具腰包",
+      "cat": "key",
+      "stack": 1,
+      "sell": 0,
+      "tags": [],
+      "desc": "把常用工具留在手边，快捷栏扩至十格。",
+      "effect": "hotbar:10",
+      "art": "棕色皮腰带挂两只方形工具袋。"
+    },
+    {
+      "id": "bag_canvas",
+      "name": "帆布背包",
+      "cat": "key",
+      "stack": 1,
+      "sell": 0,
+      "tags": [],
+      "desc": "背包至少扩至三十六格，不降低已有容量。",
+      "effect": "bag:36",
+      "art": "米白帆布包配绿色补丁和双扣带。"
+    },
+    {
+      "id": "fish_silverscale",
+      "name": "银鳞鱼",
+      "cat": "fish",
+      "stack": 99,
+      "sell": 35,
+      "tags": [
+        "fish"
+      ],
+      "desc": "春季河岸常见小鱼，全天可钓。",
+      "art": "细长银白鱼身，浅蓝背鳍。"
+    },
+    {
+      "id": "fish_grasscarp",
+      "name": "草纹鲫",
+      "cat": "fish",
+      "stack": 99,
+      "sell": 40,
+      "tags": [
+        "fish"
+      ],
+      "desc": "春季晴阴天六至十八时的河岸鱼。",
+      "art": "圆腹浅绿鲫鱼，侧腹三道草纹。"
+    },
+    {
+      "id": "fish_bluecarp",
+      "name": "青背鲤",
+      "cat": "fish",
+      "stack": 99,
+      "sell": 55,
+      "tags": [
+        "fish"
+      ],
+      "desc": "春季八至二十时活动的河岸鱼。",
+      "art": "青蓝背部、淡金腹部和短须。"
+    },
+    {
+      "id": "fish_spottrout",
+      "name": "花斑鳟",
+      "cat": "fish",
+      "stack": 99,
+      "sell": 85,
+      "tags": [
+        "fish"
+      ],
+      "desc": "春季晴阴天六至十二时的山溪鱼。",
+      "art": "纺锤鱼身点缀赭红斑点。"
+    },
+    {
+      "id": "copper_ore",
+      "name": "铜矿",
+      "cat": "ore",
+      "stack": 999,
+      "sell": 8,
+      "buy": 45,
+      "tags": [
+        "ore"
+      ],
+      "desc": "浅矿可采，五份配一份煤熔成铜锭。",
+      "art": "深灰石块露出橘红铜粒。"
+    },
+    {
+      "id": "coal",
+      "name": "煤",
+      "cat": "material",
+      "stack": 999,
+      "sell": 8,
+      "buy": 50,
+      "tags": [],
+      "desc": "熔炉燃料，铁匠铺也有供应。",
+      "art": "哑黑棱角块带灰色断面。"
+    },
+    {
+      "id": "copper_bar",
+      "name": "铜锭",
+      "cat": "bar",
+      "stack": 999,
+      "sell": 60,
+      "buy": 180,
+      "tags": [
+        "bar"
+      ],
+      "desc": "工具升级和水闸工程的基础材料。",
+      "art": "暖铜色梯形金属锭。"
+    },
+    {
+      "id": "clay",
+      "name": "黏土",
+      "cat": "material",
+      "stack": 999,
+      "sell": 4,
+      "tags": [],
+      "desc": "河岸采集和浅矿苔团可提供。",
+      "art": "湿润赭色泥团带一条压痕。"
+    },
+    {
+      "id": "resin",
+      "name": "树脂",
+      "cat": "material",
+      "stack": 999,
+      "sell": 6,
+      "tags": [],
+      "desc": "浅林树木的少量副产物。",
+      "art": "琥珀色不规则树脂滴附树皮。"
+    },
+    {
+      "id": "bugmeat",
+      "name": "虫料",
+      "cat": "material",
+      "stack": 999,
+      "sell": 5,
+      "tags": [],
+      "desc": "浅矿土甲虫掉落，可制作鱼饵。",
+      "art": "小块浅褐虫质材料，不表现血腥。"
+    },
+    {
+      "id": "herb",
+      "name": "草药",
+      "cat": "forage",
+      "stack": 99,
+      "sell": 20,
+      "tags": [
+        "forage"
+      ],
+      "desc": "药用采集物，不能直接食用。",
+      "art": "三片细叶束在短茎上。"
+    },
+    {
+      "id": "wild_greens",
+      "name": "食用野草",
+      "cat": "forage",
+      "stack": 99,
+      "sell": 5,
+      "tags": [
+        "forage"
+      ],
+      "food": [
+        8,
+        0,
+        5
+      ],
+      "desc": "浅林常见食材，两份可煮清汤。",
+      "art": "一束圆叶嫩绿野菜。"
+    },
+    {
+      "id": "wild_berry",
+      "name": "野莓",
+      "cat": "forage",
+      "stack": 99,
+      "sell": 20,
+      "tags": [
+        "forage",
+        "fruit"
+      ],
+      "food": [
+        8,
+        0,
+        5
+      ],
+      "desc": "浅林可采，两份可烘成一份干粮。",
+      "art": "一小簇紫红莓果配两片叶。"
+    },
+    {
+      "id": "mushroom",
+      "name": "食用蘑菇",
+      "cat": "forage",
+      "stack": 99,
+      "sell": 25,
+      "tags": [
+        "forage"
+      ],
+      "food": [
+        8,
+        0,
+        5
+      ],
+      "desc": "浅林可采，可烘干或制作料理。",
+      "art": "米白菌柄顶着浅棕圆菌盖。"
+    },
+    {
+      "id": "dried_food",
+      "name": "干粮",
+      "cat": "food",
+      "stack": 99,
+      "sell": 60,
+      "tags": [],
+      "food": [
+        30,
+        0,
+        20
+      ],
+      "desc": "两份野果或蘑菇烘成的轻便补给。",
+      "art": "布托里的浅褐果干和蘑菇片。"
+    },
+    {
+      "id": "egg",
+      "name": "鸡蛋",
+      "cat": "food",
+      "stack": 99,
+      "sell": 40,
+      "tags": [],
+      "desc": "有效喂养并成熟的鸡每天产一枚。",
+      "art": "暖白椭圆鸡蛋，底部浅褐斑点。"
+    },
+    {
+      "id": "hay",
+      "name": "干草",
+      "cat": "material",
+      "stack": 999,
+      "sell": 3,
+      "buy": 15,
+      "tags": [],
+      "desc": "每只动物每日一份，也可有效放牧。",
+      "art": "金黄草束用细绳扎起。"
+    },
+    {
+      "id": "sword_old",
+      "name": "旧制短剑",
+      "cat": "weapon",
+      "stack": 1,
+      "sell": 0,
+      "tags": [],
+      "desc": "矿口安全教学提供，攻击力八。",
+      "art": "钝灰短剑配旧木柄和铜色护手。"
+    },
+    {
+      "id": "rod_basic",
+      "name": "钓竿",
+      "cat": "tool",
+      "stack": 1,
+      "sell": 0,
+      "tags": [],
+      "desc": "沈舟借出的基础钓竿，无饵也能钓鱼。",
+      "art": "原木细竿配简易线轮和红白浮子。"
+    },
+    {
+      "id": "bait",
+      "name": "鱼饵",
+      "cat": "material",
+      "stack": 999,
+      "sell": 1,
+      "buy": 5,
+      "tags": [],
+      "desc": "咬钩时才消耗，可缩短等待。",
+      "art": "浅黄小饵粒装在敞口纸袋中。"
+    },
+    {
+      "id": "furnace",
+      "name": "熔炉",
+      "cat": "placeable",
+      "stack": 99,
+      "sell": 0,
+      "tags": [],
+      "desc": "石三十、铜矿十制作的基础熔炼设备。",
+      "art": "矮圆石炉配铜色炉口和黑烟囱。"
+    },
+    {
+      "id": "drying_rack",
+      "name": "烘干架",
+      "cat": "placeable",
+      "stack": 99,
+      "sell": 0,
+      "tags": [],
+      "desc": "木三十、纤维十五制作的通风食物架。",
+      "art": "木制双层架铺编织网，悬挂食物片。"
+    },
+    {
+      "id": "soup_clear",
+      "name": "清汤",
+      "cat": "food",
+      "stack": 99,
+      "sell": 8,
+      "tags": [
+        "cooked"
+      ],
+      "food": [
+        25,
+        0,
+        25
+      ],
+      "desc": "两份食用野草煮成，可售卖和交单。",
+      "art": "浅陶碗中清汤漂着三片绿叶。"
+    },
+    {
+      "id": "roast_radish",
+      "name": "烤萝卜",
+      "cat": "food",
+      "stack": 99,
+      "sell": 30,
+      "tags": [
+        "cooked"
+      ],
+      "food": [
+        35,
+        0,
+        25
+      ],
+      "desc": "一份小萝卜或雪萝卜加一份木材烤制。",
+      "art": "木盘盛对切萝卜，表面有焦金烤纹。"
+    }
+  ]
+}

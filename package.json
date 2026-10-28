@@ -1,0 +1,26 @@
+{
+  "name": "astral-land",
+  "private": true,
+  "version": "1.0.0-rc.1",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "node src/core/core.test.ts && node src/core/g2.test.ts && node src/core/flow.test.ts && node src/core/g3.test.ts && node src/core/g4.test.ts && node src/core/rc.test.ts && node src/core/acceptance.test.ts && node src/platform/offline.test.ts && node src/core/i18n.test.ts"
+  },
+  "dependencies": {
+    "three": "0.186.1",
+    "vue": "^3.5.42"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vue-tsc": "^3.3.11"
+  }
+}

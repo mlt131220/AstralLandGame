@@ -1,0 +1,116 @@
+{
+ "wear_top_linen": {
+  "name": "White Linen Shirt"
+ },
+ "wear_top_sky": {
+  "name": "Sky Blue Work Shirt"
+ },
+ "wear_top_flannel": {
+  "name": "Red Plaid Flannel"
+ },
+ "wear_top_knit": {
+  "name": "Forest Green Knit Sweater"
+ },
+ "wear_top_navy": {
+  "name": "Navy Striped Shirt"
+ },
+ "wear_top_mustard": {
+  "name": "Mustard Top"
+ },
+ "wear_top_floral": {
+  "name": "Pink Floral Blouse"
+ },
+ "wear_top_denim": {
+  "name": "Denim Jacket"
+ },
+ "wear_top_overalls": {
+  "name": "Orange Overalls"
+ },
+ "wear_top_hoodie": {
+  "name": "Gray Hoodie"
+ },
+ "wear_top_stars": {
+  "name": "Starry Night Shirt"
+ },
+ "wear_top_sakura": {
+  "name": "Cherry Blossom Shirt"
+ },
+ "wear_top_watermelon": {
+  "name": "Summer Watermelon Tee"
+ },
+ "wear_top_leaves": {
+  "name": "Autumn Leaf Top"
+ },
+ "wear_top_snowflake": {
+  "name": "Snowflake Sweater"
+ },
+ "wear_top_festival": {
+  "name": "Festival Stripe Shirt"
+ },
+ "wear_bottom_denim": {
+  "name": "Dark Blue Jeans"
+ },
+ "wear_bottom_khaki": {
+  "name": "Khaki Pants"
+ },
+ "wear_bottom_black": {
+  "name": "Charcoal Pants"
+ },
+ "wear_bottom_work": {
+  "name": "Brown Work Pants"
+ },
+ "wear_bottom_plaid": {
+  "name": "Gray Plaid Pants"
+ },
+ "wear_bottom_olive": {
+  "name": "Olive Pants"
+ },
+ "wear_bottom_white": {
+  "name": "Cream Pants"
+ },
+ "wear_bottom_wine": {
+  "name": "Wine Red Pants"
+ },
+ "wear_bottom_corduroy": {
+  "name": "Brown Corduroy Pants"
+ },
+ "wear_bottom_snow": {
+  "name": "Snow Pants"
+ },
+ "wear_hat_straw": {
+  "name": "Farm Straw Hat"
+ },
+ "wear_hat_beanie": {
+  "name": "Knit Beanie"
+ },
+ "wear_hat_cap": {
+  "name": "Baseball Cap"
+ },
+ "wear_hat_bucket": {
+  "name": "Bucket Hat"
+ },
+ "wear_hat_cowboy": {
+  "name": "Cowboy Hat"
+ },
+ "wear_hat_beret": {
+  "name": "Beret"
+ },
+ "wear_hat_flower": {
+  "name": "Flower Crown"
+ },
+ "wear_hat_chef": {
+  "name": "Chef's Hat"
+ },
+ "wear_hat_miner": {
+  "name": "Miner's Lamp Hat"
+ },
+ "wear_hat_snow": {
+  "name": "Fluffy Snow Hat"
+ },
+ "wear_hat_tophat": {
+  "name": "Top Hat"
+ },
+ "wear_hat_feather": {
+  "name": "Festival Feather Hat"
+ }
+}

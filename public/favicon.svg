@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- 星界 Astral Land 图标：本项目原创（夜空、四角星、两片新芽），CC0 -->
+  <rect width="64" height="64" rx="14" fill="#1f3a2c"/>
+  <path d="M38 6 L41.5 17.5 L53 21 L41.5 24.5 L38 36 L34.5 24.5 L23 21 L34.5 17.5 Z" fill="#f3c76a"/>
+  <circle cx="16" cy="14" r="2" fill="#f3e4b0"/>
+  <circle cx="52" cy="40" r="1.6" fill="#f3e4b0"/>
+  <path d="M30 58 C30 48 30 44 31 38" stroke="#8fd27a" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M31 46 C24 46 18 42 16 34 C24 33 29 38 31 46 Z" fill="#8fd27a"/>
+  <path d="M31 42 C35 36 41 34 47 36 C45 43 38 45 31 42 Z" fill="#6fbf5a"/>
+</svg>

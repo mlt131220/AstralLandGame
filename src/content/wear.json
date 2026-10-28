@@ -1,0 +1,306 @@
+[
+ {
+  "id": "wear_top_linen",
+  "slot": "top",
+  "name": "亚麻白衬衫",
+  "price": 120,
+  "source": "shop",
+  "file": "wear/top_linen.png"
+ },
+ {
+  "id": "wear_top_sky",
+  "slot": "top",
+  "name": "天蓝工装",
+  "price": 180,
+  "source": "shop",
+  "file": "wear/top_sky.png"
+ },
+ {
+  "id": "wear_top_flannel",
+  "slot": "top",
+  "name": "红格子法兰绒",
+  "price": 220,
+  "source": "shop",
+  "file": "wear/top_flannel.png"
+ },
+ {
+  "id": "wear_top_knit",
+  "slot": "top",
+  "name": "墨绿针织毛衣",
+  "price": 260,
+  "source": "shop",
+  "file": "wear/top_knit.png"
+ },
+ {
+  "id": "wear_top_navy",
+  "slot": "top",
+  "name": "海军蓝条纹衫",
+  "price": 200,
+  "source": "shop",
+  "file": "wear/top_navy.png"
+ },
+ {
+  "id": "wear_top_mustard",
+  "slot": "top",
+  "name": "芥末黄上衣",
+  "price": 150,
+  "source": "shop",
+  "file": "wear/top_mustard.png"
+ },
+ {
+  "id": "wear_top_floral",
+  "slot": "top",
+  "name": "粉色碎花衫",
+  "price": 240,
+  "source": "shop",
+  "file": "wear/top_floral.png"
+ },
+ {
+  "id": "wear_top_denim",
+  "slot": "top",
+  "name": "牛仔外套",
+  "price": 280,
+  "source": "shop",
+  "file": "wear/top_denim.png"
+ },
+ {
+  "id": "wear_top_overalls",
+  "slot": "top",
+  "name": "橙色背带工装",
+  "price": 300,
+  "source": "shop",
+  "file": "wear/top_overalls.png"
+ },
+ {
+  "id": "wear_top_hoodie",
+  "slot": "top",
+  "name": "灰色卫衣",
+  "price": 180,
+  "source": "shop",
+  "file": "wear/top_hoodie.png"
+ },
+ {
+  "id": "wear_top_stars",
+  "slot": "top",
+  "name": "星点夜空衫",
+  "price": 360,
+  "source": "wish",
+  "file": "wear/top_stars.png"
+ },
+ {
+  "id": "wear_top_sakura",
+  "slot": "top",
+  "name": "春樱印花衫",
+  "price": 320,
+  "source": "festival",
+  "file": "wear/top_sakura.png"
+ },
+ {
+  "id": "wear_top_watermelon",
+  "slot": "top",
+  "name": "夏日西瓜衫",
+  "price": 320,
+  "source": "festival",
+  "file": "wear/top_watermelon.png"
+ },
+ {
+  "id": "wear_top_leaves",
+  "slot": "top",
+  "name": "秋叶纹上衣",
+  "price": 320,
+  "source": "festival",
+  "file": "wear/top_leaves.png"
+ },
+ {
+  "id": "wear_top_snowflake",
+  "slot": "top",
+  "name": "冬雪花毛衣",
+  "price": 320,
+  "source": "mail",
+  "file": "wear/top_snowflake.png"
+ },
+ {
+  "id": "wear_top_festival",
+  "slot": "top",
+  "name": "节庆彩条衫",
+  "price": 380,
+  "source": "festival",
+  "file": "wear/top_festival.png"
+ },
+ {
+  "id": "wear_bottom_denim",
+  "slot": "bottom",
+  "name": "深蓝牛仔裤",
+  "price": 160,
+  "source": "shop",
+  "file": "wear/bottom_denim.png"
+ },
+ {
+  "id": "wear_bottom_khaki",
+  "slot": "bottom",
+  "name": "卡其长裤",
+  "price": 140,
+  "source": "shop",
+  "file": "wear/bottom_khaki.png"
+ },
+ {
+  "id": "wear_bottom_black",
+  "slot": "bottom",
+  "name": "炭黑长裤",
+  "price": 140,
+  "source": "shop",
+  "file": "wear/bottom_black.png"
+ },
+ {
+  "id": "wear_bottom_work",
+  "slot": "bottom",
+  "name": "棕色工装裤",
+  "price": 220,
+  "source": "shop",
+  "file": "wear/bottom_work.png"
+ },
+ {
+  "id": "wear_bottom_plaid",
+  "slot": "bottom",
+  "name": "灰格长裤",
+  "price": 200,
+  "source": "shop",
+  "file": "wear/bottom_plaid.png"
+ },
+ {
+  "id": "wear_bottom_olive",
+  "slot": "bottom",
+  "name": "军绿长裤",
+  "price": 180,
+  "source": "shop",
+  "file": "wear/bottom_olive.png"
+ },
+ {
+  "id": "wear_bottom_white",
+  "slot": "bottom",
+  "name": "米白长裤",
+  "price": 160,
+  "source": "shop",
+  "file": "wear/bottom_white.png"
+ },
+ {
+  "id": "wear_bottom_wine",
+  "slot": "bottom",
+  "name": "酒红长裤",
+  "price": 190,
+  "source": "shop",
+  "file": "wear/bottom_wine.png"
+ },
+ {
+  "id": "wear_bottom_corduroy",
+  "slot": "bottom",
+  "name": "灯芯绒棕裤",
+  "price": 230,
+  "source": "wish",
+  "file": "wear/bottom_corduroy.png"
+ },
+ {
+  "id": "wear_bottom_snow",
+  "slot": "bottom",
+  "name": "雪地防寒裤",
+  "price": 280,
+  "source": "mail",
+  "file": "wear/bottom_snow.png"
+ },
+ {
+  "id": "wear_hat_straw",
+  "slot": "hat",
+  "name": "田园草帽",
+  "price": 180,
+  "source": "shop",
+  "file": "models/g4/wear/hat_straw.glb"
+ },
+ {
+  "id": "wear_hat_beanie",
+  "slot": "hat",
+  "name": "毛线帽",
+  "price": 180,
+  "source": "shop",
+  "file": "models/g4/wear/hat_beanie.glb"
+ },
+ {
+  "id": "wear_hat_cap",
+  "slot": "hat",
+  "name": "鸭舌帽",
+  "price": 160,
+  "source": "shop",
+  "file": "models/g4/wear/hat_cap.glb"
+ },
+ {
+  "id": "wear_hat_bucket",
+  "slot": "hat",
+  "name": "渔夫帽",
+  "price": 180,
+  "source": "shop",
+  "file": "models/g4/wear/hat_bucket.glb"
+ },
+ {
+  "id": "wear_hat_cowboy",
+  "slot": "hat",
+  "name": "牛仔帽",
+  "price": 280,
+  "source": "shop",
+  "file": "models/g4/wear/hat_cowboy.glb"
+ },
+ {
+  "id": "wear_hat_beret",
+  "slot": "hat",
+  "name": "贝雷帽",
+  "price": 240,
+  "source": "shop",
+  "file": "models/g4/wear/hat_beret.glb"
+ },
+ {
+  "id": "wear_hat_flower",
+  "slot": "hat",
+  "name": "花冠",
+  "price": 360,
+  "source": "festival",
+  "file": "models/g4/wear/hat_flower.glb"
+ },
+ {
+  "id": "wear_hat_chef",
+  "slot": "hat",
+  "name": "厨师帽",
+  "price": 300,
+  "source": "wish",
+  "file": "models/g4/wear/hat_chef.glb"
+ },
+ {
+  "id": "wear_hat_miner",
+  "slot": "hat",
+  "name": "矿工头灯帽",
+  "price": 350,
+  "source": "shop",
+  "file": "models/g4/wear/hat_miner.glb"
+ },
+ {
+  "id": "wear_hat_snow",
+  "slot": "hat",
+  "name": "雪绒帽",
+  "price": 260,
+  "source": "mail",
+  "file": "models/g4/wear/hat_snow.glb"
+ },
+ {
+  "id": "wear_hat_tophat",
+  "slot": "hat",
+  "name": "礼帽",
+  "price": 400,
+  "source": "shop",
+  "file": "models/g4/wear/hat_tophat.glb"
+ },
+ {
+  "id": "wear_hat_feather",
+  "slot": "hat",
+  "name": "节庆羽毛帽",
+  "price": 420,
+  "source": "festival",
+  "file": "models/g4/wear/hat_feather.glb"
+ }
+]

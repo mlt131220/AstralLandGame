@@ -1,0 +1,36 @@
+# 依赖与构建产物
+node_modules
+dist
+dist-ssr
+dist-prof
+*.local
+
+# 日志与缓存
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+__pycache__/
+*.pyc
+*.blend1
+
+# 编辑器与本地工具配置
+.vscode/*
+!.vscode/extensions.json
+.idea
+.claude/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 本地资料：设计稿、进度与审计记录（_infomation），资源生产线与开发工具（assets-src：Blender 建模脚本、
+# 第三方素材原始包、预览图、试玩与性能脚本、AI 任务简报）。与构建、运行、测试无关，只在本地保留
+_infomation/
+assets-src/

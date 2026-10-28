@@ -1,0 +1,2553 @@
+{
+  "version": 1,
+  "units": "meter",
+  "up": "+Y",
+  "forward": "+Z",
+  "origin": "占地中心底面",
+  "fps": 30,
+  "material": "平直顶点色；所有颜色随 GLB 自包含，无外部贴图依赖；glow 为独立自发光材质",
+  "animation_convention": "关键帧从 0 开始；非循环动作使用 LoopOnce 与 clampWhenFinished；场景根节点不产生水平位移",
+  "models": [
+    {
+      "id": "mine_entrance",
+      "label": "苔石矿口",
+      "category": "矿洞",
+      "footprint": [
+        6,
+        4
+      ],
+      "height": 3.65,
+      "triangles": 1025,
+      "triangle_budget": 8000,
+      "dimensions": [
+        5.784517,
+        3.65,
+        3.55
+      ],
+      "bounds": [
+        [
+          -2.8814046382904053,
+          0.0,
+          -1.875
+        ],
+        [
+          2.9031126499176025,
+          3.6500000953674316,
+          1.6749999523162842
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "glow-lantern",
+        "root"
+      ],
+      "bytes": 99620
+    },
+    {
+      "id": "mine_wall_a",
+      "label": "洞壁·层岩",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 2.3,
+      "triangles": 110,
+      "triangle_budget": 1500,
+      "dimensions": [
+        1.0,
+        2.3,
+        1.0
+      ],
+      "bounds": [
+        [
+          -0.5,
+          0.0,
+          -0.5
+        ],
+        [
+          0.5,
+          2.299999952316284,
+          0.5
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 13184,
+      "tiling": "X/Z 方向按 1 米步长拼接，0–2.1 米高度范围侧面连续，顶部自然起伏"
+    },
+    {
+      "id": "mine_wall_b",
+      "label": "洞壁·斜纹",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 2.32,
+      "triangles": 110,
+      "triangle_budget": 1500,
+      "dimensions": [
+        1.0,
+        2.32,
+        1.0
+      ],
+      "bounds": [
+        [
+          -0.5,
+          0.0,
+          -0.5
+        ],
+        [
+          0.5,
+          2.319999933242798,
+          0.5
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 13256,
+      "tiling": "X/Z 方向按 1 米步长拼接，0–2.1 米高度范围侧面连续，顶部自然起伏"
+    },
+    {
+      "id": "mine_wall_c",
+      "label": "洞壁·断层",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 2.31,
+      "triangles": 110,
+      "triangle_budget": 1500,
+      "dimensions": [
+        1.0,
+        2.31,
+        1.0
+      ],
+      "bounds": [
+        [
+          -0.5,
+          0.0,
+          -0.5
+        ],
+        [
+          0.5,
+          2.309999942779541,
+          0.5
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 13328,
+      "tiling": "X/Z 方向按 1 米步长拼接，0–2.1 米高度范围侧面连续，顶部自然起伏"
+    },
+    {
+      "id": "mine_wall_moss",
+      "label": "洞壁·青苔",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 2.43,
+      "triangles": 422,
+      "triangle_budget": 1500,
+      "dimensions": [
+        1.0,
+        2.43,
+        1.0
+      ],
+      "bounds": [
+        [
+          -0.5,
+          0.0,
+          -0.5
+        ],
+        [
+          0.5,
+          2.430000066757202,
+          0.5
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "glow-moss",
+        "root"
+      ],
+      "bytes": 45952,
+      "tiling": "X/Z 方向按 1 米步长拼接，0–2.1 米高度范围侧面连续，顶部自然起伏"
+    },
+    {
+      "id": "rock_node_a",
+      "label": "普通石块 A",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.7,
+      "triangles": 52,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.713146,
+        0.7,
+        0.636895
+      ],
+      "bounds": [
+        [
+          -0.35085049271583557,
+          0.0,
+          -0.3145427405834198
+        ],
+        [
+          0.3622954487800598,
+          0.699999988079071,
+          0.32235243916511536
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 7064
+    },
+    {
+      "id": "rock_node_b",
+      "label": "普通石块 B",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.64,
+      "triangles": 52,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.697322,
+        0.64,
+        0.61285
+      ],
+      "bounds": [
+        [
+          -0.3446582853794098,
+          0.0,
+          -0.3055242598056793
+        ],
+        [
+          0.3526633083820343,
+          0.6399999856948853,
+          0.3073261082172394
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 7100
+    },
+    {
+      "id": "ore_copper",
+      "label": "铜矿点",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.76,
+      "triangles": 320,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.713146,
+        0.76,
+        0.64894
+      ],
+      "bounds": [
+        [
+          -0.35085049271583557,
+          0.0,
+          -0.3145427405834198
+        ],
+        [
+          0.3622954487800598,
+          0.7599999904632568,
+          0.33439725637435913
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 35324
+    },
+    {
+      "id": "ore_coal",
+      "label": "煤矿点",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.7,
+      "triangles": 244,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.713146,
+        0.7,
+        0.649691
+      ],
+      "bounds": [
+        [
+          -0.35085049271583557,
+          0.0,
+          -0.3145427405834198
+        ],
+        [
+          0.3622954487800598,
+          0.699999988079071,
+          0.33514824509620667
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "coal-seams",
+        "geometry",
+        "root"
+      ],
+      "bytes": 28272
+    },
+    {
+      "id": "ladder_down",
+      "label": "下行矿梯",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.76475,
+      "triangles": 144,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.98,
+        0.76475,
+        0.98
+      ],
+      "bounds": [
+        [
+          -0.49000000953674316,
+          0.0,
+          -0.49000000953674316
+        ],
+        [
+          0.49000000953674316,
+          0.7647501230239868,
+          0.49000000953674316
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 12448,
+      "placement": "平地上的黑暗洞口贴面；不含地下几何，不会切割地形；洞口与梯顶均在本地 Y>=0"
+    },
+    {
+      "id": "ladder_up",
+      "label": "上行矿梯",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 2.223562,
+      "triangles": 180,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.72,
+        2.223562,
+        0.83
+      ],
+      "bounds": [
+        [
+          -0.36000001430511475,
+          0.0,
+          -0.4300000071525574
+        ],
+        [
+          0.36000001430511475,
+          2.223562002182007,
+          0.4000000059604645
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 15252
+    },
+    {
+      "id": "mine_support",
+      "label": "木支撑",
+      "category": "矿洞",
+      "footprint": [
+        2,
+        1
+      ],
+      "height": 2.28,
+      "triangles": 132,
+      "triangle_budget": 1500,
+      "dimensions": [
+        1.9,
+        2.28,
+        0.27
+      ],
+      "bounds": [
+        [
+          -0.949999988079071,
+          0.0,
+          -0.13500000536441803
+        ],
+        [
+          0.949999988079071,
+          2.2799999713897705,
+          0.13500000536441803
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 11504
+    },
+    {
+      "id": "mine_lamp",
+      "label": "矿灯",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 1.45,
+      "triangles": 204,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.3,
+        1.45,
+        0.555
+      ],
+      "bounds": [
+        [
+          -0.15000000596046448,
+          0.0,
+          -0.1899999976158142
+        ],
+        [
+          0.15000000596046448,
+          1.4500000476837158,
+          0.36500000953674316
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "glow-lantern",
+        "root"
+      ],
+      "bytes": 18060
+    },
+    {
+      "id": "mine_cart",
+      "label": "矿车",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.69,
+      "triangles": 472,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.925317,
+        0.69,
+        0.82
+      ],
+      "bounds": [
+        [
+          -0.46265846490859985,
+          0.0,
+          -0.4099999964237213
+        ],
+        [
+          0.46265846490859985,
+          0.6899999976158142,
+          0.4099999964237213
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 35156
+    },
+    {
+      "id": "moss_glow",
+      "label": "发光苔藓",
+      "category": "矿洞",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.21,
+      "triangles": 190,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.567323,
+        0.21,
+        0.450538
+      ],
+      "bounds": [
+        [
+          -0.28009361028671265,
+          0.0,
+          -0.22346250712871552
+        ],
+        [
+          0.2872297465801239,
+          0.21000000834465027,
+          0.22707585990428925
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "glow-moss",
+        "root"
+      ],
+      "bytes": 22012
+    },
+    {
+      "id": "elevator",
+      "label": "五层升降据点",
+      "category": "矿洞",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 2.87,
+      "triangles": 592,
+      "triangle_budget": 8000,
+      "dimensions": [
+        1.99,
+        2.87,
+        1.99
+      ],
+      "bounds": [
+        [
+          -0.9950000047683716,
+          0.0,
+          -0.9850000143051147
+        ],
+        [
+          0.9950000047683716,
+          2.869999885559082,
+          1.0049999952316284
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [
+        {
+          "name": "platform",
+          "operation": "平台与围栏整体沿本地 +Y 移动",
+          "range_m": [
+            0,
+            1.4
+          ]
+        }
+      ],
+      "nodes": [
+        "geometry",
+        "glow-lantern",
+        "platform",
+        "root"
+      ],
+      "bytes": 49268
+    },
+    {
+      "id": "enemy_moss",
+      "label": "苔团",
+      "category": "生物",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.605,
+      "triangles": 408,
+      "triangle_budget": 3000,
+      "dimensions": [
+        0.575968,
+        0.605,
+        0.53354
+      ],
+      "bounds": [
+        [
+          -0.27802619338035583,
+          0.0,
+          -0.25878453254699707
+        ],
+        [
+          0.29794228076934814,
+          0.6050000190734863,
+          0.2747552692890167
+        ]
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "duration": 2.0,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 60,
+          "loop": true,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "呼吸起点"
+            },
+            {
+              "frame": 30,
+              "time": 1.0,
+              "event": "舒展"
+            }
+          ],
+          "preview_frames": [
+            0,
+            15,
+            45
+          ],
+          "animated_nodes": [
+            "body"
+          ]
+        },
+        {
+          "name": "move",
+          "duration": 1.0,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 30,
+          "loop": true,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "触地"
+            },
+            {
+              "frame": 6,
+              "time": 0.2,
+              "event": "弹跳起跳"
+            },
+            {
+              "frame": 15,
+              "time": 0.5,
+              "event": "最高点"
+            },
+            {
+              "frame": 27,
+              "time": 0.9,
+              "event": "落地"
+            }
+          ],
+          "preview_frames": [
+            0,
+            15,
+            27
+          ],
+          "animated_nodes": [
+            "body"
+          ]
+        },
+        {
+          "name": "crouch",
+          "duration": 0.6,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 18,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "预警开始"
+            },
+            {
+              "frame": 12,
+              "time": 0.4,
+              "event": "压缩蓄力"
+            },
+            {
+              "frame": 18,
+              "time": 0.6,
+              "event": "蓄力完成，衔接跳扑"
+            }
+          ],
+          "preview_frames": [
+            0,
+            12,
+            18
+          ],
+          "animated_nodes": [
+            "body"
+          ]
+        },
+        {
+          "name": "pounce",
+          "duration": 1.0,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 30,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "保持蓄力末姿"
+            },
+            {
+              "frame": 3,
+              "time": 0.1,
+              "event": "起跳"
+            },
+            {
+              "frame": 12,
+              "time": 0.4,
+              "event": "跳扑最高点"
+            },
+            {
+              "frame": 24,
+              "time": 0.8,
+              "event": "落地"
+            },
+            {
+              "frame": 30,
+              "time": 1.0,
+              "event": "恢复"
+            }
+          ],
+          "preview_frames": [
+            0,
+            12,
+            24
+          ],
+          "animated_nodes": [
+            "body"
+          ]
+        },
+        {
+          "name": "hit",
+          "duration": 0.4,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 12,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "受击"
+            },
+            {
+              "frame": 3,
+              "time": 0.1,
+              "event": "压扁后仰"
+            },
+            {
+              "frame": 12,
+              "time": 0.4,
+              "event": "恢复"
+            }
+          ],
+          "preview_frames": [
+            0,
+            3,
+            12
+          ],
+          "animated_nodes": [
+            "body"
+          ]
+        },
+        {
+          "name": "die",
+          "duration": 1.2,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 36,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "失去支撑"
+            },
+            {
+              "frame": 18,
+              "time": 0.6,
+              "event": "瘫软"
+            },
+            {
+              "frame": 36,
+              "time": 1.2,
+              "event": "伏地保持"
+            }
+          ],
+          "preview_frames": [
+            0,
+            18,
+            36
+          ],
+          "animated_nodes": [
+            "body"
+          ]
+        }
+      ],
+      "movable_nodes": [
+        {
+          "name": "body",
+          "operation": "由 AnimationMixer 播放"
+        }
+      ],
+      "nodes": [
+        "body",
+        "root"
+      ],
+      "bytes": 61432,
+      "motion": "原地动画；水平位移与朝向由游戏控制；所有时间按 30fps 采样"
+    },
+    {
+      "id": "enemy_beetle",
+      "label": "土甲虫",
+      "category": "生物",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.377945,
+      "triangles": 776,
+      "triangle_budget": 3000,
+      "dimensions": [
+        0.715,
+        0.377945,
+        0.800123
+      ],
+      "bounds": [
+        [
+          -0.35750001668930054,
+          0.0,
+          -0.36579999327659607
+        ],
+        [
+          0.35750001668930054,
+          0.377945214509964,
+          0.43432268500328064
+        ]
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "duration": 2.0,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 60,
+          "loop": true,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "站立"
+            },
+            {
+              "frame": 30,
+              "time": 1.0,
+              "event": "触角摆动"
+            }
+          ],
+          "preview_frames": [
+            0,
+            15,
+            45
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "antenna-left",
+            "leg--1-0",
+            "leg--1-1",
+            "leg--1-2",
+            "antenna-right",
+            "leg-1-0",
+            "leg-1-1",
+            "leg-1-2",
+            "dust"
+          ]
+        },
+        {
+          "name": "walk",
+          "duration": 1.0,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 30,
+          "loop": true,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "三足支撑"
+            },
+            {
+              "frame": 8,
+              "time": 0.266667,
+              "event": "第一组三足迈步"
+            },
+            {
+              "frame": 23,
+              "time": 0.766667,
+              "event": "另一组三足迈步"
+            }
+          ],
+          "preview_frames": [
+            0,
+            8,
+            23
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "antenna-left",
+            "leg--1-0",
+            "leg--1-1",
+            "leg--1-2",
+            "antenna-right",
+            "leg-1-0",
+            "leg-1-1",
+            "leg-1-2",
+            "dust"
+          ]
+        },
+        {
+          "name": "telegraph",
+          "duration": 1.0,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 30,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "压低前身"
+            },
+            {
+              "frame": 9,
+              "time": 0.3,
+              "event": "刨地扬尘"
+            },
+            {
+              "frame": 21,
+              "time": 0.7,
+              "event": "再次刨地"
+            },
+            {
+              "frame": 30,
+              "time": 1.0,
+              "event": "冲刺预备"
+            }
+          ],
+          "preview_frames": [
+            0,
+            9,
+            21
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "antenna-left",
+            "leg--1-0",
+            "leg--1-1",
+            "leg--1-2",
+            "antenna-right",
+            "leg-1-0",
+            "leg-1-1",
+            "leg-1-2",
+            "dust"
+          ]
+        },
+        {
+          "name": "charge",
+          "duration": 0.6,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 18,
+          "loop": true,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "冲刺姿态"
+            },
+            {
+              "frame": 5,
+              "time": 0.166667,
+              "event": "第一组快速蹬地"
+            },
+            {
+              "frame": 14,
+              "time": 0.466667,
+              "event": "交替蹬地"
+            }
+          ],
+          "preview_frames": [
+            0,
+            5,
+            14
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "antenna-left",
+            "leg--1-0",
+            "leg--1-1",
+            "leg--1-2",
+            "antenna-right",
+            "leg-1-0",
+            "leg-1-1",
+            "leg-1-2",
+            "dust"
+          ]
+        },
+        {
+          "name": "stun",
+          "duration": 1.5,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 45,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "撞击后倾"
+            },
+            {
+              "frame": 12,
+              "time": 0.4,
+              "event": "左右眩晕"
+            },
+            {
+              "frame": 30,
+              "time": 1.0,
+              "event": "晃动衰减"
+            },
+            {
+              "frame": 45,
+              "time": 1.5,
+              "event": "站稳"
+            }
+          ],
+          "preview_frames": [
+            0,
+            12,
+            30
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "antenna-left",
+            "leg--1-0",
+            "leg--1-1",
+            "leg--1-2",
+            "antenna-right",
+            "leg-1-0",
+            "leg-1-1",
+            "leg-1-2",
+            "dust"
+          ]
+        },
+        {
+          "name": "hit",
+          "duration": 0.4,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 12,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "受击"
+            },
+            {
+              "frame": 3,
+              "time": 0.1,
+              "event": "甲壳后仰"
+            },
+            {
+              "frame": 12,
+              "time": 0.4,
+              "event": "恢复"
+            }
+          ],
+          "preview_frames": [
+            0,
+            3,
+            12
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "antenna-left",
+            "leg--1-0",
+            "leg--1-1",
+            "leg--1-2",
+            "antenna-right",
+            "leg-1-0",
+            "leg-1-1",
+            "leg-1-2",
+            "dust"
+          ]
+        },
+        {
+          "name": "die",
+          "duration": 1.5,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 45,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "失衡"
+            },
+            {
+              "frame": 24,
+              "time": 0.8,
+              "event": "翻倒"
+            },
+            {
+              "frame": 45,
+              "time": 1.5,
+              "event": "六足收拢保持"
+            }
+          ],
+          "preview_frames": [
+            0,
+            24,
+            45
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "antenna-left",
+            "leg--1-0",
+            "leg--1-1",
+            "leg--1-2",
+            "antenna-right",
+            "leg-1-0",
+            "leg-1-1",
+            "leg-1-2",
+            "dust"
+          ]
+        }
+      ],
+      "movable_nodes": [
+        {
+          "name": "body",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "head",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "antenna-left",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "leg--1-0",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "leg--1-1",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "leg--1-2",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "antenna-right",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "leg-1-0",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "leg-1-1",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "leg-1-2",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "dust",
+          "operation": "由 AnimationMixer 播放"
+        }
+      ],
+      "nodes": [
+        "antenna-left",
+        "antenna-right",
+        "head",
+        "leg--1-0",
+        "leg--1-1",
+        "leg--1-2",
+        "leg-1-0",
+        "leg-1-1",
+        "leg-1-2",
+        "body",
+        "dust",
+        "root"
+      ],
+      "bytes": 246200,
+      "motion": "原地动画；水平位移与朝向由游戏控制；所有时间按 30fps 采样"
+    },
+    {
+      "id": "chicken",
+      "label": "母鸡",
+      "category": "生物",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.45,
+      "triangles": 708,
+      "triangle_budget": 3000,
+      "dimensions": [
+        0.30641,
+        0.45,
+        0.50075
+      ],
+      "bounds": [
+        [
+          -0.15320484340190887,
+          0.0,
+          -0.22730594873428345
+        ],
+        [
+          0.15320484340190887,
+          0.45000001788139343,
+          0.2734435796737671
+        ]
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "duration": 2.0,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 60,
+          "loop": true,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "自然站立"
+            },
+            {
+              "frame": 30,
+              "time": 1.0,
+              "event": "呼吸抬头"
+            },
+            {
+              "frame": 60,
+              "time": 2.0,
+              "event": "回到起始姿态"
+            }
+          ],
+          "preview_frames": [
+            0,
+            20,
+            40
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "wing-left",
+            "leg-left",
+            "wing-right",
+            "leg-right"
+          ]
+        },
+        {
+          "name": "walk",
+          "duration": 1.0,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 30,
+          "loop": true,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "左脚支撑"
+            },
+            {
+              "frame": 8,
+              "time": 0.266667,
+              "event": "右脚向前"
+            },
+            {
+              "frame": 23,
+              "time": 0.766667,
+              "event": "左脚向前"
+            }
+          ],
+          "preview_frames": [
+            0,
+            8,
+            23
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "wing-left",
+            "leg-left",
+            "wing-right",
+            "leg-right"
+          ]
+        },
+        {
+          "name": "peck",
+          "duration": 1.5,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 45,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "注意食物"
+            },
+            {
+              "frame": 18,
+              "time": 0.6,
+              "event": "喙接近地面"
+            },
+            {
+              "frame": 28,
+              "time": 0.933333,
+              "event": "再次啄食"
+            },
+            {
+              "frame": 45,
+              "time": 1.5,
+              "event": "抬头"
+            }
+          ],
+          "preview_frames": [
+            0,
+            18,
+            28
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "wing-left",
+            "leg-left",
+            "wing-right",
+            "leg-right"
+          ]
+        },
+        {
+          "name": "sit",
+          "duration": 1.2,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 36,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "站立"
+            },
+            {
+              "frame": 24,
+              "time": 0.8,
+              "event": "身体落座"
+            },
+            {
+              "frame": 36,
+              "time": 1.2,
+              "event": "趴窝保持"
+            }
+          ],
+          "preview_frames": [
+            0,
+            18,
+            36
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "wing-left",
+            "leg-left",
+            "wing-right",
+            "leg-right"
+          ]
+        },
+        {
+          "name": "happy",
+          "duration": 1.2,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 36,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "接受抚摸"
+            },
+            {
+              "frame": 10,
+              "time": 0.333333,
+              "event": "起跳振翅"
+            },
+            {
+              "frame": 18,
+              "time": 0.6,
+              "event": "腾空"
+            },
+            {
+              "frame": 30,
+              "time": 1.0,
+              "event": "落地"
+            },
+            {
+              "frame": 36,
+              "time": 1.2,
+              "event": "收翅"
+            }
+          ],
+          "preview_frames": [
+            0,
+            18,
+            30
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "wing-left",
+            "leg-left",
+            "wing-right",
+            "leg-right"
+          ]
+        }
+      ],
+      "movable_nodes": [
+        {
+          "name": "body",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "head",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "wing-left",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "leg-left",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "wing-right",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "leg-right",
+          "operation": "由 AnimationMixer 播放"
+        }
+      ],
+      "nodes": [
+        "head",
+        "wing-left",
+        "wing-right",
+        "body",
+        "leg-left",
+        "leg-right",
+        "root"
+      ],
+      "bytes": 153004,
+      "motion": "原地动画；水平位移与朝向由游戏控制；所有时间按 30fps 采样"
+    },
+    {
+      "id": "chick",
+      "label": "小鸡",
+      "category": "生物",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.25,
+      "triangles": 608,
+      "triangle_budget": 3000,
+      "dimensions": [
+        0.17494,
+        0.25,
+        0.285896
+      ],
+      "bounds": [
+        [
+          -0.08747024834156036,
+          0.0,
+          -0.12977726757526398
+        ],
+        [
+          0.08747024834156036,
+          0.25,
+          0.15611892938613892
+        ]
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "duration": 2.0,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 60,
+          "loop": true,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "自然站立"
+            },
+            {
+              "frame": 30,
+              "time": 1.0,
+              "event": "呼吸抬头"
+            },
+            {
+              "frame": 60,
+              "time": 2.0,
+              "event": "回到起始姿态"
+            }
+          ],
+          "preview_frames": [
+            0,
+            20,
+            40
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "wing-left",
+            "leg-left",
+            "wing-right",
+            "leg-right"
+          ]
+        },
+        {
+          "name": "walk",
+          "duration": 1.0,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 30,
+          "loop": true,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "左脚支撑"
+            },
+            {
+              "frame": 8,
+              "time": 0.266667,
+              "event": "右脚向前"
+            },
+            {
+              "frame": 23,
+              "time": 0.766667,
+              "event": "左脚向前"
+            }
+          ],
+          "preview_frames": [
+            0,
+            8,
+            23
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "wing-left",
+            "leg-left",
+            "wing-right",
+            "leg-right"
+          ]
+        },
+        {
+          "name": "peck",
+          "duration": 1.5,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 45,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "注意食物"
+            },
+            {
+              "frame": 18,
+              "time": 0.6,
+              "event": "喙接近地面"
+            },
+            {
+              "frame": 28,
+              "time": 0.933333,
+              "event": "再次啄食"
+            },
+            {
+              "frame": 45,
+              "time": 1.5,
+              "event": "抬头"
+            }
+          ],
+          "preview_frames": [
+            0,
+            18,
+            28
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "wing-left",
+            "leg-left",
+            "wing-right",
+            "leg-right"
+          ]
+        },
+        {
+          "name": "sit",
+          "duration": 1.2,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 36,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "站立"
+            },
+            {
+              "frame": 24,
+              "time": 0.8,
+              "event": "身体落座"
+            },
+            {
+              "frame": 36,
+              "time": 1.2,
+              "event": "趴窝保持"
+            }
+          ],
+          "preview_frames": [
+            0,
+            18,
+            36
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "wing-left",
+            "leg-left",
+            "wing-right",
+            "leg-right"
+          ]
+        },
+        {
+          "name": "happy",
+          "duration": 1.2,
+          "fps": 30,
+          "frame_start": 0,
+          "frame_end": 36,
+          "loop": false,
+          "keyframes": [
+            {
+              "frame": 0,
+              "time": 0.0,
+              "event": "接受抚摸"
+            },
+            {
+              "frame": 10,
+              "time": 0.333333,
+              "event": "起跳振翅"
+            },
+            {
+              "frame": 18,
+              "time": 0.6,
+              "event": "腾空"
+            },
+            {
+              "frame": 30,
+              "time": 1.0,
+              "event": "落地"
+            },
+            {
+              "frame": 36,
+              "time": 1.2,
+              "event": "收翅"
+            }
+          ],
+          "preview_frames": [
+            0,
+            18,
+            30
+          ],
+          "animated_nodes": [
+            "body",
+            "head",
+            "wing-left",
+            "leg-left",
+            "wing-right",
+            "leg-right"
+          ]
+        }
+      ],
+      "movable_nodes": [
+        {
+          "name": "body",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "head",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "wing-left",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "leg-left",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "wing-right",
+          "operation": "由 AnimationMixer 播放"
+        },
+        {
+          "name": "leg-right",
+          "operation": "由 AnimationMixer 播放"
+        }
+      ],
+      "nodes": [
+        "head",
+        "wing-left",
+        "wing-right",
+        "body",
+        "leg-left",
+        "leg-right",
+        "root"
+      ],
+      "bytes": 141740,
+      "motion": "原地动画；水平位移与朝向由游戏控制；所有时间按 30fps 采样"
+    },
+    {
+      "id": "coop_feeder",
+      "label": "饲料槽",
+      "category": "动物用品",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.305,
+      "triangles": 420,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.945,
+        0.305,
+        0.525
+      ],
+      "bounds": [
+        [
+          -0.4724999964237213,
+          0.0,
+          -0.26249998807907104
+        ],
+        [
+          0.4724999964237213,
+          0.3050000071525574,
+          0.26249998807907104
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [
+        {
+          "name": "hay",
+          "operation": "visible=true 满槽；visible=false 空槽"
+        }
+      ],
+      "nodes": [
+        "geometry",
+        "hay",
+        "root"
+      ],
+      "bytes": 35316
+    },
+    {
+      "id": "egg_nest",
+      "label": "鸡蛋草窝",
+      "category": "动物用品",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.205,
+      "triangles": 448,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.513519,
+        0.205,
+        0.513003
+      ],
+      "bounds": [
+        [
+          -0.25675949454307556,
+          0.0,
+          -0.2565016746520996
+        ],
+        [
+          0.25675949454307556,
+          0.20500001311302185,
+          0.2565016746520996
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [
+        {
+          "name": "egg",
+          "operation": "拾取时隐藏鸡蛋或移除整个模型"
+        }
+      ],
+      "nodes": [
+        "egg",
+        "geometry",
+        "root"
+      ],
+      "bytes": 38428
+    },
+    {
+      "id": "fishing_dock",
+      "label": "河岸木栈桥",
+      "category": "河岸与浅林",
+      "footprint": [
+        2,
+        4
+      ],
+      "height": 0.75,
+      "triangles": 1004,
+      "triangle_budget": 8000,
+      "dimensions": [
+        1.96,
+        0.75,
+        3.978
+      ],
+      "bounds": [
+        [
+          -0.9800000190734863,
+          0.0,
+          -1.9889999628067017
+        ],
+        [
+          0.9800000190734863,
+          0.75,
+          1.9889999628067017
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 74912
+    },
+    {
+      "id": "reeds_a",
+      "label": "芦苇 A",
+      "category": "河岸与浅林",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.957491,
+      "triangles": 592,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.735725,
+        0.958076,
+        0.528581
+      ],
+      "bounds": [
+        [
+          -0.3161953389644623,
+          -0.0005845283158123493,
+          -0.29636460542678833
+        ],
+        [
+          0.41952940821647644,
+          0.9574913382530212,
+          0.23221668601036072
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 56672
+    },
+    {
+      "id": "reeds_b",
+      "label": "芦苇 B",
+      "category": "河岸与浅林",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 1.0404,
+      "triangles": 750,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.711892,
+        1.041013,
+        0.38892
+      ],
+      "bounds": [
+        [
+          -0.3221169710159302,
+          -0.0006127669475972652,
+          -0.25540396571159363
+        ],
+        [
+          0.3897753357887268,
+          1.0403997898101807,
+          0.13351605832576752
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 71408
+    },
+    {
+      "id": "river_rock_a",
+      "label": "河石 A",
+      "category": "河岸与浅林",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.43,
+      "triangles": 112,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.828495,
+        0.43,
+        0.656072
+      ],
+      "bounds": [
+        [
+          -0.4174420237541199,
+          0.0,
+          -0.3149435222148895
+        ],
+        [
+          0.41105324029922485,
+          0.4300000071525574,
+          0.34112825989723206
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 13980
+    },
+    {
+      "id": "river_rock_b",
+      "label": "河石 B",
+      "category": "河岸与浅林",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.57,
+      "triangles": 112,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.814444,
+        0.57,
+        0.627221
+      ],
+      "bounds": [
+        [
+          -0.3976617157459259,
+          0.0,
+          -0.30388492345809937
+        ],
+        [
+          0.41678208112716675,
+          0.5699999928474426,
+          0.3233364224433899
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 13980
+    },
+    {
+      "id": "forest_log_big",
+      "label": "倒伏大原木",
+      "category": "河岸与浅林",
+      "footprint": [
+        3,
+        1
+      ],
+      "height": 0.897523,
+      "triangles": 596,
+      "triangle_budget": 1500,
+      "dimensions": [
+        2.91,
+        0.887523,
+        0.765837
+      ],
+      "bounds": [
+        [
+          -1.4550000429153442,
+          0.009999990463256836,
+          -0.4110122323036194
+        ],
+        [
+          1.4550000429153442,
+          0.8975232243537903,
+          0.35482507944107056
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 53128
+    },
+    {
+      "id": "bush_berry",
+      "label": "野莓灌木",
+      "category": "河岸与浅林",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.89,
+      "triangles": 292,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.831766,
+        0.89,
+        0.835858
+      ],
+      "bounds": [
+        [
+          -0.39392000436782837,
+          0.0,
+          -0.4179288446903229
+        ],
+        [
+          0.4378460943698883,
+          0.89000004529953,
+          0.4179288446903229
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 30252
+    },
+    {
+      "id": "signpost_region",
+      "label": "双向区域路牌",
+      "category": "河岸与浅林",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 1.48,
+      "triangles": 96,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.92,
+        1.48,
+        0.22
+      ],
+      "bounds": [
+        [
+          -0.46000000834465027,
+          0.0,
+          -0.10999999940395355
+        ],
+        [
+          0.46000000834465027,
+          1.4800000190734863,
+          0.10999999940395355
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 8268
+    },
+    {
+      "id": "sluice_ruined",
+      "label": "水闸·破败",
+      "category": "公共工程",
+      "footprint": [
+        6,
+        3
+      ],
+      "height": 3.485,
+      "triangles": 1008,
+      "triangle_budget": 8000,
+      "dimensions": [
+        5.96,
+        3.485,
+        2.9
+      ],
+      "bounds": [
+        [
+          -2.9800000190734863,
+          0.0,
+          -1.4500000476837158
+        ],
+        [
+          2.9800000190734863,
+          3.484999895095825,
+          1.4500000476837158
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 83300
+    },
+    {
+      "id": "sluice_scaffold",
+      "label": "水闸·施工",
+      "category": "公共工程",
+      "footprint": [
+        6,
+        3
+      ],
+      "height": 3.615,
+      "triangles": 1632,
+      "triangle_budget": 8000,
+      "dimensions": [
+        5.96,
+        3.615,
+        2.9
+      ],
+      "bounds": [
+        [
+          -2.9800000190734863,
+          0.0,
+          -1.4500000476837158
+        ],
+        [
+          2.9800000190734863,
+          3.6150002479553223,
+          1.4500000476837158
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [
+        {
+          "name": "gate",
+          "operation": "吊装闸门，可沿本地 +Y 平移"
+        }
+      ],
+      "nodes": [
+        "gate",
+        "geometry",
+        "root"
+      ],
+      "bytes": 134636
+    },
+    {
+      "id": "sluice",
+      "label": "水闸·完成",
+      "category": "公共工程",
+      "footprint": [
+        6,
+        3
+      ],
+      "height": 3.485,
+      "triangles": 1164,
+      "triangle_budget": 8000,
+      "dimensions": [
+        5.96,
+        3.485,
+        2.9
+      ],
+      "bounds": [
+        [
+          -2.9800000190734863,
+          0.0,
+          -1.4500000476837158
+        ],
+        [
+          2.9800000190734863,
+          3.484999895095825,
+          1.4500000476837158
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [
+        {
+          "name": "gate",
+          "operation": "沿本地 +Y 上提",
+          "range_m": [
+            0,
+            1.35
+          ]
+        }
+      ],
+      "nodes": [
+        "gate",
+        "geometry",
+        "root"
+      ],
+      "bytes": 92528
+    },
+    {
+      "id": "festival_arch",
+      "label": "花种会花拱",
+      "category": "花种会",
+      "footprint": [
+        3,
+        1
+      ],
+      "height": 2.969637,
+      "triangles": 1920,
+      "triangle_budget": 8000,
+      "dimensions": [
+        3.002295,
+        2.969637,
+        0.76
+      ],
+      "bounds": [
+        [
+          -1.5011473894119263,
+          0.0,
+          -0.4099999964237213
+        ],
+        [
+          1.5011473894119263,
+          2.969636917114258,
+          0.3499999940395355
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 198144
+    },
+    {
+      "id": "festival_bunting",
+      "label": "花种会彩旗",
+      "category": "花种会",
+      "footprint": [
+        4,
+        1
+      ],
+      "height": 2.355,
+      "triangles": 552,
+      "triangle_budget": 1500,
+      "dimensions": [
+        3.98,
+        2.355,
+        0.4
+      ],
+      "bounds": [
+        [
+          -1.9900000095367432,
+          0.0,
+          -0.20000000298023224
+        ],
+        [
+          1.9900000095367432,
+          2.3550000190734863,
+          0.20000000298023224
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 46224
+    },
+    {
+      "id": "flower_booth",
+      "label": "花卉展台",
+      "category": "花种会",
+      "footprint": [
+        2,
+        1
+      ],
+      "height": 2.21,
+      "triangles": 3880,
+      "triangle_budget": 8000,
+      "dimensions": [
+        1.98,
+        2.21,
+        0.96
+      ],
+      "bounds": [
+        [
+          -0.9900000095367432,
+          0.0,
+          -0.47999998927116394
+        ],
+        [
+          0.9900000095367432,
+          2.2100000381469727,
+          0.47999998927116394
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 382136
+    },
+    {
+      "id": "flower_pot_a",
+      "label": "雏菊盆花",
+      "category": "花种会",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.703924,
+      "triangles": 560,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.4,
+        0.703924,
+        0.380423
+      ],
+      "bounds": [
+        [
+          -0.20000000298023224,
+          0.0,
+          -0.19021129608154297
+        ],
+        [
+          0.20000000298023224,
+          0.7039240598678589,
+          0.19021129608154297
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 54624
+    },
+    {
+      "id": "flower_pot_b",
+      "label": "粉色郁金香盆花",
+      "category": "花种会",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.695,
+      "triangles": 476,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.4,
+        0.695,
+        0.380423
+      ],
+      "bounds": [
+        [
+          -0.20000000298023224,
+          0.0,
+          -0.19021129608154297
+        ],
+        [
+          0.20000000298023224,
+          0.6949999928474426,
+          0.19021129608154297
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 45048
+    },
+    {
+      "id": "flower_pot_c",
+      "label": "蓝紫铃兰盆花",
+      "category": "花种会",
+      "footprint": [
+        1,
+        1
+      ],
+      "height": 0.71,
+      "triangles": 536,
+      "triangle_budget": 1500,
+      "dimensions": [
+        0.4,
+        0.71,
+        0.380423
+      ],
+      "bounds": [
+        [
+          -0.20000000298023224,
+          0.0,
+          -0.19021129608154297
+        ],
+        [
+          0.20000000298023224,
+          0.7100000381469727,
+          0.19021129608154297
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 51816
+    },
+    {
+      "id": "festival_table",
+      "label": "花种会茶点长桌",
+      "category": "花种会",
+      "footprint": [
+        3,
+        1
+      ],
+      "height": 1.24,
+      "triangles": 1194,
+      "triangle_budget": 8000,
+      "dimensions": [
+        2.96,
+        1.24,
+        0.965
+      ],
+      "bounds": [
+        [
+          -1.4800000190734863,
+          0.0,
+          -0.47999998927116394
+        ],
+        [
+          1.4800000190734863,
+          1.2400000095367432,
+          0.48500001430511475
+        ]
+      ],
+      "animations": [],
+      "movable_nodes": [],
+      "nodes": [
+        "geometry",
+        "root"
+      ],
+      "bytes": 96948
+    }
+  ]
+}

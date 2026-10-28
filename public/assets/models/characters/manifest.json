@@ -1,0 +1,73 @@
+{
+  "sockets": {
+    "right": "hand-r",
+    "left": "hand-l"
+  },
+  "clips": {
+    "tool-hoe": {
+      "duration": 0.7,
+      "impact": 0.43333333333333335,
+      "loop": false
+    },
+    "tool-axe": {
+      "duration": 0.7,
+      "impact": 0.4,
+      "loop": false
+    },
+    "tool-scythe": {
+      "duration": 0.6,
+      "impact": 0.3333333333333333,
+      "loop": false
+    },
+    "tool-water": {
+      "duration": 0.9,
+      "impact": 0.36666666666666664,
+      "loop": false
+    },
+    "tool-charge": {
+      "duration": 1.0,
+      "impact": null,
+      "loop": true
+    },
+    "plant": {
+      "duration": 0.6,
+      "impact": 0.3333333333333333,
+      "loop": false
+    },
+    "harvest": {
+      "duration": 0.7,
+      "impact": 0.36666666666666664,
+      "loop": false
+    },
+    "fish-cast": {
+      "duration": 0.8,
+      "impact": 0.4,
+      "loop": false
+    },
+    "fish-wait": {
+      "duration": 1.6,
+      "impact": null,
+      "loop": true
+    },
+    "fish-reel": {
+      "duration": 0.8,
+      "impact": null,
+      "loop": true
+    },
+    "eat": {
+      "duration": 0.9,
+      "impact": 0.43333333333333335,
+      "loop": false
+    },
+    "carry-idle": {
+      "duration": 1.2,
+      "impact": null,
+      "loop": true
+    },
+    "carry-walk": {
+      "duration": 0.8,
+      "impact": null,
+      "loop": true
+    }
+  }
+}

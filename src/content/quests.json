@@ -1,0 +1,2737 @@
+{
+  "schemaVersion": 1,
+  "quests": [
+    {
+      "id": "Q01",
+      "kind": "main",
+      "title": "抵达星界",
+      "giver": "letter",
+      "phase": "G1",
+      "requires": [],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "欢迎来星界。经营权已经登记，门前的信箱里有你的第一封邻里信。先认认回家的路。",
+      "objectives": [
+        {
+          "type": "visit",
+          "region": "farm",
+          "text": "走到农场"
+        },
+        {
+          "type": "interact",
+          "target": "mailbox",
+          "text": "阅读入住信"
+        }
+      ],
+      "submit": "auto",
+      "complete": "这块地可以慢慢经营。工具和十二份种子已备好，不必赶在今天做完。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "settled_in"
+        ]
+      },
+      "journal": "读信安顿下来，查看已有工具与种子。"
+    },
+    {
+      "id": "Q02",
+      "kind": "main",
+      "title": "第一片土地",
+      "giver": "auto",
+      "phase": "G1",
+      "requires": [
+        "Q01"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "先试六格土地。锄开、播种、浇水，留些精力去看看邻居。",
+      "objectives": [
+        {
+          "type": "till",
+          "n": 6,
+          "text": "开垦六格土地"
+        },
+        {
+          "type": "plant",
+          "n": 6,
+          "text": "播种六株作物"
+        },
+        {
+          "type": "water",
+          "n": 6,
+          "text": "完成六格有效浇水"
+        }
+      ],
+      "submit": "auto",
+      "complete": "六格就够看见变化。剩下的种子和时间，由你安排。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "first_plot_ready"
+        ]
+      },
+      "journal": "完成一小片田地，不必清空整座农场。"
+    },
+    {
+      "id": "Q03a",
+      "kind": "main",
+      "title": "林边拾一份",
+      "giver": "auto",
+      "phase": "G2",
+      "requires": [
+        "Q02"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "浅林每天都有一些可拾取物。带回一份，认识一条不用花钱的补给路。",
+      "objectives": [
+        {
+          "type": "forage",
+          "n": 1,
+          "text": "拾取一份野外采集物"
+        }
+      ],
+      "submit": "auto",
+      "complete": "记住这条路，明天不必从头找起。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "self_plan_done"
+        ]
+      },
+      "journal": "自主计划可选路线：采集。"
+    },
+    {
+      "id": "Q03b",
+      "kind": "main",
+      "title": "河边试一竿",
+      "giver": "auto",
+      "phase": "G2",
+      "requires": [
+        "Q02",
+        "G03"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "沈舟已经备好钓竿。挑一个安全水点，钓到什么都算今天的小收获。",
+      "objectives": [
+        {
+          "type": "fish",
+          "n": 1,
+          "text": "成功钓起一条鱼"
+        }
+      ],
+      "submit": "auto",
+      "complete": "这一竿是你的安排。收获留着、卖掉都可以。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "self_plan_done"
+        ]
+      },
+      "journal": "自主计划可选路线：钓鱼。"
+    },
+    {
+      "id": "Q03c",
+      "kind": "main",
+      "title": "先认个邻居",
+      "giver": "auto",
+      "phase": "G1",
+      "requires": [
+        "Q02"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "种子店在镇里。营业时去和林棠打个招呼，先听听她的种植建议。",
+      "objectives": [
+        {
+          "type": "talk",
+          "npc": "lintang",
+          "text": "与林棠完整交谈"
+        }
+      ],
+      "submit": "auto",
+      "complete": "名字认熟了，往后来镇上就不会只看价格牌。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "self_plan_done"
+        ]
+      },
+      "journal": "自主计划可选路线：见面。"
+    },
+    {
+      "id": "Q03",
+      "kind": "main",
+      "title": "一份自主计划",
+      "giver": "auto",
+      "phase": "G1",
+      "requires": [
+        "Q02"
+      ],
+      "unlock": {
+        "minDay": 1,
+        "flag": "self_plan_done"
+      },
+      "intro": "你已经试过采集、钓鱼或见面中的一项。回农场看看，剩下的时间照自己的心意安排。",
+      "objectives": [
+        {
+          "type": "visit",
+          "region": "farm",
+          "text": "回到农场安排余下时间"
+        }
+      ],
+      "submit": "auto",
+      "complete": "今天的安排由你决定。需要帮助时，再打开日志就好。",
+      "rewards": {
+        "money": 50,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "tutorial_softened"
+        ]
+      },
+      "journal": "任选一条计划路线完成后回农场。"
+    },
+    {
+      "id": "Q04",
+      "kind": "main",
+      "title": "认识种子店",
+      "giver": "letter",
+      "phase": "G1",
+      "requires": [
+        "Q01"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "我是林棠。店里八点开门，周三休息。信里附了店的位置和价目，没赶上开门也不耽误认路。",
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "mailbox",
+          "text": "阅读林棠的商店介绍信"
+        }
+      ],
+      "submit": "auto",
+      "complete": "店址已记在地图上。买多少种子，记得先算浇水要花的精力。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "seed_shop_known"
+        ]
+      },
+      "journal": "从介绍信认识种子店，营业时再去采购。"
+    },
+    {
+      "id": "Q05",
+      "kind": "main",
+      "title": "一顿热饭",
+      "giver": "letter",
+      "phase": "G1",
+      "requires": [
+        "Q03"
+      ],
+      "unlock": {
+        "minDay": 2
+      },
+      "intro": "夏禾捎话：忙归忙，饭要吃。公共厨房每天有一份救济清汤，先暖暖胃，再学自己做。",
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "kitchen",
+          "text": "到公共厨房领取救济汤"
+        },
+        {
+          "type": "eat",
+          "item": "soup_relief",
+          "n": 1,
+          "text": "喝下一份救济清汤"
+        }
+      ],
+      "submit": "auto",
+      "complete": "能吃饱才有力气做计划。厨房也给你留了一个灶位。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [
+          "system:cooking",
+          "recipe:soup_clear"
+        ],
+        "friendship": {},
+        "flags": []
+      },
+      "journal": "领取并喝下救济汤，认识公共料理台。"
+    },
+    {
+      "id": "Q06",
+      "kind": "main",
+      "title": "收获与留种",
+      "giver": "auto",
+      "phase": "G1",
+      "requires": [
+        "Q02"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "第一批成熟后，亲手收六份，再留两份蔬菜到教学柜。柜里登记的是种植记录，不会凭空变出种子。",
+      "objectives": [
+        {
+          "type": "harvest",
+          "n": 6,
+          "text": "亲手收获六份作物"
+        },
+        {
+          "type": "deliver",
+          "tag": "veg",
+          "n": 2,
+          "to": "teach_box",
+          "text": "向教学柜提交两份蔬菜"
+        }
+      ],
+      "submit": "teach_box",
+      "complete": "留两份也能继续经营。收下这只腰包，常用工具可以再多挂两件。",
+      "rewards": {
+        "money": 100,
+        "items": [
+          {
+            "id": "belt_toolbag",
+            "n": 1
+          }
+        ],
+        "unlock": [
+          "hotbar:10",
+          "system:orders_board"
+        ],
+        "friendship": {},
+        "flags": [
+          "first_harvest_recorded"
+        ]
+      },
+      "journal": "收获后自行选择两份蔬菜提交，其他收成由你支配。"
+    },
+    {
+      "id": "Q07",
+      "kind": "main",
+      "title": "谷地的水路",
+      "giver": "board",
+      "phase": "G2",
+      "requires": [
+        "Q04",
+        "Q06"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "水闸的旧水位线还在。先去河岸看看，再读镇公告板上的工程说明，决定何时出力。",
+      "objectives": [
+        {
+          "type": "visit",
+          "region": "river",
+          "text": "到河岸查看旧水路"
+        },
+        {
+          "type": "interact",
+          "target": "notice_board",
+          "text": "阅读公告板水闸工程说明"
+        }
+      ],
+      "submit": "auto",
+      "complete": "先把预算摊开，承诺才有分量。水闸工程现在可以分批备料了。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [
+          "system:sluice_fund"
+        ],
+        "friendship": {},
+        "flags": [
+          "sluice_plan_known"
+        ]
+      },
+      "journal": "查看水路与工程预算，开放水闸筹资。"
+    },
+    {
+      "id": "Q08a",
+      "kind": "main",
+      "title": "先把短剑领好",
+      "giver": "laotao",
+      "phase": "G2",
+      "requires": [
+        "Q03"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "矿里的动静和田里不同。先来拿一把旧短剑，咱们在铺外安全空地练习，别急着进洞。",
+      "objectives": [
+        {
+          "type": "talk",
+          "npc": "laotao",
+          "text": "听老陶说明矿口装备"
+        }
+      ],
+      "submit": "laotao",
+      "complete": "剑没有多漂亮，够你起步。下一步先看预警，再走出落点。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "sword_old",
+            "n": 1
+          }
+        ],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "safety_gear_received"
+        ]
+      },
+      "journal": "领取旧制短剑，准备安全教学。"
+    },
+    {
+      "id": "Q08",
+      "kind": "main",
+      "title": "矿口安全课",
+      "giver": "laotao",
+      "phase": "G2",
+      "requires": [
+        "Q08a"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "看见地面亮起，就走出标记；需要辅助时可以放慢练习。练习没有伤害，也不要求打倒敌人。",
+      "objectives": [
+        {
+          "type": "event",
+          "id": "laotao_safety",
+          "text": "完成老陶的避险演示"
+        }
+      ],
+      "submit": "laotao",
+      "complete": "记得给归途留精力。熔炉图样也给你，带回铜矿就能试着生火。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [
+          "region:mine",
+          "system:mine",
+          "recipe:furnace",
+          "shop:copper_ore",
+          "shop:coal",
+          "maxHp:10"
+        ],
+        "friendship": {},
+        "flags": [
+          "mine_safety_passed"
+        ]
+      },
+      "journal": "完成安全演示，开放矿洞一至五层和熔炉蓝图。"
+    },
+    {
+      "id": "Q09",
+      "kind": "main",
+      "title": "铜与火",
+      "giver": "laotao",
+      "phase": "G2",
+      "requires": [
+        "Q08"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "图样已经在配方页。自己造炉，或用我铺里的教学炉；五份铜矿配一份煤，等一块铜锭出炉。",
+      "objectives": [
+        {
+          "type": "machine",
+          "item": "copper_bar",
+          "n": 1,
+          "text": "从熔炉领取一块铜锭"
+        }
+      ],
+      "submit": "laotao",
+      "complete": "火候看完，账也算清了。工具升级要五块铜锭和一千五百金币。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [
+          "system:tool_upgrade",
+          "shop:copper_bar"
+        ],
+        "friendship": {},
+        "flags": [
+          "first_bar_ready"
+        ]
+      },
+      "journal": "自建熔炉或使用铁匠教学炉完成首次熔炼。"
+    },
+    {
+      "id": "Q10",
+      "kind": "main",
+      "title": "第一件升级",
+      "giver": "laotao",
+      "phase": "G2",
+      "requires": [
+        "Q09"
+      ],
+      "unlock": {
+        "minDay": 5,
+        "flag": "copper_tool_ready"
+      },
+      "intro": "铜级工具已经领回来了吧？来讲讲你打算拿它做什么，省下的力气也可以留给休息。",
+      "objectives": [
+        {
+          "type": "talk",
+          "npc": "laotao",
+          "text": "与老陶复盘铜级工具用法"
+        }
+      ],
+      "submit": "laotao",
+      "complete": "会安排力气，比一直使劲强。你的基础精力上限提高二十。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [
+          "maxEnergy:20"
+        ],
+        "friendship": {},
+        "flags": [
+          "energy_main_tools"
+        ]
+      },
+      "journal": "任一铜级工具路线完成后，领取一次成长奖励。"
+    },
+    {
+      "id": "Q11",
+      "kind": "main",
+      "title": "重新通水",
+      "giver": "auto",
+      "phase": "G2",
+      "requires": [
+        "Q07",
+        "Q09"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "预算已经公开。把金币、石料和铜锭交给工程柜，等一次日结，再来听听水声。",
+      "objectives": [
+        {
+          "type": "project",
+          "id": "sluice",
+          "text": "完成水闸工程并验收"
+        }
+      ],
+      "submit": "auto",
+      "complete": "水回到渠里了。先把网络权限记下，喷灌配方还要等耕作等级跟上。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "sluice_complete",
+          "irrigation_network_available"
+        ]
+      },
+      "journal": "工程柜统一扣料；任务只确认水闸完工。"
+    },
+    {
+      "id": "Q13",
+      "kind": "main",
+      "title": "第一位动物伙伴",
+      "giver": "auto",
+      "phase": "G2",
+      "requires": [
+        "Q06",
+        "G05"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "可以经营自己的禽舍，也可以先照料教学栏的鸡。每天喂一份、摸摸头，等它长大后收第一枚蛋。",
+      "objectives": [
+        {
+          "type": "animal",
+          "action": "feed",
+          "n": 5,
+          "text": "完成五次有效每日喂养"
+        },
+        {
+          "type": "animal",
+          "action": "pet",
+          "n": 1,
+          "text": "轻轻抚摸一次鸡"
+        },
+        {
+          "type": "animal",
+          "action": "collect",
+          "n": 1,
+          "text": "领取第一枚鸡蛋"
+        }
+      ],
+      "submit": "auto",
+      "complete": "这一枚蛋背后，是几天按时照料。教学栏的鸡仍归照料站，不会变成你的免费资产。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "hay",
+            "n": 5
+          }
+        ],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "first_animal_care"
+        ]
+      },
+      "journal": "自养或代养完成照料；代养不会赠送永久动物。"
+    },
+    {
+      "id": "Q14",
+      "kind": "main",
+      "title": "新的加工方式",
+      "giver": "auto",
+      "phase": "G2",
+      "requires": [
+        "Q11",
+        "G02"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "水闸修好了，也给收成找个新去处。搭起烘干架，把两份野果或蘑菇烘成便携干粮。",
+      "objectives": [
+        {
+          "type": "machine",
+          "item": "dried_food",
+          "n": 1,
+          "text": "从烘干架领取一份干粮"
+        }
+      ],
+      "submit": "auto",
+      "complete": "加工不一定卖得更贵，也可以让出门补给更方便。",
+      "rewards": {
+        "money": 200,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "processing_recorded"
+        ]
+      },
+      "journal": "在水闸完工后试用烘干架，认识加工取舍。"
+    },
+    {
+      "id": "G01",
+      "kind": "guide",
+      "title": "第一笔出货账",
+      "giver": "auto",
+      "phase": "G1",
+      "requires": [
+        "Q02"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "箱里的货睡前还能取回，过夜才到账。先试一件，再用收入买一份种子。",
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "shipping_bin",
+          "text": "查看出货箱"
+        },
+        {
+          "type": "ship",
+          "n": 1,
+          "text": "日结售出至少一件货物"
+        },
+        {
+          "type": "earn",
+          "gold": 20,
+          "text": "获得二十金币出货收入"
+        },
+        {
+          "type": "buy",
+          "item": "seed_spring_radish",
+          "n": 1,
+          "text": "购买一份小萝卜种子"
+        }
+      ],
+      "submit": "auto",
+      "complete": "出货、到账、采购是三笔账，今晚的收支可以逐项查看。",
+      "rewards": {
+        "money": 20,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": []
+      },
+      "journal": "体验出货结算和商店采购。"
+    },
+    {
+      "id": "G02",
+      "kind": "guide",
+      "title": "林间的备用粮",
+      "giver": "shenzhou",
+      "phase": "G2",
+      "requires": [
+        "Q03a"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "采集熟练些，就能分清适合烘干的野果和蘑菇。等采集二级，再来拿通风架的图样。",
+      "objectives": [
+        {
+          "type": "skill",
+          "skill": "foraging",
+          "level": 2,
+          "text": "把采集技能提升到二级"
+        },
+        {
+          "type": "talk",
+          "npc": "shenzhou",
+          "text": "听沈舟说明烘干补给"
+        }
+      ],
+      "submit": "shenzhou",
+      "complete": "木三十、纤维十五就能搭架。别把草药当野菜放进去。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [
+          "recipe:drying_rack"
+        ],
+        "friendship": {},
+        "flags": []
+      },
+      "journal": "采集二级开放烘干架；留出可食采集物做补给。"
+    },
+    {
+      "id": "G03",
+      "kind": "guide",
+      "title": "借你一根钓竿",
+      "giver": "shenzhou",
+      "phase": "G2",
+      "requires": [
+        "Q01"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "河边的钓点可以安全落脚。我备了一根基础竿，先来听听鱼讯，没鱼饵也能钓。",
+      "objectives": [
+        {
+          "type": "talk",
+          "npc": "shenzhou",
+          "text": "向沈舟领取钓竿并听讲解"
+        }
+      ],
+      "submit": "shenzhou",
+      "complete": "脱钩没关系，辅助控制随时能开。第一竿挑银鳞鱼常在的河边就好。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "rod_basic",
+            "n": 1
+          },
+          {
+            "id": "bait",
+            "n": 5
+          }
+        ],
+        "unlock": [
+          "system:fishing",
+          "shop:bait"
+        ],
+        "friendship": {},
+        "flags": [
+          "rod_received"
+        ]
+      },
+      "journal": "先领钓竿，再选择是否把钓鱼当作自主计划。"
+    },
+    {
+      "id": "G04",
+      "kind": "guide",
+      "title": "自己的小炉火",
+      "giver": "laotao",
+      "phase": "G2",
+      "requires": [
+        "Q08"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "铺里的炉子可以代练，自己有一座会更方便。照图用三十石料、十份铜矿造炉，再找块空地放稳。",
+      "objectives": [
+        {
+          "type": "craft",
+          "item": "furnace",
+          "n": 1,
+          "text": "制作一座熔炉"
+        },
+        {
+          "type": "place",
+          "item": "furnace",
+          "text": "把熔炉放到合法空地"
+        }
+      ],
+      "submit": "laotao",
+      "complete": "领成品时先看看背包。放不下就留在炉里，不会凭空消失。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": []
+      },
+      "journal": "学习机器制作和放置，不阻断代炼路线。"
+    },
+    {
+      "id": "G05",
+      "kind": "guide",
+      "title": "先看禽舍再养鸡",
+      "giver": "xiahe",
+      "phase": "G2",
+      "requires": [
+        "Q06"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "周芹托我照看教学栏。来看看禽舍占地、空栏和喂料处，再决定建自己的，还是先代养五天。",
+      "objectives": [
+        {
+          "type": "talk",
+          "npc": "xiahe",
+          "text": "了解禽舍施工与代养规则"
+        }
+      ],
+      "submit": "xiahe",
+      "complete": "建筑先预览，订单确认才扣钱。教学栏留着，想试照料随时来。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "hay",
+            "n": 5
+          }
+        ],
+        "unlock": [
+          "system:animals",
+          "shop:hay"
+        ],
+        "friendship": {},
+        "flags": [
+          "coop_lesson_seen"
+        ]
+      },
+      "journal": "认识建造、空栏和饲料，开放付费自养或免费代养。"
+    },
+    {
+      "id": "G06",
+      "kind": "guide",
+      "title": "自己煮一碗",
+      "giver": "xiahe",
+      "phase": "G2",
+      "requires": [
+        "Q05"
+      ],
+      "unlock": {
+        "minDay": 2
+      },
+      "intro": "救济汤是兜底，自己做饭也不难。去浅林带两份食用野草，回公共灶煮一碗清汤。",
+      "objectives": [
+        {
+          "type": "forage",
+          "item": "wild_greens",
+          "n": 2,
+          "text": "采两份食用野草"
+        },
+        {
+          "type": "craft",
+          "item": "soup_clear",
+          "n": 1,
+          "text": "在公共厨房制作一份清汤"
+        },
+        {
+          "type": "eat",
+          "item": "soup_clear",
+          "n": 1,
+          "text": "喝下自己做的清汤"
+        }
+      ],
+      "submit": "xiahe",
+      "complete": "这碗记入你的料理记录。自制汤可出售，救济汤仍只用来填肚子。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": []
+      },
+      "journal": "用公共厨房完成采集、烹饪与进食。"
+    },
+    {
+      "id": "G07",
+      "kind": "guide",
+      "title": "铜锄头试用",
+      "giver": "auto",
+      "phase": "G2",
+      "requires": [
+        "Q09"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "任一工具升级都能推进主线。蓄力预览一行三格，松手前能取消。",
+      "objectives": [
+        {
+          "type": "upgrade",
+          "tool": "hoe",
+          "tier": 1,
+          "text": "领取铜锄头或更高等级"
+        }
+      ],
+      "submit": "auto",
+      "complete": "这条升级路线已登记。去找老陶复盘，即可领取主线的一次奖励。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "copper_tool_ready"
+        ]
+      },
+      "journal": "可选升级路线之一；无需把五种工具全部升级。"
+    },
+    {
+      "id": "G08",
+      "kind": "guide",
+      "title": "铜水壶试用",
+      "giver": "auto",
+      "phase": "G2",
+      "requires": [
+        "Q09"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "任一工具升级都能推进主线。只对有效干地扣水，先看一行三格的预览。",
+      "objectives": [
+        {
+          "type": "upgrade",
+          "tool": "can",
+          "tier": 1,
+          "text": "领取铜水壶或更高等级"
+        }
+      ],
+      "submit": "auto",
+      "complete": "这条升级路线已登记。去找老陶复盘，即可领取主线的一次奖励。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "copper_tool_ready"
+        ]
+      },
+      "journal": "可选升级路线之一；无需把五种工具全部升级。"
+    },
+    {
+      "id": "G09",
+      "kind": "guide",
+      "title": "铜斧头试用",
+      "giver": "auto",
+      "phase": "G2",
+      "requires": [
+        "Q09"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "任一工具升级都能推进主线。普通树桩现在可以处理，先看命中与耗能提示。",
+      "objectives": [
+        {
+          "type": "upgrade",
+          "tool": "axe",
+          "tier": 1,
+          "text": "领取铜斧头或更高等级"
+        }
+      ],
+      "submit": "auto",
+      "complete": "这条升级路线已登记。去找老陶复盘，即可领取主线的一次奖励。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "copper_tool_ready"
+        ]
+      },
+      "journal": "可选升级路线之一；无需把五种工具全部升级。"
+    },
+    {
+      "id": "G10",
+      "kind": "guide",
+      "title": "铜镐试用",
+      "giver": "auto",
+      "phase": "G2",
+      "requires": [
+        "Q09"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "任一工具升级都能推进主线。采铜更省动作，别对等级不够的矿块白费力气。",
+      "objectives": [
+        {
+          "type": "upgrade",
+          "tool": "pick",
+          "tier": 1,
+          "text": "领取铜镐或更高等级"
+        }
+      ],
+      "submit": "auto",
+      "complete": "这条升级路线已登记。去找老陶复盘，即可领取主线的一次奖励。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "copper_tool_ready"
+        ]
+      },
+      "journal": "可选升级路线之一；无需把五种工具全部升级。"
+    },
+    {
+      "id": "G11",
+      "kind": "guide",
+      "title": "铜镰刀试用",
+      "giver": "auto",
+      "phase": "G2",
+      "requires": [
+        "Q09"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "任一工具升级都能推进主线。升级保留割草用途，范围能力只以工具配置为准。",
+      "objectives": [
+        {
+          "type": "upgrade",
+          "tool": "scythe",
+          "tier": 1,
+          "text": "领取铜镰刀或更高等级"
+        }
+      ],
+      "submit": "auto",
+      "complete": "这条升级路线已登记。去找老陶复盘，即可领取主线的一次奖励。",
+      "rewards": {
+        "money": 0,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "copper_tool_ready"
+        ]
+      },
+      "journal": "可选升级路线之一；无需把五种工具全部升级。"
+    },
+    {
+      "id": "N_lintang_01",
+      "kind": "npc",
+      "title": "柜前的两份样本",
+      "giver": "lintang",
+      "phase": "G2",
+      "requires": [
+        "Q04",
+        "Q06"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "旧柜里的记录缺了当季样本。带两份自己收的蔬菜，普通品质也好，写清种在哪里就行。",
+      "objectives": [
+        {
+          "type": "deliver",
+          "tag": "veg",
+          "n": 2,
+          "to": "lintang",
+          "text": "给林棠两份自种蔬菜"
+        }
+      ],
+      "submit": "lintang",
+      "complete": "有地块和日期，普通样本也能说清很多事。谢谢你没只挑最好看的。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "fert_quality",
+            "n": 2
+          }
+        ],
+        "unlock": [],
+        "friendship": {
+          "lintang": 40
+        },
+        "flags": []
+      },
+      "journal": "替林棠补齐种子柜的当季记录。"
+    },
+    {
+      "id": "N_lintang_02",
+      "kind": "npc",
+      "title": "把记录带回田里",
+      "giver": "lintang",
+      "phase": "G2",
+      "requires": [
+        "N_lintang_01"
+      ],
+      "unlock": {
+        "minDay": 10
+      },
+      "intro": "等熟悉些，一起来整理旧种子柜。记录怎么留，你的经验也值得写进去。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "lintang",
+          "value": 200,
+          "text": "与林棠达到二百关系"
+        },
+        {
+          "type": "event",
+          "id": "lintang_200",
+          "text": "看完整理旧种子柜事件"
+        }
+      ],
+      "submit": "lintang",
+      "complete": "这只帆布包给你装样本。已经买过扩容也不用退回，它不会挤掉原来的格子。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "bag_canvas",
+            "n": 1
+          }
+        ],
+        "unlock": [
+          "bag:36"
+        ],
+        "friendship": {
+          "lintang": 60
+        },
+        "flags": []
+      },
+      "journal": "参与种子柜整理，领取帆布背包。"
+    },
+    {
+      "id": "N_laotao_01",
+      "kind": "npc",
+      "title": "看清断面的铜",
+      "giver": "laotao",
+      "phase": "G2",
+      "requires": [
+        "Q09"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "带三份铜矿来。先看断面再谈锻造，知道料从哪里来，手上才有准头。",
+      "objectives": [
+        {
+          "type": "deliver",
+          "item": "copper_ore",
+          "n": 3,
+          "to": "laotao",
+          "text": "交给老陶三份铜矿"
+        }
+      ],
+      "submit": "laotao",
+      "complete": "料是真的，话也说得明白。这两份煤拿去练，别空烧。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "coal",
+            "n": 2
+          }
+        ],
+        "unlock": [],
+        "friendship": {
+          "laotao": 40
+        },
+        "flags": []
+      },
+      "journal": "向老陶请教辨认矿料。"
+    },
+    {
+      "id": "N_laotao_02",
+      "kind": "npc",
+      "title": "听一回锤声",
+      "giver": "laotao",
+      "phase": "G2",
+      "requires": [
+        "N_laotao_01"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "等咱们熟些，我演示一遍基础锻造。你来选先看火色，还是先看锤痕。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "laotao",
+          "value": 200,
+          "text": "与老陶达到二百关系"
+        },
+        {
+          "type": "event",
+          "id": "laotao_200",
+          "text": "看完基础锻造演示事件"
+        }
+      ],
+      "submit": "laotao",
+      "complete": "看懂一锤比乱敲十锤强。这块铜锭给你，留着用在合适的地方。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "copper_bar",
+            "n": 1
+          }
+        ],
+        "unlock": [],
+        "friendship": {
+          "laotao": 60
+        },
+        "flags": []
+      },
+      "journal": "通过锻造演示了解老陶的教学方式。"
+    },
+    {
+      "id": "N_xiahe_01",
+      "kind": "npc",
+      "title": "菜单先有来处",
+      "giver": "xiahe",
+      "phase": "G2",
+      "requires": [
+        "Q05",
+        "Q06"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "菜单不能只写菜名。带两份自己种的蔬菜，我想把产地和这一季的味道一起记下来。",
+      "objectives": [
+        {
+          "type": "deliver",
+          "tag": "veg",
+          "n": 2,
+          "to": "xiahe",
+          "text": "给夏禾两份自种蔬菜"
+        }
+      ],
+      "submit": "xiahe",
+      "complete": "这回菜单能写上农场了。汤是谢意，做法也欢迎你再问。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "soup_clear",
+            "n": 1
+          }
+        ],
+        "unlock": [],
+        "friendship": {
+          "xiahe": 40
+        },
+        "flags": []
+      },
+      "journal": "为食堂提供当季食材，开启菜单往来。"
+    },
+    {
+      "id": "N_xiahe_02",
+      "kind": "npc",
+      "title": "两种家常味",
+      "giver": "xiahe",
+      "phase": "G2",
+      "requires": [
+        "N_xiahe_01"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "熟悉之后来试两种家常味。试吃不收你的食材，回去再照学到的办法烤一份萝卜。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "xiahe",
+          "value": 200,
+          "text": "与夏禾达到二百关系"
+        },
+        {
+          "type": "event",
+          "id": "xiahe_200",
+          "text": "看完家常料理试吃事件"
+        },
+        {
+          "type": "craft",
+          "item": "roast_radish",
+          "n": 1,
+          "text": "制作一份烤萝卜"
+        }
+      ],
+      "submit": "xiahe",
+      "complete": "你做出来的这一份才算记住了。以后菜单可以慢慢添，不必一口气学全。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "soup_clear",
+            "n": 1
+          }
+        ],
+        "unlock": [],
+        "friendship": {
+          "xiahe": 60
+        },
+        "flags": []
+      },
+      "journal": "试吃后学烤萝卜，再亲手完成一次。"
+    },
+    {
+      "id": "N_shenzhou_01",
+      "kind": "npc",
+      "title": "记下普通的鱼",
+      "giver": "shenzhou",
+      "phase": "G2",
+      "requires": [
+        "G03"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "记录不只留给少见的鱼。钓两次，再给我一条银鳞鱼核对纹路，样本会明确收走。",
+      "objectives": [
+        {
+          "type": "fish",
+          "n": 2,
+          "text": "新钓两条春季鱼"
+        },
+        {
+          "type": "deliver",
+          "item": "fish_silverscale",
+          "n": 1,
+          "to": "shenzhou",
+          "text": "提交一条银鳞鱼样本"
+        }
+      ],
+      "submit": "shenzhou",
+      "complete": "常见不等于不重要。这里的每天，都得靠这些小鱼来说明。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "bait",
+            "n": 5
+          }
+        ],
+        "unlock": [],
+        "friendship": {
+          "shenzhou": 40
+        },
+        "flags": []
+      },
+      "journal": "用常见鱼样本参与河流调查。"
+    },
+    {
+      "id": "N_shenzhou_02",
+      "kind": "npc",
+      "title": "并排写下水色",
+      "giver": "shenzhou",
+      "phase": "G2",
+      "requires": [
+        "N_shenzhou_01"
+      ],
+      "unlock": {
+        "minDay": 1
+      },
+      "intro": "熟悉之后一起坐在河边，把鱼群和水色记下来。你不用证明自己钓得比谁多。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "shenzhou",
+          "value": 200,
+          "text": "与沈舟达到二百关系"
+        },
+        {
+          "type": "event",
+          "id": "shenzhou_200",
+          "text": "看完河岸鱼群登记事件"
+        }
+      ],
+      "submit": "shenzhou",
+      "complete": "今天多了一双看河流的眼睛。野莓带着，回去的路还长。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "wild_berry",
+            "n": 2
+          }
+        ],
+        "unlock": [],
+        "friendship": {
+          "shenzhou": 60
+        },
+        "flags": []
+      },
+      "journal": "参加河岸观察，理解沈舟关心的变化。"
+    },
+    {
+      "id": "B01",
+      "kind": "board",
+      "title": "食堂萝卜小单",
+      "giver": "board",
+      "phase": "G2",
+      "requires": [
+        "Q06"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "夏禾需要两份普通小萝卜做午餐。只收自己种的普通品质，提交前会核对数量。",
+      "objectives": [
+        {
+          "type": "deliver",
+          "item": "spring_radish",
+          "n": 2,
+          "to": "xiahe",
+          "text": "交两份普通自种小萝卜"
+        }
+      ],
+      "submit": "xiahe",
+      "complete": "两份都齐了，午餐的账现在结清。",
+      "rewards": {
+        "money": 100,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": []
+      },
+      "journal": "一次性公告板示例：普通萝卜两份，收购价一百。"
+    },
+    {
+      "id": "B02",
+      "kind": "board",
+      "title": "河边的野莓袋",
+      "giver": "board",
+      "phase": "G2",
+      "requires": [
+        "Q06",
+        "Q03a"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "沈舟要两份普通野莓做外出补给。浅林能采到，不用带稀有果子。",
+      "objectives": [
+        {
+          "type": "deliver",
+          "item": "wild_berry",
+          "n": 2,
+          "to": "shenzhou",
+          "text": "交两份普通自采野莓"
+        }
+      ],
+      "submit": "shenzhou",
+      "complete": "袋子正好装下。下次也先照顾好自己的补给。",
+      "rewards": {
+        "money": 50,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": []
+      },
+      "journal": "一次性公告板示例：自采野莓两份，收购价五十。"
+    },
+    {
+      "id": "B03",
+      "kind": "board",
+      "title": "铜料核对单",
+      "giver": "board",
+      "phase": "G2",
+      "requires": [
+        "Q06",
+        "Q08"
+      ],
+      "unlock": {
+        "minDay": 5
+      },
+      "intro": "老陶要五份普通铜矿核对矿料。只收亲手开采的料，铺里买来的不能转手交这张单。",
+      "objectives": [
+        {
+          "type": "deliver",
+          "item": "copper_ore",
+          "n": 5,
+          "to": "laotao",
+          "text": "交五份普通自采铜矿"
+        }
+      ],
+      "submit": "laotao",
+      "complete": "数量对，来处也对。这是货款，不是再加一份卖矿钱。",
+      "rewards": {
+        "money": 50,
+        "items": [],
+        "unlock": [],
+        "friendship": {},
+        "flags": []
+      },
+      "journal": "一次性公告板示例：自采铜矿五份，收购价五十。"
+    },
+    {
+      "id": "F01",
+      "kind": "festival",
+      "title": "花种会的第一站",
+      "giver": "letter",
+      "phase": "G2",
+      "requires": [
+        "Q01"
+      ],
+      "unlock": {
+        "minDay": 8
+      },
+      "intro": "春八日十点到十六点，镇广场有花种会。认花、看交换展台都欢迎，没种花也能来。",
+      "objectives": [
+        {
+          "type": "festival",
+          "id": "flower_fair",
+          "text": "参加一次花种会"
+        }
+      ],
+      "submit": "auto",
+      "complete": "见过花，也记住了邻居的名字。两份生菜种子带回田里试试。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "seed_spring_lettuce",
+            "n": 2
+          }
+        ],
+        "unlock": [],
+        "friendship": {},
+        "flags": [
+          "flower_fair_seen"
+        ]
+      },
+      "journal": "春八日参加花种会；错过后次年仍可参加。"
+    },
+    {
+      "id": "Q12",
+      "kind": "main",
+      "title": "河岸的另一边",
+      "giver": "heyan",
+      "phase": "G3",
+      "requires": [
+        "Q11"
+      ],
+      "intro": "水通了，接下来把路也接上。先到河岸桥址看工程牌，木工队按公开的材料和工期施工；桥先能走，纹样以后慢慢商量。",
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "bridge_site",
+          "n": 1,
+          "text": "到河岸桥址查看工程牌"
+        },
+        {
+          "type": "project",
+          "id": "bridge",
+          "text": "完成林桥工程并验收"
+        }
+      ],
+      "submit": "auto",
+      "complete": "两岸接起来了，深林与湿地有了安全入口。老陶也能替大家代购铁锭，修驿站的材料有了来路。",
+      "rewards": {
+        "money": 0,
+        "unlock": [
+          "shop:iron_bar"
+        ],
+        "flags": [
+          "bridge_complete"
+        ]
+      },
+      "journal": "到桥址了解工程并等待林桥完工；材料与金币只由工程柜扣除。"
+    },
+    {
+      "id": "Q15",
+      "kind": "main",
+      "title": "旧驿道",
+      "giver": "letter",
+      "phase": "G3",
+      "requires": [
+        "Q12"
+      ],
+      "intro": "阿满来信：桥那头又有人往来了，我想让驿站重新接得住这些信和货。请先到驿站柜台看说明，缺的铁锭可以找老陶代购，备齐后交给工程柜。",
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "station_counter",
+          "n": 1,
+          "text": "查看驿站柜台的修复说明"
+        },
+        {
+          "type": "project",
+          "id": "station",
+          "text": "完成驿站工程并验收"
+        }
+      ],
+      "submit": "auto",
+      "complete": "驿站重新开门，阿满能接上班次，段行也把货单摆出来了。晶矿代购和核心贸易都有了公开的办法。",
+      "rewards": {
+        "money": 0,
+        "unlock": [
+          "shop:crystal_trade",
+          "system:core_trade"
+        ]
+      },
+      "journal": "读阿满的来信，查看柜台并完成驿站工程；工程柜统一扣款扣料。"
+    },
+    {
+      "id": "Q16",
+      "kind": "main",
+      "title": "每个人的谷地",
+      "giver": "board",
+      "phase": "G3",
+      "requires": [
+        "Q12"
+      ],
+      "intro": "贡献板想记下的不只是木石和金币。和邻居慢慢熟悉，听完他们愿意讲的故事，你也会知道自己在这里能帮上什么。",
+      "objectives": [
+        {
+          "type": "friends",
+          "value": 200,
+          "n": 4,
+          "text": "与任意四位居民达到二百关系"
+        },
+        {
+          "type": "events",
+          "n": 2,
+          "text": "完成两段不同的友情事件"
+        }
+      ],
+      "submit": "auto",
+      "complete": "板上多了四个熟悉的名字，也多了你听过的故事。原来共同生活，可以从把一个人的话听完开始。",
+      "rewards": {
+        "money": 0,
+        "unlock": [
+          "maxHp:10"
+        ]
+      },
+      "journal": "四位居民关系达到二百并完成两段不同友情事件；已有记录计入，不要求恋爱。"
+    },
+    {
+      "id": "Q17",
+      "kind": "main",
+      "title": "四季的准备",
+      "giver": "letter",
+      "phase": "G3",
+      "requires": [
+        "Q14"
+      ],
+      "intro": "夏禾来信：出门别只想着背回来什么。防寒衣、南瓜浓汤或山野干粮，备好其中一种，再留两份探索料理。只是确认补给，不收走你的东西。",
+      "objectives": [
+        {
+          "type": "haveSpec",
+          "item": "winter_coat|soup_pumpkin|ration_trail",
+          "n": 1,
+          "text": "持有防寒衣、南瓜浓汤或山野干粮中的任一种"
+        },
+        {
+          "type": "haveSpec",
+          "item": "#explore",
+          "n": 2,
+          "text": "持有两份探索料理，只作确认、不扣除"
+        }
+      ],
+      "submit": "auto",
+      "complete": "保暖和补给都记好了，出门心里也稳些。夏禾把南瓜浓汤的做法夹在信后，等材料齐了可以自己煮。",
+      "rewards": {
+        "money": 0,
+        "unlock": [
+          "maxEnergy:20",
+          "recipe:soup_pumpkin"
+        ]
+      },
+      "journal": "保暖来源任选一种，另备两份探索料理；只检查持有，确认后仍由自己使用。"
+    },
+    {
+      "id": "Q18",
+      "kind": "main",
+      "title": "温室计划",
+      "giver": "lintang",
+      "phase": "G3",
+      "requires": [
+        "Q15"
+      ],
+      "intro": "驿站能运来修复用的料了。农场废址那座温室，我想和大家一起把它收拾出来；预算先看明白，备齐再开工，不用为赶季节勉强自己。",
+      "objectives": [
+        {
+          "type": "project",
+          "id": "greenhouse",
+          "text": "完成农场温室修复并验收"
+        }
+      ],
+      "submit": "auto",
+      "complete": "温室里亮起来了，四季都能试种。屋顶能挡天气，田里的水还得自己记着浇。",
+      "rewards": {
+        "money": 0
+      },
+      "journal": "在农场完成温室公共修复；工程柜收料，任务只确认完工。"
+    },
+    {
+      "id": "Q19a",
+      "kind": "main",
+      "title": "深处的线索·下矿",
+      "giver": "auto",
+      "phase": "G3",
+      "requires": [
+        "Q15"
+      ],
+      "intro": "旧构件的记录指向矿洞深处。愿意探索的话，带好补给，把路线推进到二十层；已有的到达记录也算，不必重走。也可以另选段行的贸易路线。",
+      "objectives": [
+        {
+          "type": "mineFloor",
+          "floor": 20,
+          "text": "到达矿洞第二十层"
+        }
+      ],
+      "submit": "auto",
+      "complete": "二十层的到达记录补进了资料，老陶可以沿着这条线索继续核对旧构件。",
+      "rewards": {
+        "money": 0,
+        "flags": [
+          "clue_mine"
+        ]
+      },
+      "journal": "可选探索路线：矿洞到达二十层取得线索，不要求同时完成贸易路线。"
+    },
+    {
+      "id": "Q19b",
+      "kind": "main",
+      "title": "深处的线索·贸易",
+      "giver": "duanxing",
+      "phase": "G3",
+      "requires": [
+        "Q15"
+      ],
+      "intro": "不下深矿也能核查旧构件。交给我十块自制铜锭，我按货单送检，换回检验记录；商店买来的不能算这次供货，也不会替你写一份下矿经历。",
+      "objectives": [
+        {
+          "type": "deliver",
+          "item": "copper_bar",
+          "n": 10,
+          "text": "向段行交付十块自制铜锭，商购不计"
+        }
+      ],
+      "submit": "duanxing",
+      "complete": "十块铜锭已经点清，检验记录也交到你手里。这条线索来自供货，账上写得明白。",
+      "rewards": {
+        "money": 0,
+        "flags": [
+          "clue_trade"
+        ]
+      },
+      "journal": "可选贸易路线：向段行一次交付十块自产铜锭换线索，不增加矿层探索记录。"
+    },
+    {
+      "id": "Q19",
+      "kind": "main",
+      "title": "深处的线索",
+      "giver": "letter",
+      "phase": "G3",
+      "requires": [
+        "Q15"
+      ],
+      "intro": "老陶来信：风车的旧图纸缺一段构件说明。你可以带回二十层的探索记录，也可以找段行用自制铜锭换检验记录，有一条能核实的线索就够。",
+      "objectives": [
+        {
+          "type": "flag",
+          "id": "clue_mine|clue_trade",
+          "text": "取得下矿线索或贸易线索，任选其一"
+        }
+      ],
+      "submit": "auto",
+      "complete": "记录对上了，风车图纸可以接着往下做。合金的炼法也写清了，铁锭和晶矿都按各自的渠道准备。",
+      "rewards": {
+        "money": 0,
+        "unlock": [
+          "recipe:alloy",
+          "maxHp:10"
+        ],
+        "flags": [
+          "windmill_plans"
+        ]
+      },
+      "journal": "探索与贸易两条线索任选一条；合金配方与成长奖励只领取一次。"
+    },
+    {
+      "id": "Q20",
+      "kind": "main",
+      "title": "风的动力",
+      "giver": "board",
+      "phase": "G3",
+      "requires": [
+        "Q18",
+        "Q19"
+      ],
+      "intro": "温室和图纸都准备好了，风车还需要一件核心。深矿取得的或贸易换来的都能用；现在只确认持有，到了风车工程柜再正式交料。",
+      "objectives": [
+        {
+          "type": "haveSpec",
+          "item": "#core",
+          "n": 1,
+          "text": "持有一件风车核心或替代核心，不扣除"
+        }
+      ],
+      "submit": "auto",
+      "complete": "核心已经备好，来源也有记录。先留在自己手里，等大家共同备料时一并交给工程柜。",
+      "rewards": {
+        "money": 0
+      },
+      "journal": "核心来源可选探索或贸易；此处只检查持有，不消耗工程材料。"
+    },
+    {
+      "id": "Q21",
+      "kind": "main",
+      "title": "共同备料",
+      "giver": "auto",
+      "phase": "G3",
+      "requires": [
+        "Q16",
+        "Q20"
+      ],
+      "intro": "邻居们的意见和风车材料都有了着落。到风车工地看公开预算，由工程柜统一收取物资与金币，确认后等三次日结，再来验收。",
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "windmill_site",
+          "n": 1,
+          "text": "到风车工地查看工程牌"
+        },
+        {
+          "type": "project",
+          "id": "windmill",
+          "text": "完成风车工程并验收"
+        }
+      ],
+      "submit": "auto",
+      "complete": "三次日结的施工走完了，风车已经完工。每一份材料都能对上去处，这次共同备料可以记进贡献板。",
+      "rewards": {
+        "money": 0
+      },
+      "journal": "到工地查看预算并完成风车工程；任务只验收，不重复收取核心、材料或金币。"
+    },
+    {
+      "id": "N_heyan_01",
+      "kind": "npc",
+      "title": "桥木量尺",
+      "giver": "heyan",
+      "phase": "G3",
+      "requires": [
+        "Q11"
+      ],
+      "intro": "旧桥两端的尺寸得先核清。到桥址看工程牌上的测量记录，再带十份自采木材来，咱们把纸上的尺寸和料对起来。",
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "bridge_site",
+          "n": 1,
+          "text": "到桥址核对工程牌上的测量说明"
+        },
+        {
+          "type": "deliver",
+          "item": "wood",
+          "n": 10,
+          "text": "向何砚交付十份自采木材"
+        }
+      ],
+      "submit": "heyan",
+      "complete": "尺寸和木料都点过了，下一步有了准数。这两块木路样板给你留着看铺法。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "heyan": 40
+        },
+        "items": [
+          {
+            "id": "path_wood",
+            "n": 2
+          }
+        ]
+      },
+      "journal": "查看桥址并交十份自产木材；先把路量准，再谈旧木构的做法。"
+    },
+    {
+      "id": "N_heyan_02",
+      "kind": "npc",
+      "title": "留一道旧纹",
+      "giver": "heyan",
+      "phase": "G3",
+      "requires": [
+        "N_heyan_01"
+      ],
+      "intro": "新旧桥方案谈明白后，我想把保留旧纹的办法用到长椅上。等咱们熟悉些，再带二十份自采木材来，纹样慢慢商量，承力处照尺寸做。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "heyan",
+          "value": 400,
+          "text": "与何砚达到四百关系"
+        },
+        {
+          "type": "event",
+          "id": "heyan_400",
+          "text": "完成何砚的新旧桥方案事件"
+        },
+        {
+          "type": "deliver",
+          "item": "wood",
+          "n": 20,
+          "text": "向何砚交付二十份自采木材"
+        }
+      ],
+      "submit": "heyan",
+      "complete": "这批料记在长椅下面了。旧纹样能留下，也给新的手艺留个位置，等共制长椅时一起描。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "heyan": 60
+        }
+      },
+      "journal": "完成第一段委托、四百关系及新旧方案事件后，交木二十，为共制长椅备料。"
+    },
+    {
+      "id": "N_zhouqin_01",
+      "kind": "npc",
+      "title": "粮槽与门闩",
+      "giver": "zhouqin",
+      "phase": "G3",
+      "requires": [
+        "Q13"
+      ],
+      "intro": "先看自己的禽舍建好了没有，再把粮槽和棚门一起照料到。带五份自己收割的干草来，买来的留作日常喂养，这次要记你的备草经验。",
+      "objectives": [
+        {
+          "type": "building",
+          "id": "coop",
+          "text": "拥有一座已建成的禽舍"
+        },
+        {
+          "type": "interact",
+          "target": "ranch",
+          "n": 1,
+          "text": "到牧场查看粮槽与棚门的照料说明"
+        },
+        {
+          "type": "deliver",
+          "item": "hay",
+          "n": 5,
+          "text": "向周芹交付五份自产干草，商购不计"
+        }
+      ],
+      "submit": "zhouqin",
+      "complete": "草料和照料说明都核过了。这三份干草带回去备用，往后先留够每天吃的，再考虑添动物。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "zhouqin": 40
+        },
+        "items": [
+          {
+            "id": "hay",
+            "n": 3
+          }
+        ]
+      },
+      "journal": "在禽舍建成后查看牧场说明并交五份自产干草；教学代养完成也可晚些再来。"
+    },
+    {
+      "id": "N_zhouqin_02",
+      "kind": "npc",
+      "title": "多留一步的空地",
+      "giver": "zhouqin",
+      "phase": "G3",
+      "requires": [
+        "N_zhouqin_01"
+      ],
+      "intro": "拥挤畜舍的两种布局咱们先在纸上试过。等你看完那次讨论，再到牧场对照入口和粮槽的说明；不用拆掉自己现有的建筑。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "zhouqin",
+          "value": 400,
+          "text": "与周芹达到四百关系"
+        },
+        {
+          "type": "event",
+          "id": "zhouqin_400",
+          "text": "完成周芹的畜舍布局事件并选择方案"
+        },
+        {
+          "type": "interact",
+          "target": "ranch",
+          "n": 1,
+          "text": "回牧场对照入口与粮槽的照料说明"
+        }
+      ],
+      "submit": "zhouqin",
+      "complete": "门前多留一步，动物和照料的人都省事。把这次的想法记在照料小册里，以后遇到不同布局还能再改。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "zhouqin": 60
+        }
+      },
+      "journal": "在四百关系事件里比较布局，回牧场确认照料说明；不要求拆除或迁移动物。"
+    },
+    {
+      "id": "N_yelan_01",
+      "kind": "npc",
+      "title": "两份草药包",
+      "giver": "yelan",
+      "phase": "G3",
+      "requires": [
+        "Q12"
+      ],
+      "intro": "有两位老人需要基础草药，先带六份自己采来的到诊所。分包和用量由我核对，你帮忙把去处记清，别把不同药材混成一袋。",
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "clinic",
+          "n": 1,
+          "text": "到诊所查看草药交接说明"
+        },
+        {
+          "type": "deliver",
+          "item": "herb",
+          "n": 6,
+          "text": "向叶岚交付六份自采草药"
+        }
+      ],
+      "submit": "yelan",
+      "complete": "六份草药收到了，两位老人的需求各记一行。等整理药包时再一起核标签，拿来多少、分给谁都留得住。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "yelan": 40
+        }
+      },
+      "journal": "为两份基础草药包交六份自产草药；配药事件另由友情推进。"
+    },
+    {
+      "id": "N_yelan_02",
+      "kind": "npc",
+      "title": "给药园留条路",
+      "giver": "yelan",
+      "phase": "G3",
+      "requires": [
+        "N_yelan_01"
+      ],
+      "intro": "诊所互助表理顺后，药园也该给来往的人留好路。准备二十份自采木材和十份自采石料，先送到诊所；花边可以慢慢做，通道别挤窄。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "yelan",
+          "value": 400,
+          "text": "与叶岚达到四百关系"
+        },
+        {
+          "type": "event",
+          "id": "yelan_400",
+          "text": "完成叶岚的诊所互助事件"
+        },
+        {
+          "type": "deliver",
+          "item": "wood",
+          "n": 20,
+          "text": "向叶岚交付二十份自采木材"
+        },
+        {
+          "type": "deliver",
+          "item": "stone",
+          "n": 10,
+          "text": "向叶岚交付十份自采石料"
+        }
+      ],
+      "submit": "yelan",
+      "complete": "备料记好了，园边怎么摆还要照着通道看。大家能进去取用，也能轮流进去照料，才是公共药园。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "yelan": 60
+        }
+      },
+      "journal": "完成诊所互助事件并交木二十、石十，供药园边界与通路使用。"
+    },
+    {
+      "id": "N_luyao_01",
+      "kind": "npc",
+      "title": "看得见的出口",
+      "giver": "luyao",
+      "phase": "G3",
+      "requires": [
+        "Q08"
+      ],
+      "intro": "到矿口看看安全牌，出口箭头、危险边界和休息处都画在上面。看完来找我，把拿不准的地方说清楚，不必下矿，也不考你打过什么。",
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "mine_sign",
+          "n": 1,
+          "text": "查看矿口安全牌上的出口、边界与休息处"
+        },
+        {
+          "type": "talk",
+          "npc": "luyao",
+          "n": 1,
+          "text": "与陆遥交谈，确认矿口安全说明"
+        }
+      ],
+      "submit": "luyao",
+      "complete": "肯把归路认清，比急着证明能走多远有用。之后一起查标识时，也从新来的人能不能看懂开始。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "luyao": 40
+        },
+        "items": [
+          {
+            "id": "torch",
+            "n": 1
+          }
+        ]
+      },
+      "journal": "查看矿口安全牌并与陆遥交谈；不要求击杀、矿层进度或危险演练。"
+    },
+    {
+      "id": "N_luyao_02",
+      "kind": "npc",
+      "title": "把绳头留在亮处",
+      "giver": "luyao",
+      "phase": "G3",
+      "requires": [
+        "N_luyao_01"
+      ],
+      "intro": "那次旧事故，我想和你讲明白。听完后在安全处选练习或绕行，再回矿口看一遍标识，把等候点记住，不用进洞证明自己。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "luyao",
+          "value": 400,
+          "text": "与陆遥达到四百关系"
+        },
+        {
+          "type": "event",
+          "id": "luyao_400",
+          "text": "完成陆遥的旧事故事件，选择练习或绕行方案"
+        },
+        {
+          "type": "interact",
+          "target": "mine_sign",
+          "n": 1,
+          "text": "回矿口复核安全标识"
+        }
+      ],
+      "submit": "luyao",
+      "complete": "这次先确认彼此都听明白了，再往前走。绳头留在亮处，想返回的人就不用摸索。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "luyao": 60
+        },
+        "items": [
+          {
+            "id": "dried_food",
+            "n": 1
+          }
+        ]
+      },
+      "journal": "在四百关系事件中选择安全练习或绕行，再核矿口标识；两种选择奖励相同。"
+    },
+    {
+      "id": "N_aman_01",
+      "kind": "npc",
+      "title": "先分清去处",
+      "giver": "aman",
+      "phase": "G3",
+      "requires": [
+        "Q12"
+      ],
+      "intro": "积压明信片的整理样张已经备好了。等咱们熟悉到能一起开工时，来做那次分类：六张都要点清去处，活动样张不用你从背包里拿。",
+      "objectives": [
+        {
+          "type": "event",
+          "id": "aman_200",
+          "text": "完成阿满的明信片分类事件，核对六张活动样张"
+        }
+      ],
+      "submit": "aman",
+      "complete": "六张样张都对上了，镇内和外来的分开放。谢谢你耐心认那些小字，这份去处表终于不会越理越乱。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "aman": 40
+        }
+      },
+      "journal": "参加二百关系的明信片整理事件；只用事件样张，不收玩家物品。"
+    },
+    {
+      "id": "N_aman_02",
+      "kind": "npc",
+      "title": "地址缺了一半",
+      "giver": "aman",
+      "phase": "G3",
+      "requires": [
+        "N_aman_01",
+        "Q15"
+      ],
+      "intro": "那封缺了半个地址的信，线索都留在地图上了。一起看完找地址的经过，再去诊所和木工坊核一遍公共门口，回来找我确认，不必拆信。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "aman",
+          "value": 400,
+          "text": "与阿满达到四百关系"
+        },
+        {
+          "type": "event",
+          "id": "aman_400",
+          "text": "完成阿满的残缺地址事件"
+        },
+        {
+          "type": "interact",
+          "target": "clinic",
+          "n": 1,
+          "text": "访问诊所公共服务点"
+        },
+        {
+          "type": "interact",
+          "target": "carpenter",
+          "n": 1,
+          "text": "访问木工坊公共服务点"
+        }
+      ],
+      "submit": "aman",
+      "complete": "两处地点核对过了，旧门牌和现在的称呼终于接上。这封信的去处可以写实，不再只靠猜。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "aman": 60
+        }
+      },
+      "journal": "驿站修复后，完成四百关系事件并访问诊所、木工坊；回阿满处确认，不收信件道具。"
+    },
+    {
+      "id": "N_duanxing_01",
+      "kind": "npc",
+      "title": "货单当面数",
+      "giver": "duanxing",
+      "phase": "G3",
+      "requires": [
+        "Q15"
+      ],
+      "intro": "找个有空的时候，一起看那张教学货单。品名、数量、交期都当面核，样箱只作演示；先熟悉彼此的做事方式，不急着让你掏钱进货。",
+      "objectives": [
+        {
+          "type": "event",
+          "id": "duanxing_200",
+          "text": "完成段行的教学货单核对事件"
+        }
+      ],
+      "submit": "duanxing",
+      "complete": "货单和样箱逐项对过了，没到的没写成已收。这样的账，下一位接手的人也看得懂。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "duanxing": 40
+        }
+      },
+      "journal": "完成二百关系的货单核对事件；教学样品不扣钱、不扣库存。"
+    },
+    {
+      "id": "N_duanxing_02",
+      "kind": "npc",
+      "title": "迟到也要说清",
+      "giver": "duanxing",
+      "phase": "G3",
+      "requires": [
+        "N_duanxing_01"
+      ],
+      "intro": "迟到那单有两种办法：说明新交期，或把退款办清。等咱们听完这次履约讨论，再到柜台核教学单；选择只用于演练，不扣你的钱。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "duanxing",
+          "value": 400,
+          "text": "与段行达到四百关系"
+        },
+        {
+          "type": "event",
+          "id": "duanxing_400",
+          "text": "完成段行的延期或退款演练事件"
+        },
+        {
+          "type": "interact",
+          "target": "station_counter",
+          "n": 1,
+          "text": "到驿站柜台核对教学货单"
+        }
+      ],
+      "submit": "duanxing",
+      "complete": "变更说明写清了，教学单也归回原处。守约不只是准时，出了差错也要让对方真能选择。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "duanxing": 60
+        }
+      },
+      "journal": "完成四百关系的履约演练并复核柜台教学单；延期与退款均不动玩家资金。"
+    },
+    {
+      "id": "N_anbo_01",
+      "kind": "npc",
+      "title": "旧水线的名字",
+      "giver": "anbo",
+      "phase": "G3",
+      "requires": [
+        "Q07"
+      ],
+      "intro": "水闸的旧名和两岸的用水记录，我都留着。先到水闸工程牌看现有说明，等咱们熟悉些，再一起听旧事、对两条水线；不用拿新东西来换。",
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "sluice_board",
+          "n": 1,
+          "text": "查看旧水闸工程牌"
+        },
+        {
+          "type": "event",
+          "id": "anbo_200",
+          "text": "完成安伯的旧水闸历史事件，核对两处水位记录"
+        }
+      ],
+      "submit": "anbo",
+      "complete": "旧名和两处水位记在一起了。往后再谈工程，记得它连着的是两岸每天的生活。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "anbo": 40
+        }
+      },
+      "journal": "查看水闸工程牌并完成二百关系的历史事件；不消耗物品。"
+    },
+    {
+      "id": "N_anbo_02",
+      "kind": "npc",
+      "title": "承诺写在板上",
+      "giver": "anbo",
+      "phase": "G3",
+      "requires": [
+        "N_anbo_01",
+        "Q12"
+      ],
+      "intro": "工程先后讨论完，先核一项已兑现的承诺。林桥已经通行，就带着它的完工记录来；不必为了交这张进度单再开一个工程。",
+      "objectives": [
+        {
+          "type": "friendship",
+          "npc": "anbo",
+          "value": 400,
+          "text": "与安伯达到四百关系"
+        },
+        {
+          "type": "event",
+          "id": "anbo_400",
+          "text": "完成安伯的工程顺序讨论事件"
+        },
+        {
+          "type": "project",
+          "id": "bridge",
+          "text": "确认已有的林桥完工记录"
+        }
+      ],
+      "submit": "anbo",
+      "complete": "林桥的完工记进计划板了，参与的人和材料去处都能对上。下一项还没做，就老实留在待办栏。",
+      "rewards": {
+        "money": 0,
+        "friendship": {
+          "anbo": 60
+        }
+      },
+      "journal": "在林桥完成及四百关系事件后确认现有工程记录；不重复收料，不要求新建工程。"
+    },
+    {
+      "id": "F02",
+      "kind": "festival",
+      "title": "河岸开钓日",
+      "giver": "letter",
+      "phase": "G4",
+      "requires": [
+        "G03"
+      ],
+      "intro": "河岸来信：春22日，10:00—16:00欢迎入场，活动18:00结束。来参加三分钟分段钓鱼赛，可以用辅助钓鱼，也可以在安全线后旁观。鱼饵与渔具摆设留作小纪念，基础钓竿平日也能取得；不参加也没关系，明年还会相见。",
+      "objectives": [
+        {
+          "type": "festival",
+          "id": "fishing_derby",
+          "text": "参加一次河岸开钓日，比赛或旁观均可"
+        }
+      ],
+      "submit": "auto",
+      "complete": "这一段河岸有了大家的笑声。五份鱼饵和一件渔具摆设带回去，往后仍可以挑自己喜欢的日子来钓。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "bait",
+            "n": 5
+          },
+          {
+            "id": "deco_fishing_trophy",
+            "n": 1
+          }
+        ]
+      },
+      "journal": "春22日10:00—16:00入场，18:00结束；分段赛可辅助或旁观，错过可来年参加，不影响平日钓鱼。"
+    },
+    {
+      "id": "F03",
+      "kind": "festival",
+      "title": "长日野餐",
+      "giver": "letter",
+      "phase": "G4",
+      "requires": [
+        "Q05"
+      ],
+      "intro": "夏禾邀你野餐：夏8日，12:00—18:00入场，20:00散席。大家自选食材共做一份共享料理，也可以用活动提供的基础材料，开做前会说清用量。带不带食材都欢迎，不参加也没关系，清汤和烤萝卜仍可到公共厨房补学。",
+      "objectives": [
+        {
+          "type": "festival",
+          "id": "picnic",
+          "text": "参加长日野餐，共同做一份共享料理"
+        }
+      ],
+      "submit": "auto",
+      "complete": "这顿饭由不同的双手凑在一起。野餐布留给你，清汤和烤萝卜的做法也再记一遍，有空就给自己做顿热饭。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "picnic_blanket",
+            "n": 1
+          }
+        ],
+        "unlock": [
+          "recipe:soup_clear",
+          "recipe:roast_radish"
+        ]
+      },
+      "journal": "夏8日12:00—18:00入场，20:00结束；可用活动食材，不抽走整包材料，缺席仍可在公共厨房补学基础食谱。"
+    },
+    {
+      "id": "F04",
+      "kind": "festival",
+      "title": "萤灯夜",
+      "giver": "letter",
+      "phase": "G4",
+      "requires": [
+        "Q06"
+      ],
+      "intro": "河岸灯会来信：夏22日，18:00—22:00可以入场，23:00结束。沿安全步道寻找三处灯影标记，停下来看看灯也很好，不需要危险夜钓。庭院灯只是这一夜的小纪念；不参加也没关系，田里的日子照常继续。",
+      "objectives": [
+        {
+          "type": "festival",
+          "id": "firefly",
+          "text": "参加萤灯夜，沿安全步道寻找灯影"
+        }
+      ],
+      "submit": "auto",
+      "complete": "三处灯影连成一段记忆。这盏庭院灯带回家，往后晚归时，也有一小片熟悉的光。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "deco_garden_lantern",
+            "n": 1
+          }
+        ]
+      },
+      "journal": "夏22日18:00—22:00入场，23:00结束；沿安全步道看灯，不要求夜钓，缺席不影响友情与日常生活。"
+    },
+    {
+      "id": "F05",
+      "kind": "festival",
+      "title": "田野集市",
+      "giver": "letter",
+      "phase": "G4",
+      "requires": [
+        "Q06"
+      ],
+      "intro": "田野集市邀请：秋8日，10:00—16:00入场，18:00收场。借用展品或带自己的农产，试着组合一个小展台，普通物件也能讲清自己的来处。借展和自带物都会在活动结束时原样归还；不参加也没关系，纪念币与展示牌只留作纪念。",
+      "objectives": [
+        {
+          "type": "festival",
+          "id": "market",
+          "text": "参加田野集市，组合并参观农产展台"
+        }
+      ],
+      "submit": "auto",
+      "complete": "你的展台让人看见了一种过日子的办法。展示牌和图鉴纪念币请收好，展品也照借展记录原样领回。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "deco_display_sign",
+            "n": 1
+          },
+          {
+            "id": "festival_coin",
+            "n": 1
+          }
+        ]
+      },
+      "journal": "秋8日10:00—16:00入场，18:00结束；可借展品，结束原样返还，纪念币留作不可交易的图鉴纪念，缺席无惩罚。"
+    },
+    {
+      "id": "F06",
+      "kind": "festival",
+      "title": "丰收协作日",
+      "giver": "letter",
+      "phase": "G4",
+      "requires": [
+        "Q06"
+      ],
+      "intro": "何砚与街坊邀你来帮个小忙：秋22日，10:00—16:00入场，18:00结束。和邻居一起分拣或搬运活动物资，重活可以换人，林桥未修好的邻居也能在镇里参加。不参加也没关系，不会因此少一份友情；有空再来坐坐。",
+      "objectives": [
+        {
+          "type": "festival",
+          "id": "harvest_coop",
+          "text": "参加丰收协作日，与邻居合作分拣或搬运"
+        }
+      ],
+      "submit": "auto",
+      "complete": "最后一只篮子也放稳了。公共花箱留作这次合作的纪念，两份食用野草带回去做菜，今天先好好歇一会儿。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "deco_flower_box",
+            "n": 1
+          },
+          {
+            "id": "wild_greens",
+            "n": 2
+          }
+        ]
+      },
+      "journal": "秋22日10:00—16:00入场，18:00结束；镇内参与不要求修桥，分拣与搬运量力选择，缺席不扣友情。"
+    },
+    {
+      "id": "F07",
+      "kind": "festival",
+      "title": "雪地手作会",
+      "giver": "letter",
+      "phase": "G4",
+      "requires": [
+        "Q01"
+      ],
+      "intro": "雪地手作会来信：冬8日，10:00—16:00欢迎入场，18:00收好工具。用活动借出的木件拼一处雪景或木作摆件，颜色和拼法由你选，离场时归还借件。不参加也没关系，普通家具与日常制作仍照常开放。",
+      "objectives": [
+        {
+          "type": "festival",
+          "id": "snow_craft",
+          "text": "参加雪地手作会，用活动木件拼装雪景"
+        }
+      ],
+      "submit": "auto",
+      "complete": "小雪屋有了自己的样子。这件冬季摆设留给你，借来的木件已经点清，回家还能慢慢想下一种配色。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "deco_snow_house",
+            "n": 1
+          }
+        ]
+      },
+      "journal": "冬8日10:00—16:00入场，18:00结束；借件用于活动，退出归还，不要求自带木料，错过可来年再做。"
+    },
+    {
+      "id": "F08",
+      "kind": "festival",
+      "title": "围炉谢礼夜",
+      "giver": "letter",
+      "phase": "G4",
+      "requires": [
+        "Q03"
+      ],
+      "intro": "街坊邀你围炉：冬22日，18:00—22:00可入场，23:00散席。选一段想分享的故事，再把一句匿名问候投到公共柜，活动备有小卡，不需要昂贵礼物。不参加也没关系，邻居之间的情分不会少，往后仍有许多可以坐下来聊的晚上。",
+      "objectives": [
+        {
+          "type": "festival",
+          "id": "hearth_night",
+          "text": "参加围炉谢礼夜，分享故事并留下匿名问候"
+        }
+      ],
+      "submit": "auto",
+      "complete": "故事讲完，炉边还有余温。这件友情纪念物带回去，今天说过的谢意，明天也可以继续说。",
+      "rewards": {
+        "money": 0,
+        "items": [
+          {
+            "id": "deco_friend_keepsake",
+            "n": 1
+          }
+        ]
+      },
+      "journal": "冬22日18:00—22:00入场，23:00结束；故事与匿名问候不要求昂贵礼品，活动向当次已认识的参与居民各增加5点关系，未认识或未参与者不计，缺席不扣友情。"
+    },
+    {
+      "id": "Q22",
+      "kind": "main",
+      "title": "风车转动",
+      "giver": "letter",
+      "phase": "G4",
+      "requires": [
+        "Q21"
+      ],
+      "intro": "风车的最后一道验收已经做好。请到风车工地预约下一个安全日的启动仪式，大家想和你一起听第一阵转动声。若与固定节庆相逢，就顺延到合适的日子；不用等某一场年节，也不用再交一遍建造材料。",
+      "objectives": [
+        {
+          "type": "event",
+          "id": "windmill_ceremony",
+          "text": "在风车工地预约下一个安全日，并参加风车启动仪式"
+        }
+      ],
+      "submit": "auto",
+      "complete": "风叶转起来了，磨坊里传来平稳的声音。那些一起备料的人各自挥挥手，又走回自己的日常；你也可以回田里看看今天的光。",
+      "rewards": {
+        "money": 0,
+        "unlock": [
+          "maxEnergy:20"
+        ],
+        "flags": [
+          "windmill_turning"
+        ]
+      },
+      "journal": "风车完工后，在工地预约安全日并参加启动仪式；遇固定节庆顺延，不重复收取工程材料，精力上限增加20。"
+    },
+    {
+      "id": "Q23",
+      "kind": "main",
+      "title": "谷地长桌宴",
+      "giver": "xiahe",
+      "phase": "G4",
+      "requires": [
+        "Q22"
+      ],
+      "intro": "风车转动了，咱们也找一天把长桌摆起来。请带三类自己做的料理各一份：汤可以是清汤或蘑菇汤，主食可以是面包或烤萝卜，鱼蛋奶类可以是煎蛋或乳酪拼盘；每类都能换成你手头合适的菜。先交给我暂存，三类齐了再预约下一个安全日的聚餐；临时取消时，暂存的料理原物退还，不再收第二遍。",
+      "objectives": [
+        {
+          "type": "deliver",
+          "tag": "soup",
+          "n": 1,
+          "text": "先向夏禾交付一份自产汤类料理，如清汤或蘑菇汤"
+        },
+        {
+          "type": "deliver",
+          "tag": "main",
+          "n": 1,
+          "text": "向夏禾交付一份自产主食类料理，如面包或烤萝卜"
+        },
+        {
+          "type": "deliver",
+          "tag": "protein",
+          "n": 1,
+          "text": "向夏禾交付一份自产鱼蛋奶类料理，如煎蛋或乳酪拼盘"
+        },
+        {
+          "type": "event",
+          "id": "long_table_feast",
+          "text": "三类料理交齐后预约安全日，参加谷地长桌宴"
+        }
+      ],
+      "submit": "xiahe",
+      "complete": "长桌上每道菜都有自己的来处，话也一直聊到收碗。丰收宴的做法留给你，往后不必等大事发生，寻常的一天也可以好好吃饭。",
+      "rewards": {
+        "money": 0,
+        "unlock": [
+          "recipe:feast_harvest"
+        ]
+      },
+      "journal": "先交汤、主食、鱼蛋奶三类自产料理各一份，再预约安全日聚餐；遇节庆顺延，取消退还暂存原物，宴后向夏禾确认并学习丰收宴。"
+    },
+    {
+      "id": "Q24",
+      "kind": "main",
+      "title": "自己的生活",
+      "giver": "letter",
+      "phase": "G4",
+      "requires": [
+        "Q23"
+      ],
+      "intro": "长桌收好了，家中书架旁的愿望簿上留着一页空白。写下一个想慢慢实现的愿望吧：花园农庄、乳品工坊、河流记录者、山林匠人、谷地朋友或全景收藏。先选哪一个都好，以后可以改选，也能并行照顾别的心愿；田、邻居和明天的安排都还在。",
+      "objectives": [
+        {
+          "type": "flag",
+          "id": "wish:garden|wish:dairy|wish:river|wish:craft|wish:friends|wish:collector",
+          "text": "在家中书架旁的愿望簿登记六种长期愿望中的任意一种"
+        }
+      ],
+      "submit": "auto",
+      "complete": "愿望写在纸上，不必今天就做完。窗外还有熟悉的路，明早醒来，你仍可以按照自己的心意安排这片农场。",
+      "rewards": {
+        "money": 0,
+        "flags": [
+          "epilogue"
+        ]
+      },
+      "journal": "在家中书架旁的愿望簿登记一个长期愿望，可改选、可并行；生活继续，当前存档、日期、物品与未完成的计划都保留。"
+    }
+  ]
+}

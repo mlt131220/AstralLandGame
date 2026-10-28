@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "units": "meter",
+  "up": "+Y",
+  "forward": "+Z",
+  "origin": "底面包围盒中心",
+  "shading": "flat",
+  "textures": false,
+  "vertexColors": false,
+  "models": [
+    {
+      "id": "grass_tuft_a",
+      "label": "疏展短草",
+      "height": 0.24,
+      "triangles": 216,
+      "materials": [
+        "grass"
+      ],
+      "dimensions": [
+        0.400768,
+        0.24,
+        0.371741
+      ],
+      "primitives": 1,
+      "bytes": 16864,
+      "features": {
+        "blades": 12
+      }
+    },
+    {
+      "id": "grass_tuft_b",
+      "label": "直立细草",
+      "height": 0.32,
+      "triangles": 288,
+      "materials": [
+        "grass"
+      ],
+      "dimensions": [
+        0.219659,
+        0.32,
+        0.235165
+      ],
+      "primitives": 1,
+      "bytes": 22144,
+      "features": {
+        "blades": 16
+      }
+    },
+    {
+      "id": "grass_tuft_c",
+      "label": "弯叶长草",
+      "height": 0.39,
+      "triangles": 360,
+      "materials": [
+        "grass"
+      ],
+      "dimensions": [
+        0.507538,
+        0.39,
+        0.462983
+      ],
+      "primitives": 1,
+      "bytes": 27380,
+      "features": {
+        "blades": 20
+      }
+    },
+    {
+      "id": "grass_tuft_d",
+      "label": "低矮密草",
+      "height": 0.25,
+      "triangles": 432,
+      "materials": [
+        "grass"
+      ],
+      "dimensions": [
+        0.486776,
+        0.25,
+        0.485086
+      ],
+      "primitives": 1,
+      "bytes": 32596,
+      "features": {
+        "blades": 24
+      }
+    },
+    {
+      "id": "grass_tuft_e",
+      "label": "高挑束草",
+      "height": 0.45,
+      "triangles": 252,
+      "materials": [
+        "grass"
+      ],
+      "dimensions": [
+        0.283989,
+        0.45,
+        0.224777
+      ],
+      "primitives": 1,
+      "bytes": 19624,
+      "features": {
+        "blades": 14
+      }
+    },
+    {
+      "id": "grass_tuft_f",
+      "label": "偏风草丛",
+      "height": 0.34,
+      "triangles": 324,
+      "materials": [
+        "grass"
+      ],
+      "dimensions": [
+        0.220036,
+        0.34,
+        0.203699
+      ],
+      "primitives": 1,
+      "bytes": 24764,
+      "features": {
+        "blades": 18
+      }
+    },
+    {
+      "id": "clover_patch",
+      "label": "三叶草",
+      "height": 0.09,
+      "triangles": 432,
+      "materials": [
+        "grass"
+      ],
+      "dimensions": [
+        0.309544,
+        0.09,
+        0.331679
+      ],
+      "primitives": 1,
+      "bytes": 33220,
+      "features": {
+        "compound_leaves": 12,
+        "leaflets_per_leaf": 3
+      }
+    },
+    {
+      "id": "flower_daisy",
+      "label": "白色雏菊",
+      "height": 0.32,
+      "triangles": 372,
+      "materials": [
+        "grass",
+        "petal_white",
+        "flower_center"
+      ],
+      "dimensions": [
+        0.239315,
+        0.32,
+        0.211058
+      ],
+      "primitives": 3,
+      "bytes": 31260,
+      "features": {
+        "flowers": 3,
+        "petals_per_flower": 10
+      }
+    },
+    {
+      "id": "flower_dandelion",
+      "label": "蒲公英",
+      "height": 0.33,
+      "triangles": 886,
+      "materials": [
+        "grass",
+        "petal_yellow",
+        "flower_center",
+        "petal_white"
+      ],
+      "dimensions": [
+        0.285145,
+        0.33,
+        0.292478
+      ],
+      "primitives": 4,
+      "bytes": 70492,
+      "features": {
+        "yellow_flowers": 2,
+        "petal_layers": 2,
+        "puffballs": 1,
+        "seed_parachutes": 28,
+        "serrated_leaves": 7
+      }
+    },
+    {
+      "id": "flower_poppy",
+      "label": "红色虞美人",
+      "height": 0.42,
+      "triangles": 248,
+      "materials": [
+        "grass",
+        "petal_red",
+        "flower_center"
+      ],
+      "dimensions": [
+        0.242535,
+        0.42,
+        0.182535
+      ],
+      "primitives": 3,
+      "bytes": 20316,
+      "features": {
+        "flowers": 2,
+        "petals_per_flower": 4,
+        "cup_shaped": true
+      }
+    },
+    {
+      "id": "flower_bluebell",
+      "label": "蓝铃花",
+      "height": 0.39,
+      "triangles": 430,
+      "materials": [
+        "grass",
+        "petal_blue"
+      ],
+      "dimensions": [
+        0.245871,
+        0.39,
+        0.178983
+      ],
+      "primitives": 2,
+      "bytes": 32768,
+      "features": {
+        "main_stems": 1,
+        "hanging_bells": 5,
+        "lobes_per_bell": 5
+      }
+    },
+    {
+      "id": "flower_violet",
+      "label": "紫罗兰（堇菜）",
+      "height": 0.2,
+      "triangles": 345,
+      "materials": [
+        "grass",
+        "petal_purple",
+        "flower_center"
+      ],
+      "dimensions": [
+        0.186563,
+        0.2,
+        0.186903
+      ],
+      "primitives": 3,
+      "bytes": 28412,
+      "features": {
+        "flowers": 3,
+        "petals_per_flower": 5,
+        "heart_leaves": 9
+      }
+    },
+    {
+      "id": "flower_lavender",
+      "label": "薰衣草",
+      "height": 0.43,
+      "triangles": 732,
+      "materials": [
+        "grass",
+        "petal_purple"
+      ],
+      "dimensions": [
+        0.178369,
+        0.43,
+        0.162479
+      ],
+      "primitives": 2,
+      "bytes": 58100,
+      "features": {
+        "stems": 6,
+        "flower_spikes": 6,
+        "whorls_per_spike": 3
+      }
+    },
+    {
+      "id": "flower_mixed",
+      "label": "混合小花丛",
+      "height": 0.28,
+      "triangles": 472,
+      "materials": [
+        "grass",
+        "petal_yellow",
+        "flower_center",
+        "petal_pink",
+        "petal_white"
+      ],
+      "dimensions": [
+        0.204839,
+        0.28,
+        0.233388
+      ],
+      "primitives": 5,
+      "bytes": 41200,
+      "features": {
+        "blades": 12,
+        "flowers": 4,
+        "petals_per_flower": 6
+      }
+    }
+  ]
+}

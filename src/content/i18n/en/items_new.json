@@ -1,0 +1,108 @@
+{
+ "items": {
+  "belt_toolbag": {
+   "name": "Tool Belt",
+   "desc": "Keeps your everyday tools close at hand. Expands the Hotbar to 10 slots."
+  },
+  "bag_canvas": {
+   "name": "Canvas Backpack",
+   "desc": "Expands the Backpack to at least 36 slots; never lowers your current capacity."
+  },
+  "fish_silverscale": {
+   "name": "Silverscale",
+   "desc": "A common little Riverside fish in spring. Bites all day."
+  },
+  "fish_grasscarp": {
+   "name": "Grass-Striped Carp",
+   "desc": "A Riverside fish in spring, on sunny or cloudy days from 06:00 to 18:00."
+  },
+  "fish_bluecarp": {
+   "name": "Bluebacked Carp",
+   "desc": "A Riverside fish in spring, active from 08:00 to 20:00."
+  },
+  "fish_spottrout": {
+   "name": "Spotted Trout",
+   "desc": "A Mountain Stream fish in spring, on sunny or cloudy days from 06:00 to 12:00."
+  },
+  "copper_ore": {
+   "name": "Copper Ore",
+   "desc": "Mined on the upper floors of the Mines. Smelt 5 with 1 Coal into a Copper Bar."
+  },
+  "coal": {
+   "name": "Coal",
+   "desc": "Fuel for the Furnace. The Blacksmith sells it too."
+  },
+  "copper_bar": {
+   "name": "Copper Bar",
+   "desc": "A basic material for tool upgrades and the Sluice Gate project."
+  },
+  "clay": {
+   "name": "Clay",
+   "desc": "Found along the Riverside, and dropped by Moss Blobs in the upper Mines."
+  },
+  "resin": {
+   "name": "Resin",
+   "desc": "A small by-product of trees in the Woods."
+  },
+  "bugmeat": {
+   "name": "Bug Meat",
+   "desc": "Dropped by Dirt Beetles in the upper Mines. Used to make Bait."
+  },
+  "herb": {
+   "name": "Herb",
+   "desc": "A medicinal forage. Can't be eaten as is."
+  },
+  "wild_greens": {
+   "name": "Wild Greens",
+   "desc": "A common find in the Woods. Two make a Clear Broth."
+  },
+  "wild_berry": {
+   "name": "Wild Berry",
+   "desc": "Found in the Woods. Dry two into one Dried Rations."
+  },
+  "mushroom": {
+   "name": "Mushroom",
+   "desc": "Found in the Woods. Dry it or cook with it."
+  },
+  "dried_food": {
+   "name": "Dried Rations",
+   "desc": "Light provisions dried from two wild berries or mushrooms."
+  },
+  "egg": {
+   "name": "Egg",
+   "desc": "A grown, well-fed chicken lays one every day."
+  },
+  "hay": {
+   "name": "Hay",
+   "desc": "One a day for each animal; grazing outside counts too."
+  },
+  "sword_old": {
+   "name": "Old Sword",
+   "desc": "Handed out at the Mine Entrance safety lesson. Attack 8."
+  },
+  "rod_basic": {
+   "name": "Fishing Rod",
+   "desc": "A basic rod lent by Shen Zhou. Fishes fine without bait."
+  },
+  "bait": {
+   "name": "Bait",
+   "desc": "Only used up when a fish bites. Shortens the wait."
+  },
+  "furnace": {
+   "name": "Furnace",
+   "desc": "A basic smelter made from 30 Stone and 10 Copper Ore."
+  },
+  "drying_rack": {
+   "name": "Drying Rack",
+   "desc": "An airy food rack made from 30 Wood and 15 Fiber."
+  },
+  "soup_clear": {
+   "name": "Clear Broth",
+   "desc": "Simmered from two Wild Greens. Can be sold or handed in for orders."
+  },
+  "roast_radish": {
+   "name": "Roasted Radish",
+   "desc": "One Radish or Snow Radish roasted with one Wood."
+  }
+ }
+}

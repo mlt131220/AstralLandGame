@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Privacy and local data in Astral Land: no account needed, and no personal information, saves or play records are collected or uploaded." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<title>Privacy &amp; Local Data · Astral Land</title>
+<style>
+  @font-face { font-family: 'WenKai'; src: url('/assets/fonts/wenkai.woff2') format('woff2'); font-display: swap; }
+  :root { color-scheme: light; }
+  body { margin: 0; background: #1f3a2c; color: #3a2a10; font: 16px/1.75 'WenKai', system-ui, sans-serif; }
+  main { max-width: 760px; margin: 24px auto; padding: 24px 28px; background: #fbf3df; border-radius: 14px; box-shadow: 0 6px 0 rgba(60, 35, 10, 0.4); }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; color: #6b4524; }
+  h2 { font-size: 1.15rem; margin: 1.6em 0 0.4em; color: #6b4524; }
+  .date { color: #8a7350; margin: 0 0 1em; }
+  .lead { background: #f3e2b8; padding: 10px 14px; border-radius: 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #e3cfa0; vertical-align: top; }
+  th { color: #6b4524; }
+  a { color: #2f6b3a; }
+  @media (max-width: 560px) { main { margin: 0; border-radius: 0; padding: 18px 16px; } table { font-size: 0.88rem; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy &amp; Local Data</h1>
+  <p class="date">Astral Land · Updated 2026-10-16 · <a href="/privacy.html" lang="zh-CN">中文</a></p>
+  <p class="lead">The game runs in your browser and needs no account. We do not collect or upload any of your personal information, saves or play records.</p>
+
+  <h2>What we don't collect</h2>
+  <ul>
+    <li>No accounts or sign-in, no ads, no analytics, no crash reporting, and no third-party tracking of any kind.</li>
+    <li>The names you choose, your farm name, your saves and what you do in the game stay in your own browser and are never sent to any server.</li>
+    <li>The game only downloads its own files (code, models, textures, sounds, fonts) from the site that publishes it, and makes no requests to other sites.</li>
+  </ul>
+
+  <h2>Data kept in your browser</h2>
+  <table>
+    <tr><th>Data</th><th>Where</th><th>Why</th></tr>
+    <tr><td>Saves: 3 slots, each with your current progress and a backup from the previous day</td><td>localStorage</td><td>Continue playing; fall back to the backup if the current save is damaged</td></tr>
+    <tr><td>Graphics, sound, language and accessibility settings</td><td>localStorage</td><td>Remember your preferences</td></tr>
+    <tr><td>Full offline package (about 117 MB of game files)</td><td>Cache Storage (used by the Service Worker)</td><td>Play offline and start faster</td></tr>
+    <tr><td>Title screen snapshot (one image)</td><td>Cache Storage</td><td>Show the last scene right away when the game opens</td></tr>
+    <tr><td>Save write lock</td><td>The browser's Web Locks (only while the page is open)</td><td>Stop two tabs from writing the same save at once</td></tr>
+  </table>
+
+  <h2>Exporting and deleting</h2>
+  <ul>
+    <li><b>Export</b>: use “Export” next to a save under “Play” on the title screen, or “Export Save File” in the in-game pause menu. It downloads a JSON file; use “Import Save File” on any computer to carry on.</li>
+    <li><b>Delete one save</b>: “Delete” next to the save (its backup is deleted too).</li>
+    <li><b>Delete everything</b>: clear this site's data in your browser settings (“Cookies and site data”). This removes all saves, settings and the offline package, so export any saves you want to keep first.</li>
+    <li>When you play in a private/incognito window, the browser deletes this data when the window is closed.</li>
+  </ul>
+
+  <h2>The web server</h2>
+  <p>When you open the game, your browser downloads the game files from the publishing site. As with any website, the hosting server may keep routine access logs (for example IP address, time of access and which files were requested); these logs contain none of your saves or gameplay. The publishing site's own notice applies.</p>
+
+  <h2>Future changes</h2>
+  <p>If features that need the internet are ever added (such as cloud saves or optional error reports), they will be off by default, will explain beforehand what is collected, why and for how long, and can be turned off at any time. This notice will be updated at the same time.</p>
+
+  <p><a href="/">Back to the game</a></p>
+</main>
+</body>
+</html>

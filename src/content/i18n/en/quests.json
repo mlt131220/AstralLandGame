@@ -1,0 +1,971 @@
+{
+ "quests": {
+  "Q01": {
+   "title": "Arriving in Astral Land",
+   "intro": "Welcome to Astral Land. The farm is officially yours to run, and your first letter from the neighbours is waiting in the Mailbox by your door. First, get to know the way home.",
+   "objectives": [
+    {
+     "text": "Walk to the Farm"
+    },
+    {
+     "text": "Read the welcome letter"
+    }
+   ],
+   "complete": "You can work this land at your own pace. Your tools and 12 packs of seeds are ready, and there's no need to finish everything today.",
+   "journal": "Read the letter, settled in, and checked your tools and seeds."
+  },
+  "Q02": {
+   "title": "The First Plot",
+   "intro": "Start with 6 tiles. Till, plant and water them, and save some energy to go meet the neighbours.",
+   "objectives": [
+    {
+     "text": "Till 6 tiles"
+    },
+    {
+     "text": "Plant 6 crops"
+    },
+    {
+     "text": "Water 6 tiles"
+    }
+   ],
+   "complete": "Six tiles is enough to watch things change. The rest of your seeds and time are yours to plan.",
+   "journal": "Set up a small field. No need to clear the whole Farm."
+  },
+  "Q03a": {
+   "title": "A Find at the Woods' Edge",
+   "intro": "There's always something to forage in the Woods. Bring one thing back and learn a way to stock up that costs nothing.",
+   "objectives": [
+    {
+     "text": "Forage 1 wild item"
+    }
+   ],
+   "complete": "Remember this path, and tomorrow you won't have to search from scratch.",
+   "journal": "Your own plan, optional route: foraging."
+  },
+  "Q03b": {
+   "title": "A Cast by the River",
+   "intro": "Shen Zhou has a Fishing Rod ready for you. Pick a safe fishing spot; whatever you catch counts as today's little haul.",
+   "objectives": [
+    {
+     "text": "Catch 1 fish"
+    }
+   ],
+   "complete": "That cast was your call. Keep the catch or sell it, whichever you like.",
+   "journal": "Your own plan, optional route: fishing."
+  },
+  "Q03c": {
+   "title": "Meet a Neighbour",
+   "intro": "The Seed Shop is in Town. Drop by during opening hours to say hello to Lin Tang and hear her planting tips.",
+   "objectives": [
+    {
+     "text": "Have a chat with Lin Tang"
+    }
+   ],
+   "complete": "Now you know her name, so next time you're in Town it won't just be about the price tags.",
+   "journal": "Your own plan, optional route: meeting people."
+  },
+  "Q03": {
+   "title": "A Plan of Your Own",
+   "intro": "You've tried foraging, fishing or meeting someone. Head back to the Farm and spend the rest of the day however you like.",
+   "objectives": [
+    {
+     "text": "Return to the Farm"
+    }
+   ],
+   "complete": "How you spend today is up to you. If you need help, just open your Journal.",
+   "journal": "Finish any one plan route, then return to the Farm."
+  },
+  "Q04": {
+   "title": "Meet the Seed Shop",
+   "intro": "I'm Lin Tang. The shop opens at 08:00 and is closed on Wednesdays. I've put the shop's location and prices in this letter, so even if you miss opening hours, you'll still know the way.",
+   "objectives": [
+    {
+     "text": "Read Lin Tang's shop letter"
+    }
+   ],
+   "complete": "The shop is marked on your map now. Before you buy seeds, remember to count the energy watering will take.",
+   "journal": "Learned about the Seed Shop from the letter; shop during opening hours."
+  },
+  "Q05": {
+   "title": "A Hot Meal",
+   "intro": "A message from Xia He: busy or not, you need to eat. The Public Kitchen hands out a free relief broth every day. Warm up first, then learn to cook for yourself.",
+   "objectives": [
+    {
+     "text": "Get relief broth at the Public Kitchen"
+    },
+    {
+     "text": "Drink the relief broth"
+    }
+   ],
+   "complete": "You need a full stomach to make plans. The kitchen has saved a stove for you, too.",
+   "journal": "Got and drank the relief broth; found the Public Stove."
+  },
+  "Q06": {
+   "title": "Harvest and Seed Saving",
+   "intro": "Once your first crops are ready, harvest 6 yourself, then put 2 vegetables in the Teaching Box. The box keeps planting records; it won't conjure seeds out of thin air.",
+   "objectives": [
+    {
+     "text": "Harvest 6 crops by hand"
+    },
+    {
+     "text": "Put 2 veggies in the Teaching Box"
+    }
+   ],
+   "complete": "Setting two aside won't hold you back. Take this Tool Belt; it holds two more everyday tools.",
+   "journal": "After harvesting, pick any 2 vegetables to hand in; the rest of the harvest is yours."
+  },
+  "Q07": {
+   "title": "The Valley's Waterways",
+   "intro": "The Sluice Gate's old waterline is still there. Take a look at Riverside first, then read the project notice on the Town Notice Board and decide when to pitch in.",
+   "objectives": [
+    {
+     "text": "Check the old waterway at Riverside"
+    },
+    {
+     "text": "Read the Sluice Gate notice"
+    }
+   ],
+   "complete": "Lay the budget out first, and a promise carries weight. You can now supply the Sluice Gate project in batches.",
+   "journal": "Checked the waterway and project budget; Sluice Gate fundraising is open."
+  },
+  "Q08a": {
+   "title": "Pick Up Your Sword",
+   "intro": "The Mines aren't like the fields. Come get an old sword first. We'll practise in the safe yard outside my shop. Don't rush into the caves.",
+   "objectives": [
+    {
+     "text": "Hear Old Tao out on mine gear"
+    }
+   ],
+   "complete": "It's not much to look at, but it'll get you started. Next: watch for the warning, then step out of the marked spot.",
+   "journal": "Got the Old Sword; ready for the safety lesson."
+  },
+  "Q08": {
+   "title": "Mine Safety Lesson",
+   "intro": "When the ground lights up, step out of the marking. If you need assist, you can slow the practice down. Practice does no damage, and you don't have to defeat any enemies.",
+   "objectives": [
+    {
+     "text": "Finish Old Tao's dodge drill"
+    }
+   ],
+   "complete": "Save energy for the trip back. Here's the Furnace blueprint too. Bring back Copper Ore and try lighting it.",
+   "journal": "Finished the safety drill; unlocked Mines Floors 1–5 and the Furnace blueprint."
+  },
+  "Q09": {
+   "title": "Copper and Fire",
+   "intro": "The blueprint is on your recipe page. Build your own Furnace or use the teaching furnace at my shop. 5 Copper Ore and 1 Coal, then wait for a Copper Bar.",
+   "objectives": [
+    {
+     "text": "Collect a Copper Bar from a Furnace"
+    }
+   ],
+   "complete": "You've seen the fire and done the sums. A tool upgrade takes 5 Copper Bars and 1,500g.",
+   "journal": "Build a Furnace or use the Blacksmith's teaching furnace for your first smelt."
+  },
+  "Q10": {
+   "title": "Your First Upgrade",
+   "intro": "Got your copper tool back? Come tell me what you plan to do with it. Any effort it saves you can go toward resting.",
+   "objectives": [
+    {
+     "text": "Go over copper tools with Old Tao"
+    }
+   ],
+   "complete": "Knowing how to pace yourself beats straining all the time. Your base max Energy goes up by 20.",
+   "journal": "After any copper tool route, claim a one-time growth reward."
+  },
+  "Q11": {
+   "title": "Water Flows Again",
+   "intro": "The budget is public now. Hand the money, Stone and Copper Bars to the Project Box, wait one night, then come listen to the water.",
+   "objectives": [
+    {
+     "text": "Finish the Sluice Gate project"
+    }
+   ],
+   "complete": "Water is back in the channels. Make a note that the irrigation network is open to you; the sprinkler recipe will have to wait for your Farming level to catch up.",
+   "journal": "The Project Box takes the materials; this quest only checks the Sluice Gate is done."
+  },
+  "Q13": {
+   "title": "Your First Animal Friend",
+   "intro": "You can run your own Coop, or start by looking after the chicken in the teaching pen. Feed it once a day, give it a pat, and once it's grown, collect its first egg.",
+   "objectives": [
+    {
+     "text": "Feed animals on 5 days"
+    },
+    {
+     "text": "Gently pet a chicken"
+    },
+    {
+     "text": "Collect the first Egg"
+    }
+   ],
+   "complete": "Behind this one egg are days of care on schedule. The teaching-pen chicken still belongs to the care station; it doesn't become a free animal for you.",
+   "journal": "Raise your own or foster one; fostering doesn't give you a permanent animal."
+  },
+  "Q14": {
+   "title": "A New Way to Process",
+   "intro": "With the Sluice Gate fixed, your harvest can go somewhere new. Set up a Drying Rack and dry 2 wild fruits or mushrooms into portable Dried Rations.",
+   "objectives": [
+    {
+     "text": "Collect Dried Rations from a rack"
+    }
+   ],
+   "complete": "Processing doesn't always sell for more, but it can make packing for trips easier.",
+   "journal": "Try the Drying Rack after the Sluice Gate is done and learn the trade-offs of processing."
+  },
+  "G01": {
+   "title": "Your First Shipment",
+   "intro": "You can take items back out of the bin before bed; payment arrives overnight. Try one item, then use the money to buy some seeds.",
+   "objectives": [
+    {
+     "text": "Check the Shipping Bin"
+    },
+    {
+     "text": "Sell 1+ item overnight"
+    },
+    {
+     "text": "Earn 20g from shipping"
+    },
+    {
+     "text": "Buy 1 pack of Radish Seeds"
+    }
+   ],
+   "complete": "Shipping, getting paid and buying are three separate entries. You can check tonight's income and spending line by line.",
+   "journal": "Try shipping, getting paid and shopping."
+  },
+  "G02": {
+   "title": "Backup Food from the Woods",
+   "intro": "Once you're a better forager, you'll tell which wild fruits and mushrooms are good for drying. Reach Foraging level 2, then come get the drying rack blueprint.",
+   "objectives": [
+    {
+     "text": "Reach Foraging Lv 2"
+    },
+    {
+     "text": "Hear Shen Zhou on dried supplies"
+    }
+   ],
+   "complete": "30 Wood and 15 Fiber is all it takes to build the rack. Don't put Herbs in thinking they're greens.",
+   "journal": "Foraging Lv 2 unlocks the Drying Rack; keep edible forage for supplies."
+  },
+  "G03": {
+   "title": "A Rod on Loan",
+   "intro": "The fishing spots by the river are safe to stand on. I've got a basic rod ready for you. Come hear the fish report first; you can fish even without bait.",
+   "objectives": [
+    {
+     "text": "Get a rod and tips from Shen Zhou"
+    }
+   ],
+   "complete": "Losing a fish is fine, and assist controls can be turned on any time. For your first cast, just pick a spot on the river where Silverscale like to swim.",
+   "journal": "Get the rod first, then decide whether fishing is your own plan."
+  },
+  "G04": {
+   "title": "A Fire of Your Own",
+   "intro": "You can practise with my shop's furnace, but having your own is handier. Follow the blueprint: 30 Stone and 10 Copper Ore make one. Then find an open spot to set it down.",
+   "objectives": [
+    {
+     "text": "Craft a Furnace"
+    },
+    {
+     "text": "Place it on open ground"
+    }
+   ],
+   "complete": "Check your Backpack before collecting. If there's no room, it stays in the Furnace. It won't vanish.",
+   "journal": "Learn to craft and place machines; the smelting service is still available."
+  },
+  "G05": {
+   "title": "See the Coop Before Chickens",
+   "intro": "Zhou Qin asked me to keep an eye on the teaching pen. Come see how much room a Coop takes, the empty stalls and the feeding spot, then decide whether to build your own or foster for 5 days first.",
+   "objectives": [
+    {
+     "text": "Learn coop building and fostering"
+    }
+   ],
+   "complete": "Buildings get previewed first, and you only pay once you confirm the order. The teaching pen stays, so come by whenever you want to try caring for animals.",
+   "journal": "Learned about building, empty stalls and feed; paid raising or free fostering is now open."
+  },
+  "G06": {
+   "title": "Cook a Bowl Yourself",
+   "intro": "The relief broth is a safety net, but cooking for yourself isn't hard either. Gather 2 Wild Greens in the Woods, then cook a Clear Broth at the Public Stove.",
+   "objectives": [
+    {
+     "text": "Gather 2 Wild Greens"
+    },
+    {
+     "text": "Cook Clear Broth at the Public Kitchen"
+    },
+    {
+     "text": "Drink your homemade broth"
+    }
+   ],
+   "complete": "That bowl goes in your cooking record. Homemade broth can be sold; relief broth is still only for filling up.",
+   "journal": "Gather, cook and eat using the Public Kitchen."
+  },
+  "G07": {
+   "title": "Trying the Copper Hoe",
+   "intro": "Any tool upgrade moves the main story forward. Hold to charge and preview a row of 3 tiles; you can cancel before letting go.",
+   "objectives": [
+    {
+     "text": "Get a Copper Hoe or better"
+    }
+   ],
+   "complete": "This upgrade route is logged. Go talk it over with Old Tao to claim your one-time main-story reward.",
+   "journal": "One optional upgrade route; no need to upgrade all five tools."
+  },
+  "G08": {
+   "title": "Trying the Copper Watering Can",
+   "intro": "Any tool upgrade moves the main story forward. Water is only used on dry tiles that need it. Check the 3-tile row preview first.",
+   "objectives": [
+    {
+     "text": "Get a Copper Watering Can or better"
+    }
+   ],
+   "complete": "This upgrade route is logged. Go talk it over with Old Tao to claim your one-time main-story reward.",
+   "journal": "One optional upgrade route; no need to upgrade all five tools."
+  },
+  "G09": {
+   "title": "Trying the Copper Axe",
+   "intro": "Any tool upgrade moves the main story forward. You can clear regular Stumps now. Check the hit and energy hints first.",
+   "objectives": [
+    {
+     "text": "Get a Copper Axe or better"
+    }
+   ],
+   "complete": "This upgrade route is logged. Go talk it over with Old Tao to claim your one-time main-story reward.",
+   "journal": "One optional upgrade route; no need to upgrade all five tools."
+  },
+  "G10": {
+   "title": "Trying the Copper Pickaxe",
+   "intro": "Any tool upgrade moves the main story forward. Mining copper takes fewer swings. Don't waste effort on rocks your tier can't break.",
+   "objectives": [
+    {
+     "text": "Get a Copper Pickaxe or better"
+    }
+   ],
+   "complete": "This upgrade route is logged. Go talk it over with Old Tao to claim your one-time main-story reward.",
+   "journal": "One optional upgrade route; no need to upgrade all five tools."
+  },
+  "G11": {
+   "title": "Trying the Copper Scythe",
+   "intro": "Any tool upgrade moves the main story forward. The upgrade still cuts grass; its range depends only on the tool's own stats.",
+   "objectives": [
+    {
+     "text": "Get a Copper Scythe or better"
+    }
+   ],
+   "complete": "This upgrade route is logged. Go talk it over with Old Tao to claim your one-time main-story reward.",
+   "journal": "One optional upgrade route; no need to upgrade all five tools."
+  },
+  "N_lintang_01": {
+   "title": "Two Samples for the Cabinet",
+   "intro": "The old cabinet's records are missing this season's samples. Bring me 2 vegetables you grew yourself. Regular quality is fine; just note where you planted them.",
+   "objectives": [
+    {
+     "text": "Give Lin Tang 2 homegrown veggies"
+    }
+   ],
+   "complete": "With the plot and date noted, even regular samples tell you a lot. Thanks for not just picking the prettiest ones.",
+   "journal": "Helped Lin Tang fill in this season's seed cabinet records."
+  },
+  "N_lintang_02": {
+   "title": "Bringing Records Back to the Field",
+   "intro": "Once we know each other better, let's sort out the old seed cabinet together. Your experience deserves a place in how we keep the records, too.",
+   "objectives": [
+    {
+     "text": "Reach 200 friendship with Lin Tang"
+    },
+    {
+     "text": "Watch the seed cabinet event"
+    }
+   ],
+   "complete": "Here's a Canvas Backpack for your samples. If you've already bought an upgrade, no need to return it; it won't take away any of your existing slots.",
+   "journal": "Helped sort the seed cabinet and got the Canvas Backpack."
+  },
+  "N_laotao_01": {
+   "title": "Reading the Copper",
+   "intro": "Bring 3 Copper Ore. We look at the break first, then talk smithing. Know where your material comes from and your hands will be surer.",
+   "objectives": [
+    {
+     "text": "Give Old Tao 3 Copper Ore"
+    }
+   ],
+   "complete": "Real ore, and you explained it straight. Take these 2 Coal to practise with. Don't burn them for nothing.",
+   "journal": "Learned to read ore from Old Tao."
+  },
+  "N_laotao_02": {
+   "title": "Listening to the Hammer",
+   "intro": "Once we know each other better, I'll show you basic smithing. You pick: watch the fire colour first, or the hammer marks.",
+   "objectives": [
+    {
+     "text": "Reach 200 friendship with Old Tao"
+    },
+    {
+     "text": "Watch the smithing demo event"
+    }
+   ],
+   "complete": "Understanding one strike beats ten wild ones. Take this Copper Bar. Save it for the right job.",
+   "journal": "Got to know Old Tao's way of teaching through a smithing demo."
+  },
+  "N_xiahe_01": {
+   "title": "Where the Menu Comes From",
+   "intro": "A menu can't just list dish names. Bring me 2 vegetables you grew, and I'll write down where they came from along with this season's flavours.",
+   "objectives": [
+    {
+     "text": "Give Xia He 2 homegrown veggies"
+    }
+   ],
+   "complete": "Now the menu can name your farm. The soup is my thanks, and feel free to ask me how to make it.",
+   "journal": "Supplied seasonal ingredients to the Diner and started swapping menu ideas."
+  },
+  "N_xiahe_02": {
+   "title": "Two Home-Style Flavours",
+   "intro": "Once we know each other better, come taste two home-style dishes. The tasting won't use your ingredients. Afterwards, go home and roast a radish the way you learned.",
+   "objectives": [
+    {
+     "text": "Reach 200 friendship with Xia He"
+    },
+    {
+     "text": "Watch the home cooking event"
+    },
+    {
+     "text": "Make a Roasted Radish"
+    }
+   ],
+   "complete": "It's the one you make yourself that you'll remember. You can add to your menu bit by bit; no need to learn it all at once.",
+   "journal": "After the tasting, learned Roasted Radish and made one yourself."
+  },
+  "N_shenzhou_01": {
+   "title": "Logging the Common Fish",
+   "intro": "Records aren't just for rare fish. Catch 2, then give me a Silverscale so I can check its markings. To be clear, I'll be keeping the sample.",
+   "objectives": [
+    {
+     "text": "Catch 2 new spring fish"
+    },
+    {
+     "text": "Hand in 1 Silverscale"
+    }
+   ],
+   "complete": "Common doesn't mean unimportant. It's these little fish that tell the story of this place, day by day.",
+   "journal": "Joined the river survey with common fish samples."
+  },
+  "N_shenzhou_02": {
+   "title": "Noting the Water Side by Side",
+   "intro": "Once we know each other better, let's sit by the river and log the schools of fish and the colour of the water together. You don't need to prove you catch more than anyone.",
+   "objectives": [
+    {
+     "text": "Reach 200 friendship with Shen Zhou"
+    },
+    {
+     "text": "Watch the river survey event"
+    }
+   ],
+   "complete": "Today the river got another pair of eyes. Take these Wild Berries; it's a long walk back.",
+   "journal": "Joined the Riverside survey and learned what changes Shen Zhou cares about."
+  },
+  "B01": {
+   "title": "Diner Radish Order",
+   "intro": "Xia He needs 2 regular Radishes for lunch. Homegrown, regular quality only; the count is checked before you hand them in.",
+   "objectives": [
+    {
+     "text": "Hand in 2 regular homegrown Radishes"
+    }
+   ],
+   "complete": "Both are here, and lunch is paid up.",
+   "journal": "One-time Notice Board sample: 2 regular Radishes, pays 100g."
+  },
+  "B02": {
+   "title": "A Bag of Wild Berries",
+   "intro": "Shen Zhou needs 2 regular Wild Berries as supplies for a trip. You can find them in the Woods; no rare fruit needed.",
+   "objectives": [
+    {
+     "text": "Hand in 2 regular foraged Wild Berries"
+    }
+   ],
+   "complete": "They fit the bag just right. Next time, look after your own supplies first, too.",
+   "journal": "One-time Notice Board sample: 2 foraged Wild Berries, pays 50g."
+  },
+  "B03": {
+   "title": "Copper Check Order",
+   "intro": "Old Tao needs 5 regular Copper Ore to check the material. Only ore you mined yourself; ore bought from the shop can't be passed along for this order.",
+   "objectives": [
+    {
+     "text": "Hand in 5 regular mined Copper Ore"
+    }
+   ],
+   "complete": "Right amount, right source. This is the payment, not extra money on top of selling the ore.",
+   "journal": "One-time Notice Board sample: 5 mined Copper Ore, pays 50g."
+  },
+  "F01": {
+   "title": "First Stop: the Flower Fair",
+   "intro": "On Spring 8, from 10:00 to 16:00, the Flower Fair is on in the Town Square. Come learn the flowers and browse the swap stalls. You're welcome even if you haven't grown any flowers.",
+   "objectives": [
+    {
+     "text": "Attend the Flower Fair"
+    }
+   ],
+   "complete": "You've seen the flowers and learned the neighbours' names. Take 2 packs of Lettuce Seeds home to try in your field.",
+   "journal": "Attend the Flower Fair on Spring 8; if you miss it, you can go next year."
+  },
+  "Q12": {
+   "title": "The Other Side of the River",
+   "intro": "The water's flowing, so next we connect the road. First check the project sign at the Riverside bridge site. The carpentry crew builds to the published materials and schedule. The bridge just needs to be walkable first; we can work out the patterns later.",
+   "objectives": [
+    {
+     "text": "Check the sign at the bridge site"
+    },
+    {
+     "text": "Finish the Woods Bridge project"
+    }
+   ],
+   "complete": "The two banks are joined, and the Deep Woods and Wetland have a safe way in. Old Tao can also order Iron Bars for everyone now, so there's a source for the Waystation repair materials.",
+   "journal": "Visit the bridge site and wait for the Woods Bridge to finish; materials and money are only taken by the Project Box."
+  },
+  "Q15": {
+   "title": "The Old Post Road",
+   "intro": "A letter from Ah Man: People are coming and going across the bridge again, and I'd like the Waystation to be able to handle their letters and goods once more. Please read the notice at the Waystation counter first. Old Tao can order the Iron Bars we're missing. Once you have everything, hand it to the Project Box.",
+   "objectives": [
+    {
+     "text": "Read the repair notice at the counter"
+    },
+    {
+     "text": "Finish the Waystation project"
+    }
+   ],
+   "complete": "The Waystation is open again. Ah Man can keep the schedules running, and Duan Xing has set out a list of wares. Crystal orders and core trading now have open, public rules.",
+   "journal": "Read Ah Man's letter, check the counter and finish the Waystation project; the Project Box takes all money and materials."
+  },
+  "Q16": {
+   "title": "Everyone's Valley",
+   "intro": "The Contribution Board wants to record more than wood, stone and money. Take your time getting to know your neighbours, listen to the stories they're willing to share, and you'll find out how you can help here.",
+   "objectives": [
+    {
+     "text": "Reach 200 friendship with 4 villagers"
+    },
+    {
+     "text": "See 2 different friendship events"
+    }
+   ],
+   "complete": "The board now holds four familiar names, and the stories you've heard. It turns out living alongside each other can start with hearing someone out.",
+   "journal": "Reach 200 friendship with 4 villagers and see 2 different friendship events; past progress counts, and no romance is needed."
+  },
+  "Q17": {
+   "title": "Ready for Every Season",
+   "intro": "A letter from Xia He: When you head out, don't just think about what you'll bring back. Have one of these ready: a Winter Coat, Creamy Pumpkin Soup or Trail Rations, plus 2 exploration dishes. This is only a supply check; nothing gets taken.",
+   "objectives": [
+    {
+     "text": "Carry a Winter Coat, Creamy Pumpkin Soup or Trail Rations"
+    },
+    {
+     "text": "Carry 2 exploration dishes (not taken)"
+    }
+   ],
+   "complete": "Warmth and supplies are all noted, so heading out should feel a little steadier. Xia He tucked the Creamy Pumpkin Soup recipe in with the letter, so you can make it yourself once you have the ingredients.",
+   "journal": "Carry any one source of warmth plus 2 exploration dishes; it only checks what you have, and you keep everything."
+  },
+  "Q18": {
+   "title": "The Greenhouse Plan",
+   "intro": "The Waystation can bring in repair materials now. I'd like to clear out that old greenhouse in the ruins on your Farm, together with everyone. Let's understand the budget first and start once everything's ready. No need to push yourself to beat the season.",
+   "objectives": [
+    {
+     "text": "Finish the Greenhouse restoration"
+    }
+   ],
+   "complete": "The Greenhouse is lit up, and you can try growing in any season. The roof keeps the weather out, but you'll still need to remember to water.",
+   "journal": "Complete the Greenhouse public restoration on the Farm; the Project Box takes the materials, and this quest only checks it's done."
+  },
+  "Q19a": {
+   "title": "Clues from the Deep: Mines",
+   "intro": "Records on the old parts point deep into the Mines. If you'd like to explore, pack supplies and push on to Floor 20. Floors you've already reached count, so no need to redo them. You can also take Duan Xing's trade route instead.",
+   "objectives": [
+    {
+     "text": "Reach Mines Floor 20"
+    }
+   ],
+   "complete": "Your Floor 20 record has been added to the notes, so Old Tao can follow this lead and keep checking the old parts.",
+   "journal": "Optional explore route: reach Floor 20 of the Mines for a clue; you don't also need the trade route."
+  },
+  "Q19b": {
+   "title": "Clues from the Deep: Trade",
+   "intro": "You can check the old parts without going deep. Give me 10 Copper Bars you smelted yourself, and I'll send them for testing per the order and bring back the inspection record. Shop-bought bars don't count for this delivery, and it won't write you a mining trip either.",
+   "objectives": [
+    {
+     "text": "Give Duan Xing 10 smelted Copper Bars (not bought)"
+    }
+   ],
+   "complete": "All 10 Copper Bars are counted, and the inspection record is in your hands. This clue came from a supply deal, and the books say so plainly.",
+   "journal": "Optional trade route: deliver 10 self-made Copper Bars to Duan Xing at once for a clue; it doesn't add to your mine progress."
+  },
+  "Q19": {
+   "title": "Clues from the Deep",
+   "intro": "A letter from Old Tao: The old windmill plans are missing the notes on one part. Bring back a record from Floor 20, or trade Duan Xing your own Copper Bars for an inspection record. One clue we can verify is enough.",
+   "objectives": [
+    {
+     "text": "Get the mine clue or the trade clue"
+    }
+   ],
+   "complete": "The records match, so work on the windmill plans can go on. The alloy smelting method is written out too; get your Iron Bars and Crystal Ore through their own channels.",
+   "journal": "Pick either the explore or the trade clue; the alloy recipe and growth reward are claimed only once."
+  },
+  "Q20": {
+   "title": "Power from the Wind",
+   "intro": "The Greenhouse and the plans are ready, but the Windmill still needs a core. One from the deep Mines or one gotten by trade will both work. For now we only check that you have it; you'll hand it in properly at the Windmill's Project Box.",
+   "objectives": [
+    {
+     "text": "Carry a Windmill Core or Substitute Core (not taken)"
+    }
+   ],
+   "complete": "The core is ready and its source is on record. Keep it for now, and hand it to the Project Box when everyone pools materials.",
+   "journal": "Get a core by exploring or trading; this only checks you have it and uses no project materials."
+  },
+  "Q21": {
+   "title": "Pooling Materials",
+   "intro": "The neighbours' ideas and the Windmill materials have all come together. Check the public budget at the Windmill Construction Site. The Project Box collects all supplies and money. Once you confirm, wait three nights, then come inspect it.",
+   "objectives": [
+    {
+     "text": "Check the sign at the Windmill site"
+    },
+    {
+     "text": "Finish the Windmill project"
+    }
+   ],
+   "complete": "Three nights of building are done, and the Windmill is complete. Every bit of material can be traced to where it went, so this group effort goes on the Contribution Board.",
+   "journal": "Check the budget at the site and finish the Windmill; this quest only inspects, and won't take the core, materials or money again."
+  },
+  "N_heyan_01": {
+   "title": "Measuring the Bridge Timber",
+   "intro": "We need to pin down the sizes at both ends of the old bridge first. Check the survey notes on the project sign at the bridge site, then bring 10 Wood you gathered yourself, and we'll match the numbers on paper to the timber.",
+   "objectives": [
+    {
+     "text": "Check the survey notes at the bridge"
+    },
+    {
+     "text": "Give He Yan 10 self-gathered Wood"
+    }
+   ],
+   "complete": "Sizes and timber are both counted, so the next step has firm numbers. Keep these 2 Wood Path pieces as samples of how they're laid.",
+   "journal": "Check the bridge site and hand in 10 self-gathered Wood; measure the path properly before talking old woodwork."
+  },
+  "N_heyan_02": {
+   "title": "Keeping an Old Pattern",
+   "intro": "Now that we've talked through the new and old bridge plans, I'd like to use the old-pattern idea on a bench. Once we know each other better, bring 20 Wood you gathered yourself. We can take our time on the pattern, but the load-bearing parts follow the measurements.",
+   "objectives": [
+    {
+     "text": "Reach 400 friendship with He Yan"
+    },
+    {
+     "text": "See He Yan's bridge plans event"
+    },
+    {
+     "text": "Give He Yan 20 self-gathered Wood"
+    }
+   ],
+   "complete": "This batch is logged under the bench. The old pattern stays, with room left for new craft too. We'll trace it together when we build the bench.",
+   "journal": "After the first request, 400 friendship and the bridge plans event, hand in 20 Wood for the shared bench."
+  },
+  "N_zhouqin_01": {
+   "title": "Troughs and Latches",
+   "intro": "First check whether your own Coop is built, then look after the feed trough and the shed door together. Bring 5 Hay you cut yourself. Keep the bought hay for daily feeding; this time I want to see your own hay-making.",
+   "objectives": [
+    {
+     "text": "Own a finished Coop"
+    },
+    {
+     "text": "Read the trough and door notes at the Ranch"
+    },
+    {
+     "text": "Give Zhou Qin 5 homemade Hay (not bought)"
+    }
+   ],
+   "complete": "Hay and care notes both check out. Take these 3 Hay home as a spare. From now on, keep enough for each day's feed before adding animals.",
+   "journal": "Once your Coop is built, read the Ranch notes and hand in 5 homemade Hay; if you've only fostered so far, come back later."
+  },
+  "N_zhouqin_02": {
+   "title": "One Step of Extra Space",
+   "intro": "We've already tried two layouts for a crowded barn on paper. After you've been through that discussion, go to the Ranch and compare the notes on entrances and troughs. You don't have to tear down any of your buildings.",
+   "objectives": [
+    {
+     "text": "Reach 400 friendship with Zhou Qin"
+    },
+    {
+     "text": "See the barn layout event and choose"
+    },
+    {
+     "text": "Compare entrance and trough notes"
+    }
+   ],
+   "complete": "One extra step of space by the door makes life easier for the animals and whoever cares for them. Write this idea down in your care booklet, so you can adjust it for other layouts later.",
+   "journal": "Compare layouts in the 400-friendship event, then check the Ranch notes; no need to demolish anything or move animals."
+  },
+  "N_yelan_01": {
+   "title": "Two Herb Packets",
+   "intro": "Two elderly folks need basic herbs. Bring 6 you gathered yourself to the Clinic. I'll check the packing and doses; you help keep track of where each one goes, and don't mix different herbs in one bag.",
+   "objectives": [
+    {
+     "text": "Read the herb handoff notes at the Clinic"
+    },
+    {
+     "text": "Give Ye Lan 6 self-gathered Herbs"
+    }
+   ],
+   "complete": "All 6 Herbs are here, and each elder's needs get a line of their own. When we make up the packets, we'll check the labels together, so how many came in and who they went to stays on record.",
+   "journal": "Hand in 6 self-gathered Herbs for two basic herb packets; the medicine event comes through friendship."
+  },
+  "N_yelan_02": {
+   "title": "A Path Through the Herb Garden",
+   "intro": "Now that the Clinic's mutual-aid chart is sorted, the herb garden should leave a clear path for people coming and going. Get 20 self-gathered Wood and 10 self-gathered Stone and bring them to the Clinic. The border trim can take its time, but don't let the path get narrow.",
+   "objectives": [
+    {
+     "text": "Reach 400 friendship with Ye Lan"
+    },
+    {
+     "text": "See Ye Lan's Clinic aid event"
+    },
+    {
+     "text": "Give Ye Lan 20 self-gathered Wood"
+    },
+    {
+     "text": "Give Ye Lan 10 self-gathered Stone"
+    }
+   ],
+   "complete": "The materials are logged, but how the garden edge is laid out still depends on the path. It's only a public herb garden if everyone can get in to take what they need, and take turns tending it.",
+   "journal": "Finish the Clinic aid event and hand in 20 Wood and 10 Stone for the herb garden's border and path."
+  },
+  "N_luyao_01": {
+   "title": "An Exit You Can See",
+   "intro": "Go look at the safety sign at the Mine Entrance. Exit arrows, danger boundaries and rest spots are all drawn on it. Then come find me and tell me what you're unsure of. No need to go down, and I won't quiz you on what you've fought.",
+   "objectives": [
+    {
+     "text": "Read the Mine Entrance safety sign"
+    },
+    {
+     "text": "Talk to Lu Yao about the sign"
+    }
+   ],
+   "complete": "Knowing your way back is worth more than rushing to prove how far you can go. When we check the signs together later, we'll start with whether a newcomer can read them.",
+   "journal": "Read the Mine Entrance safety sign and talk to Lu Yao; no kills, floor progress or danger drills needed."
+  },
+  "N_luyao_02": {
+   "title": "Leave the Rope End in the Light",
+   "intro": "I want to tell you plainly about that old accident. After you've heard it, choose to practise or take the detour somewhere safe, then go back to the Mine Entrance, look over the signs again and remember the waiting point. You don't have to go into the caves to prove yourself.",
+   "objectives": [
+    {
+     "text": "Reach 400 friendship with Lu Yao"
+    },
+    {
+     "text": "See Lu Yao's accident event, pick a plan"
+    },
+    {
+     "text": "Recheck the Mine Entrance signs"
+    }
+   ],
+   "complete": "This time we made sure we both understood before moving on. Leave the rope end in the light, and anyone who wants to turn back won't have to feel their way.",
+   "journal": "In the 400-friendship event, choose safe practice or the detour, then recheck the signs; both choices give the same reward."
+  },
+  "N_aman_01": {
+   "title": "Sorting Out Where They Go",
+   "intro": "The sample sheets for sorting the backlog of postcards are ready. Once we know each other well enough to work together, come help with the sorting: all 6 need their destinations checked, and the event samples don't come out of your Backpack.",
+   "objectives": [
+    {
+     "text": "See Ah Man's postcard event (check 6)"
+    }
+   ],
+   "complete": "All 6 samples match, with in-town and out-of-town mail sorted apart. Thanks for patiently reading all that tiny writing. This destination list finally won't get messier the more I sort it.",
+   "journal": "Join the 200-friendship postcard sorting event; it only uses event samples and takes none of your items."
+  },
+  "N_aman_02": {
+   "title": "Half an Address",
+   "intro": "The clues for that letter with half its address missing are all on the map. Let's go through the address hunt together, then check the public doors at the Clinic and the Carpentry Shop, and come back to confirm with me. No need to open the letter.",
+   "objectives": [
+    {
+     "text": "Reach 400 friendship with Ah Man"
+    },
+    {
+     "text": "See Ah Man's missing address event"
+    },
+    {
+     "text": "Visit the Clinic service point"
+    },
+    {
+     "text": "Visit the Carpentry Shop service point"
+    }
+   ],
+   "complete": "Both places check out, and the old door plates finally match what people call them now. This letter's address can be written for real, not just guessed.",
+   "journal": "After the Waystation repair, finish the 400-friendship event and visit the Clinic and Carpentry Shop, then confirm with Ah Man; no letter item is taken."
+  },
+  "N_duanxing_01": {
+   "title": "Counting the Order Face to Face",
+   "intro": "When you've got a free moment, let's go over that practice order together. Item names, quantities and due dates all get checked in person, and the sample crate is just for show. Let's get used to how each other works first. I'm in no rush for you to spend money on stock.",
+   "objectives": [
+    {
+     "text": "See Duan Xing's order check event"
+    }
+   ],
+   "complete": "The order and the sample crate are checked line by line, and nothing that hasn't arrived is marked received. Books like these make sense to whoever takes over next.",
+   "journal": "Finish the 200-friendship order check event; the practice samples cost no money or stock."
+  },
+  "N_duanxing_02": {
+   "title": "Even Late, Be Clear",
+   "intro": "There are two ways to handle that late order: give a new due date, or sort out a proper refund. Once we've talked this delivery problem through, go check the practice order at the counter. Your choice is just for practice and won't cost you anything.",
+   "objectives": [
+    {
+     "text": "Reach 400 friendship with Duan Xing"
+    },
+    {
+     "text": "See the delay or refund event"
+    },
+    {
+     "text": "Check the practice order at the counter"
+    }
+   ],
+   "complete": "The change notice is written clearly, and the practice order is back where it belongs. Keeping your word isn't just being on time; when something goes wrong, the other side has to have a real choice.",
+   "journal": "Finish the 400-friendship delivery drill and recheck the counter's practice order; neither the delay nor the refund touches your money."
+  },
+  "N_anbo_01": {
+   "title": "The Old Waterline's Name",
+   "intro": "I've kept the Sluice Gate's old name and both banks' water records. First read what's on the Sluice Gate project sign now. Once we know each other better, we'll go over the old stories and compare the two waterlines together. You don't need to bring anything new in exchange.",
+   "objectives": [
+    {
+     "text": "Read the old Sluice Gate sign"
+    },
+    {
+     "text": "See Uncle An's sluice event, check 2 records"
+    }
+   ],
+   "complete": "The old name and both water levels are recorded together now. Whenever we talk about projects from here on, remember they're tied to daily life on both banks.",
+   "journal": "Read the Sluice Gate sign and finish the 200-friendship history event, checking both water records; no items used."
+  },
+  "N_anbo_02": {
+   "title": "Promises on the Board",
+   "intro": "Now that we've discussed which project comes first, let's check off one promise that's already been kept. The Woods Bridge is open, so bring its completion record. No need to start a new project just to fill in this progress sheet.",
+   "objectives": [
+    {
+     "text": "Reach 400 friendship with Uncle An"
+    },
+    {
+     "text": "See Uncle An's project order event"
+    },
+    {
+     "text": "Confirm the Woods Bridge record"
+    }
+   ],
+   "complete": "The Woods Bridge is marked done on the planning board, and who helped and where the materials went all match up. The next item isn't done yet, so it stays honestly in the to-do column.",
+   "journal": "After the Woods Bridge and the 400-friendship event, confirm the existing project record; no materials taken again, and no new project needed."
+  },
+  "F02": {
+   "title": "Riverside Fishing Day",
+   "intro": "A letter from Riverside: On Spring 22, entry is open 10:00–16:00, and the event wraps up at 18:00. Come join the 3-minute fishing contest, fished in heats. You can use assisted fishing, or just watch from behind the safety line. The bait and the tackle display are small keepsakes, and you can get a basic rod on regular days too. It's fine if you can't come; we'll see you next year.",
+   "objectives": [
+    {
+     "text": "Attend Fishing Day (compete or watch)"
+    }
+   ],
+   "complete": "This stretch of the river is full of everyone's laughter. Take home 5 Bait and a Tackle Display, and come fish any day you like.",
+   "journal": "Spring 22, entry 10:00–16:00, ends 18:00; compete in heats with assist or just watch. Missed it? Come next year; regular fishing isn't affected."
+  },
+  "F03": {
+   "title": "Long Day Picnic",
+   "intro": "Xia He invites you to a picnic: Summer 8, entry 12:00–18:00, wrapping up at 20:00. Everyone picks ingredients to make one shared dish together, or you can use the basic ingredients provided; amounts are explained before cooking starts. Come with or without ingredients. If you can't make it, that's fine. You can still learn Clear Broth and Roasted Radish at the Public Kitchen.",
+   "objectives": [
+    {
+     "text": "Attend and cook a shared dish"
+    }
+   ],
+   "complete": "This meal came together from many different hands. The Picnic Blanket is yours, and the Clear Broth and Roasted Radish recipes are noted again. Make yourself a hot meal when you have time.",
+   "journal": "Summer 8, entry 12:00–18:00, ends 20:00; event ingredients are available and it won't take whole stacks. If you miss it, learn the basic recipes at the Public Kitchen."
+  },
+  "F04": {
+   "title": "Firefly Lantern Night",
+   "intro": "A letter from the Riverside lantern festival: Summer 22, entry 18:00–22:00, ending at 23:00. Follow the safe walkway to find 3 lantern-shadow markers. Stopping to look at the lanterns is lovely too; no risky night fishing needed. The Garden Lantern is just a little keepsake of the night. It's fine if you can't come; life on the farm goes on as usual.",
+   "objectives": [
+    {
+     "text": "Attend and find the lantern shadows"
+    }
+   ],
+   "complete": "The three lantern shadows make one memory. Take this Garden Lantern home, so on late nights there's a small patch of familiar light.",
+   "journal": "Summer 22, entry 18:00–22:00, ends 23:00; follow the safe walkway, no night fishing needed. Missing it won't affect friendship or daily life."
+  },
+  "F05": {
+   "title": "Field Market",
+   "intro": "An invitation to the Field Market: Fall 8, entry 10:00–16:00, closing at 18:00. Borrow display items or bring your own produce, and try putting together a little stall. Even ordinary things can show where they came from. Borrowed and brought items are all returned as they were when the event ends. It's fine if you can't come; the Market Medallion and Display Sign are only keepsakes.",
+   "objectives": [
+    {
+     "text": "Attend, set up and browse stalls"
+    }
+   ],
+   "complete": "Your stall showed people one way of living. Keep the Display Sign and the Market Medallion for your Collection, and take your items back as listed in the loan record.",
+   "journal": "Fall 8, entry 10:00–16:00, ends 18:00; borrowed items go back at the end, and the medallion is an untradeable Collection keepsake. No penalty for missing it."
+  },
+  "F06": {
+   "title": "Harvest Helping Day",
+   "intro": "He Yan and the neighbours could use a hand: Fall 22, entry 10:00–16:00, ending at 18:00. Sort or carry event supplies with your neighbours. You can swap out of the heavy work, and even if the Woods Bridge isn't fixed yet, you can join in Town. It's fine if you can't come; you won't lose any friendship. Drop by when you have time.",
+   "objectives": [
+    {
+     "text": "Attend and help sort or carry"
+    }
+   ],
+   "complete": "The last basket is set down safely. The Flower Box is a keepsake of today's teamwork, and take 2 Wild Greens home to cook. For now, get some good rest.",
+   "journal": "Fall 22, entry 10:00–16:00, ends 18:00; joining in Town doesn't need the bridge, sort or carry as much as you like, and no friendship is lost if you miss it."
+  },
+  "F07": {
+   "title": "Snow Craft Fair",
+   "intro": "A letter from the Snow Craft Fair: Winter 8, entry 10:00–16:00, tools packed up at 18:00. Use the wooden pieces lent by the event to build a snow scene or wooden ornament. You choose the colours and how it fits together; return the pieces when you leave. It's fine if you can't come; regular furniture and everyday crafting stay open as usual.",
+   "objectives": [
+    {
+     "text": "Attend and build a snow scene"
+    }
+   ],
+   "complete": "The little snow house has a look all its own. This Snow House ornament is yours, the borrowed pieces are all counted back, and at home you can dream up your next colour scheme.",
+   "journal": "Winter 8, entry 10:00–16:00, ends 18:00; pieces are lent for the event and returned when you leave, no wood needed. Missed it? Try again next year."
+  },
+  "F08": {
+   "title": "Hearthside Thanks Night",
+   "intro": "The neighbours invite you to gather by the hearth: Winter 22, entry 18:00–22:00, ending at 23:00. Pick a story you'd like to share, then drop an anonymous greeting into the community box. Little cards are provided, so no expensive gifts needed. It's fine if you can't come; the bonds between neighbours won't fade, and there will be many more evenings to sit and chat.",
+   "objectives": [
+    {
+     "text": "Attend, share a story, leave a note"
+    }
+   ],
+   "complete": "The stories are told, and the hearth is still warm. Take this Friendship Keepsake home. The thanks you shared today can carry on tomorrow.",
+   "journal": "Winter 22, entry 18:00–22:00, ends 23:00; stories and greetings need no expensive gifts. Each villager you already know who takes part gains 5 friendship; others don't count. No friendship lost if you miss it."
+  },
+  "Q22": {
+   "title": "The Windmill Turns",
+   "intro": "The Windmill's final inspection is done. Please go to the Windmill Construction Site and book the Windmill Ceremony for the next safe day; everyone wants to hear it turn for the first time with you. If it lands on a set festival, it moves to a suitable day. No need to wait for a holiday, and no need to hand in building materials again.",
+   "objectives": [
+    {
+     "text": "Book a safe day and attend the Windmill Ceremony"
+    }
+   ],
+   "complete": "The sails are turning, and a steady hum comes from the mill. Everyone who pooled materials waves and heads back to their day; you can go see how the light falls on your fields today, too.",
+   "journal": "After the Windmill is done, book a safe day at the site and attend the ceremony; it moves if it clashes with a festival, no materials are taken again, and max Energy +20."
+  },
+  "Q23": {
+   "title": "Valley Long-Table Feast",
+   "intro": "The Windmill's turning, so let's pick a day to set out the long table too. Please bring one homemade dish of each of three kinds: a soup, like Clear Broth or Mushroom Soup; a staple, like Bread or Roasted Radish; and a fish, egg or dairy dish, like Fried Egg or a Cheese Platter. Any suitable dish you have can stand in for each kind. Give them to me to hold first, and once all three are in, book the next safe day for the meal. If it's cancelled at short notice, I'll return the very dishes I'm holding, and I won't ask for them twice.",
+   "objectives": [
+    {
+     "text": "Give Xia He a homemade soup, e.g. Clear Broth or Mushroom Soup"
+    },
+    {
+     "text": "Give Xia He a homemade staple, e.g. Bread or Roasted Radish"
+    },
+    {
+     "text": "Give Xia He a homemade fish, egg or dairy dish, e.g. Fried Egg or Cheese Platter"
+    },
+    {
+     "text": "With all 3 in, book a safe day for the feast"
+    }
+   ],
+   "complete": "Every dish on the long table had its own story, and the talk went on until the bowls were cleared. The Harvest Feast recipe is yours. From now on, you don't need a big occasion; an ordinary day is reason enough to eat well.",
+   "journal": "Hand in 1 homemade soup, staple and fish, egg or dairy dish, then book a safe day for the feast; it moves for festivals, and held dishes are returned if cancelled. After the feast, check in with Xia He to learn the Harvest Feast."
+  },
+  "Q24": {
+   "title": "A Life of Your Own",
+   "intro": "The long table's been cleared, and there's a blank page in the Wish Book by the Bookshelf at home. Write down a wish you'd like to work toward slowly: Garden Farmstead, Dairy Workshop, River Recorder, Mountain Artisan, Valley Friend or Full Collection. Start with whichever you like; you can switch later and look after other wishes alongside it. Your fields, your neighbours and tomorrow's plans are all still here.",
+   "objectives": [
+    {
+     "text": "Write 1 of 6 wishes in the Wish Book"
+    }
+   ],
+   "complete": "The wish is on paper, and it doesn't have to come true today. The familiar paths are still outside your window, and tomorrow morning you can run this Farm however you like.",
+   "journal": "Write a long-term wish in the Wish Book by the Bookshelf at home; you can switch or pursue several. Life goes on: your save, date, items and unfinished plans all stay."
+  }
+ }
+}

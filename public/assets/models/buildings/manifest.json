@@ -1,0 +1,230 @@
+[
+  {
+    "id": "farmhouse",
+    "footprint": [
+      8,
+      7
+    ],
+    "door": [
+      0,
+      1.85
+    ],
+    "height": 4.655,
+    "tris": 2570,
+    "nodes": []
+  },
+  {
+    "id": "shop_general",
+    "footprint": [
+      8,
+      6
+    ],
+    "door": [
+      0,
+      1.78
+    ],
+    "height": 5.835,
+    "tris": 2932,
+    "nodes": []
+  },
+  {
+    "id": "diner",
+    "footprint": [
+      8,
+      6
+    ],
+    "door": [
+      0,
+      1.75
+    ],
+    "height": 4.655,
+    "tris": 2436,
+    "nodes": []
+  },
+  {
+    "id": "council_hall",
+    "footprint": [
+      8,
+      6
+    ],
+    "door": [
+      0,
+      1.8
+    ],
+    "height": 5.075,
+    "tris": 2300,
+    "nodes": []
+  },
+  {
+    "id": "house_a",
+    "footprint": [
+      6,
+      5
+    ],
+    "door": [
+      0,
+      2.4
+    ],
+    "height": 4.105,
+    "tris": 1620,
+    "nodes": []
+  },
+  {
+    "id": "house_b",
+    "footprint": [
+      6,
+      5
+    ],
+    "door": [
+      0,
+      2.4
+    ],
+    "height": 4.235,
+    "tris": 1716,
+    "nodes": []
+  },
+  {
+    "id": "blacksmith",
+    "footprint": [
+      7,
+      6
+    ],
+    "door": [
+      0,
+      0.0
+    ],
+    "height": 4.035,
+    "tris": 2062,
+    "nodes": []
+  },
+  {
+    "id": "fishing_hut",
+    "footprint": [
+      5,
+      4
+    ],
+    "door": [
+      0,
+      0.78
+    ],
+    "height": 3.385,
+    "tris": 2206,
+    "nodes": []
+  },
+  {
+    "id": "coop",
+    "footprint": [
+      6,
+      5
+    ],
+    "door": [
+      0,
+      0.65
+    ],
+    "height": 3.745,
+    "tris": 1248,
+    "nodes": []
+  },
+  {
+    "id": "barn",
+    "footprint": [
+      7,
+      6
+    ],
+    "door": [
+      0,
+      1.85
+    ],
+    "height": 5.395,
+    "tris": 2030,
+    "nodes": []
+  },
+  {
+    "id": "shipping_bin",
+    "footprint": [
+      2,
+      1
+    ],
+    "door": null,
+    "height": 0.9735,
+    "tris": 706,
+    "nodes": []
+  },
+  {
+    "id": "well",
+    "footprint": [
+      2,
+      2
+    ],
+    "door": null,
+    "height": 2.685,
+    "tris": 1302,
+    "nodes": []
+  },
+  {
+    "id": "notice_board",
+    "footprint": [
+      2,
+      1
+    ],
+    "door": null,
+    "height": 2.385,
+    "tris": 442,
+    "nodes": []
+  },
+  {
+    "id": "mailbox",
+    "footprint": [
+      1,
+      1
+    ],
+    "door": null,
+    "height": 1.92,
+    "tris": 212,
+    "nodes": []
+  },
+  {
+    "id": "windmill_ruined",
+    "footprint": [
+      6,
+      6
+    ],
+    "door": [
+      0,
+      2.56
+    ],
+    "height": 7.7,
+    "tris": 3348,
+    "nodes": []
+  },
+  {
+    "id": "windmill_scaffold",
+    "footprint": [
+      6,
+      6
+    ],
+    "door": [
+      0,
+      2.56
+    ],
+    "height": 9.063,
+    "tris": 3802,
+    "nodes": []
+  },
+  {
+    "id": "windmill",
+    "footprint": [
+      6,
+      6
+    ],
+    "door": [
+      0,
+      2.56
+    ],
+    "height": 9.24,
+    "tris": 3832,
+    "nodes": [
+      "blades"
+    ]
+  }
+]

@@ -1,0 +1,2828 @@
+{
+ "npcs": {
+  "lintang": {
+   "name": "Lin Tang",
+   "role": "Seed Shop Keeper",
+   "workplace": {
+    "spot": "Seed Shop, west Main Street"
+   },
+   "dialogue": {
+    "firstMeet": "I'm Lin Tang. I run the Seed Shop. Plant what you can keep up with first, then think about planting more.",
+    "seasons": {
+     "spring": [
+      "The spring soil is still loose. Starting with six tiles isn't too few.",
+      "I keep seeds, and I keep a record of which plot each one grew in.",
+      "What would you like today? Check how much empty soil you have left first.",
+      "Flowers take up field space too, but a field doesn't have to grow only things that sell.",
+      "Visit the Woods after the rain. The new leaves are a different color every day."
+     ],
+     "summer": [
+      "On hot days, don't just water the crops. You need a drink too.",
+      "Summer crops grow fast. Before you replant, count how many days are left.",
+      "Crops that keep fruiting—don't rush to pull them after you harvest.",
+      "I kept two old labels in the cabinet. The writing's nearly faded in the sun.",
+      "Planting less and tending it steadily is a good plan too."
+     ],
+     "autumn": [
+      "Fall seeds have real heft, so I keep the accounts just as exact.",
+      "When the chrysanthemums bloom, the shop front is always a little quieter.",
+      "Remember to save a plot for winter crops. Don't wait for the cold to start looking.",
+      "Even in a record of a good harvest, don't erase the line about what failed.",
+      "A sample doesn't have to be the biggest one. The ordinary one is useful too."
+     ],
+     "winter": [
+      "Not much grows in winter, but sorting the cabinets can't stop.",
+      "It never rains in the Greenhouse. Even with the lights on, don't forget to water.",
+      "I'd like to turn this year's planting records into a little exhibit.",
+      "Snow covers the field edges, but keep where each plot is in your head.",
+      "You can come in and sit even if you're not buying. It's windy by the door."
+     ]
+    },
+    "rain": [
+     "One less chore in the fields today. Save a little free time for yourself.",
+     "Customers come in with muddy shoes on rainy days. It reassures me—someone's tending the land."
+    ],
+    "friendship": {
+     "0": [
+      "Seeds are on the left, prices are marked. Take your time.",
+      "Learn the roads first. Don't burn all your Energy rushing home."
+     ],
+     "200": [
+      "I keep your field's records on the cabinet shelf that's easiest to reach.",
+      "Tell me about the batch that didn't grow well. That's often more useful."
+     ],
+     "400": [
+      "When something goes wrong, let's look at it together. We can't blame every failure on the weather.",
+      "With you test-planting alongside me, I finally dare to question the old ways again."
+     ],
+     "600": [
+      "There's a spot saved on the shop's farm board. Your name belongs there.",
+      "This cabinet holds more than just my own experience now."
+     ]
+    },
+    "gift": {
+     "love": "This is a perfect sample. I want to write down the date right away.",
+     "like": "Thank you. I can tell you pay attention to what's in the fields.",
+     "neutral": "I'll take it. Next time, don't go out of your way.",
+     "dislike": "Thanks for the thought, but this sort of thing doesn't belong next to the seed cabinet."
+    },
+    "birthday": "You remembered my birthday. I'll leave a space on today's page to write about this.",
+    "festival": {
+     "flower_fair": "To tell flowers apart, look at the leaves first. Every seed on display says where it came from.",
+     "fishing_derby": "I'll leave the fishing to the experts today. I'm checking which grasses could hold the riverbank.",
+     "picnic": "A few ingredients can still make a good dish. What you bring just needs to go around.",
+     "firefly": "Lantern light on the leaves… by morning they'll be another color again.",
+     "market": "A stall doesn't have to be full. A single planting record is worth a look too.",
+     "harvest_coop": "Sort by use first. Don't mix up the seed-saving basket and the dinner basket.",
+     "snow_craft": "The little greenhouse in the snow scene doesn't need to be full. Leave room for next year's ideas.",
+     "hearth_night": "This year, people listened to me talk about seeds. Tonight it's my turn to listen."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "This old cabinet has been here longer than I've run the shop."
+     },
+     {
+      "text": "One stack records the varieties, one records the people who grew them. The paper's brittle, so I need to copy it first."
+     },
+     {
+      "text": "I want to keep both, but I'm afraid I'll keep hesitating and end up doing nothing."
+     },
+     {
+      "text": "You pick where we start sorting, and I'll follow your lead."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Copy the growing conditions first, then fill in the names.",
+      "reply": "Good. We can repeat how they grew it, and we won't leave out the people who passed it on."
+     },
+     {
+      "text": "Start with the names, and ask people who still remember to fill in the rest.",
+      "reply": "That's evidence too. Records that can still talk are more urgent to save than the ones in the cabinet."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "These two test trays didn't grow well. I almost just wrote 'bad weather' in the record."
+     },
+     {
+      "text": "Sown the same day, but the tray by the window and the one inside came out different. The soil wasn't the same batch, either."
+     },
+     {
+      "text": "To find the cause, next time I'll change just one condition. And I'm keeping this failed page."
+     },
+     {
+      "text": "Which set would you help me check first? We'll need to complete both records in the end."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Compare sunlight and rain first, and lay out each day's changes.",
+      "reply": "Good. Let's record the real weather. One word can't cover every day."
+     },
+     {
+      "text": "Check how loose the soil is and how it drains, so next time has a comparison.",
+      "reply": "All right. We'll measure properly before changing the soil, so a new guess doesn't just replace the old one."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The cards for the little seed exhibit are ready. Ordinary harvests and failed samples each get a spot."
+     },
+     {
+      "text": "I saved a spot on this farm board for you, so customers know who tended the samples."
+     },
+     {
+      "text": "I used to worry mixed records looked unprofessional. Now I see everyone writing differently helps us catch things for each other."
+     },
+     {
+      "text": "Pick a card to go first, and the other goes beside it. The story doesn't have to start with a good harvest."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Put the first harvest first, so people see where it began.",
+      "reply": "Good. The trial and error that came after goes beside it. Nobody has to know how from the start."
+     },
+     {
+      "text": "Put the failed trial first, so people know records have room for mistakes.",
+      "reply": "Good. With the cause and the next attempt side by side, a failure isn't a full stop."
+     }
+    ]
+   },
+   "event800": {
+    "steps": [
+     {
+      "text": "I brought the Greenhouse planting plan—the old ruins and the restored layout are both drawn here. Thanks for coming today. I want to be clear about planting together."
+     },
+     {
+      "text": "I'd like for us to date, seriously. To try new plantings together, and to admit together when some seeds won't grow yet."
+     },
+     {
+      "text": "When we go to the Greenhouse, we'll tend it together and leave room for each of our ideas. Your farm still goes at your own pace."
+     },
+     {
+      "text": "For our first shared planting record, do you want to start with familiar vegetables, or save a spot for a flower we love?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Familiar vegetables first. We'll tend this little patch together.",
+      "reply": "Okay. We'll start with what we can manage each day. I'll write down when I'm free, too."
+     },
+     {
+      "text": "Save a spot for a flower, so we can both look forward to it blooming.",
+      "reply": "Okay. A little hope that isn't about the harvest. We'll keep planting the rest slowly, as usual."
+     }
+    ]
+   },
+   "event1000": {
+    "steps": [
+     {
+      "text": "From the front door you can see that window. The space from the extension is just right for a planting rack—let's talk it over."
+     },
+     {
+      "text": "I want to live with you, and keep looking after the Seed Shop. Whoever gets home first checks if the window plants need water."
+     },
+     {
+      "text": "The rack doesn't have to be full. We'll leave room for each other's things, and on busy days we can just say we can't get to it."
+     },
+     {
+      "text": "Should we put everyday little pots by the window first, or keep one shelf just for our planting records?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Little pots first, with room to water easily.",
+      "reply": "Okay. Things we can reach and keep up with suit our days better than filling it all at once."
+     },
+     {
+      "text": "Keep a shelf for records and add pots over time.",
+      "reply": "Okay. New discoveries have a place to be written down, and our new life has room to slowly grow."
+     }
+    ]
+   }
+  },
+  "laotao": {
+   "name": "Old Tao",
+   "role": "Blacksmith",
+   "workplace": {
+    "spot": "Blacksmith, east Main Street"
+   },
+   "dialogue": {
+    "firstMeet": "Call me Old Tao. Buying materials? Read the price list. Learning the craft? Listen first. Don't rush to swing.",
+    "seasons": {
+     "spring": [
+      "Beginners watch where it lands first. Changing your mind mid-swing is too late.",
+      "Bring a tool in to upgrade and I'll lend you an old one. Can't leave the fields idle.",
+      "Lots of rain. Cover the material piles, or you'll be moving them again tomorrow.",
+      "Copper ore's nothing rare. Solid basics are what's worth something.",
+      "The Sluice Gate needs materials that work, not ones that look nice."
+     ],
+     "summer": [
+      "It's hotter by the forge than outside. Stand there long, take a breather.",
+      "Rushing to finish isn't skill. Measure first.",
+      "Listen. A steady hammer sounds different from wild banging.",
+      "Coal's on the bottom shelf. Count what you need before you take it.",
+      "Door's open or not, no dozing against the forge mouth."
+     ],
+     "autumn": [
+      "After fall, a tool shows you exactly how its owner used it.",
+      "Fix what can be fixed. If you replace it, know why.",
+      "This hammer mark's got years on it. Grind it off and its story goes quiet.",
+      "Good harvest or not, don't spend it all. Winter has its own needs.",
+      "I looked at the new parts on the bridge. Joined solid."
+     ],
+     "winter": [
+      "Cold hands, no showing off speed. Grip firm, then move.",
+      "The forge is warm. You can warm up just as well behind the line.",
+      "Put tools away neat even when they're idle. Losing one costs more time than breaking it.",
+      "The old hammer doesn't swing anymore. Hanging there, it still reminds me.",
+      "For the Windmill to turn, every joint needs someone answering for it."
+     ]
+    },
+    "rain": [
+     "When the rain drowns out the hammer, watch even harder for anyone coming close.",
+     "Pick up tools from the cabinet under the eaves. Works even when the shop's closed."
+    ],
+    "friendship": {
+     "0": [
+      "Materials and fees are posted. I won't change the story on you.",
+      "Tell me exactly what you need. Then we work."
+     ],
+     "200": [
+      "You're willing to ask why, so I'm willing to show you again.",
+      "Today's hammer mark—you should be able to read it now."
+     ],
+     "400": [
+      "That tool I botched fixing—never threw it out. Owning a mistake takes practice too.",
+      "Want to try a new way, say so. Don't mind my frown."
+     ],
+     "600": [
+      "The retired hammer's hung up. No more pretending it's got another day in it.",
+      "There's a spot on the tool rack for you. Your work speaks for itself now."
+     ]
+    },
+    "gift": {
+     "love": "Good material, or good supplies. You know what I can use.",
+     "like": "I'll take it. Put in the right place, nothing goes to waste.",
+     "neutral": "I know what you mean by it. I'll set it here.",
+     "dislike": "This doesn't belong near a forge. Next time, a chat's enough."
+    },
+    "birthday": "Another year older, hands still steady. You sitting a while beats nagging me to make a wish.",
+    "festival": {
+     "flower_fair": "I don't know many flower names. Checked every joint on the display stands, though.",
+     "fishing_derby": "Use a rod that feels right. No need to swap one just for the contest.",
+     "picnic": "Steady the pot stand before lighting the fire. Then you can sit and eat in peace.",
+     "firefly": "Clasp the lantern shades tight and keep the path clear, so nobody has to duck.",
+     "market": "Write down how a thing was made, too. Let people see the craft.",
+     "harvest_coop": "Heavy crates take two. There's no prize for being stubborn.",
+     "snow_craft": "Sanded the edges on the wood pieces. Little hands won't get splinters.",
+     "hearth_night": "Tonight the retired hammer doesn't brag. It's about the people who worked beside it."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "Stay behind this line. Watch closely, then ask."
+     },
+     {
+      "text": "Same piece of copper. Wrong heat, and no amount of loud hammering helps."
+     },
+     {
+      "text": "When I was young I only cared about speed. Cracked a whole batch that way."
+     },
+     {
+      "text": "No test today. Pick one thing you want to understand first."
+     }
+    ],
+    "choice": [
+     {
+      "text": "The fire's color first. When do you stop?",
+      "reply": "Good question. Know when to stop, and you'll know where the next strike goes."
+     },
+     {
+      "text": "The hammer marks first. How do you tell if the force is even?",
+      "reply": "Check the edges, then the middle. Slow down and you'll see it."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "I ruined this old tool fixing it. Set the handle too fast and misjudged where the force went."
+     },
+     {
+      "text": "I kept the break. Not waiting for it to mend itself—so I never again call my own mistake bad material."
+     },
+     {
+      "text": "The worn spots tell you how it was used. Hear them out before you fix anything."
+     },
+     {
+      "text": "We'll look at it together today. Check the handle socket first, or follow the marks on the blade?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Measure the handle socket first and find where it takes the load.",
+      "reply": "Good. Measure, then join. Wrapping it a few more times isn't a repair."
+     },
+     {
+      "text": "Look at the blade marks first, and figure out how it was used.",
+      "reply": "Right. Know what force it took, so the fix is more than just looking whole."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "This hammer's been with me long enough. It retires today. No more pretending it's got another day in it."
+     },
+     {
+      "text": "Drew up the tool rack. Everyday tools go within reach, and the old ones get a spot where they can be seen."
+     },
+     {
+      "text": "I want to write about that botched repair too, so people don't just see a neat row of finished work."
+     },
+     {
+      "text": "Pick how the plaque starts for me. It has to cover the craft and the mistakes."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Start with what it made, then what you learned later.",
+      "reply": "All right. The work gets remembered, and the lesson sits right beside it."
+     },
+     {
+      "text": "Start with the mistake, so newcomers know it's okay to ask.",
+      "reply": "Good. Asking beats pretending you know it all. Take this wood—use it to keep your tools in order."
+     }
+    ]
+   }
+  },
+  "xiahe": {
+   "name": "Xia He",
+   "role": "Diner Cook",
+   "workplace": {
+    "spot": "Diner & Public Kitchen, west Town Square"
+   },
+   "dialogue": {
+    "firstMeet": "I'm Xia He. Sit down first. Everything feels urgent on an empty stomach.",
+    "seasons": {
+     "spring": [
+      "Young greens don't need heavy seasoning. It's best when you can taste which field they came from.",
+      "I save a bowl of Clear Broth every day. You don't have to explain why you need it.",
+      "Whatever vegetables you bring, I'll write where they came from next to the menu.",
+      "You still need to eat on Flower Fair day. Don't get so caught up in the fun.",
+      "I help keep an eye on Zhou Qin's teaching pen. Raising chickens starts with learning to feed them."
+     ],
+     "summer": [
+      "On hot days you want something light, but you still need to eat enough.",
+      "I want to add a new dish without chasing off my regulars' favorites.",
+      "There's water by the kitchen door. If you're going back and forth to the fields, have some.",
+      "Once the tomatoes come in, everything in the pot looks brighter.",
+      "Picnics are best prepared together. Don't leave one person to make the whole spread."
+     ],
+     "autumn": [
+      "Fall vegetables are sweet. A little less salt and you taste them better.",
+      "Today's pumpkins are nice and solid. Go slow when you cut them.",
+      "Everyone's busy at harvest time, so the Diner has to keep its serving order straight.",
+      "The new menu can change. I write down who tried what and what they said.",
+      "Before you save food for winter, make sure there's enough for today's meal."
+     ],
+     "winter": [
+      "Lift the pot lid, and winter doesn't feel so long.",
+      "Warm your hands when you come in. I'll ladle up the soup.",
+      "A hot meal isn't a reward for being busy. A day of rest deserves good food too.",
+      "How long should the long table be? Ask how many people want to sit together.",
+      "When you tell stories by the hearth, don't only tell the parts that went well."
+     ]
+    },
+    "rain": [
+     "If your shoes are wet, sit by the door a while. Don't rush back out into the rain.",
+     "Rainy days are perfect for testing small portions. Ruining a whole pot would be a shame."
+    ],
+    "friendship": {
+     "0": [
+      "Just tell me what you'd like. No need to guess what I'm recommending today.",
+      "The Public Stove is over there. Tidy the counter when you're done."
+     ],
+     "200": [
+      "Be honest when you taste. I'm not looking for politeness.",
+      "I circled the flavors you mentioned in the margin of my recipe book."
+     ],
+     "400": [
+      "I can't scrap the old menu all at once, but new dishes deserve a chance too.",
+      "This time I'll take your advice: let everyone try small portions before deciding."
+     ],
+     "600": [
+      "The supplier sign is up. Your farm's on this menu now too.",
+      "Thinking of everyone coming to eat, I know just what to make tomorrow."
+     ]
+    },
+    "gift": {
+     "love": "Fresh and just what I need! Today's menu just got a new line.",
+     "like": "Thank you. I'll put this to good use in the pot.",
+     "neutral": "I'll take it. Now that you're here, rest a bit before you go.",
+     "dislike": "I appreciate the thought, but this can't go in my pantry."
+    },
+    "birthday": "You remembered! Today I'll sit down and eat too. No standing at the stove on my own birthday.",
+    "festival": {
+     "flower_fair": "Have some water after looking at the flowers. Not every lovely scent has to end up on a plate.",
+     "fishing_derby": "I made plain hot meals. Big catch or small, everyone eats well.",
+     "picnic": "We can cook together with the food set out for the event. No need to bring anything pricey.",
+     "firefly": "Snacks come in small portions today, so everyone has a free hand for the lanterns.",
+     "market": "Writing where the ingredients came from beats giving a dish a fancy name.",
+     "harvest_coop": "Wash your hands after sorting. And save a hot bowl for whoever works till the end.",
+     "snow_craft": "Take your time with the crafts. If the soup gets cold, I'll warm it up again.",
+     "hearth_night": "Tonight, anyone who wants to tell a story can. Anyone who doesn't can just enjoy dinner."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "This is Clear Broth, and that's Roasted Radish. Both are small tasting portions."
+     },
+     {
+      "text": "The Diner supplied the ingredients, so nothing comes out of your Backpack."
+     },
+     {
+      "text": "I want to write a page of local dishes, starting with meals anyone can afford."
+     },
+     {
+      "text": "Which would you put on the first page?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Clear Broth first. Anyone who's tired can have a bowl.",
+      "reply": "All right, the first page goes to a taste that lets people sit and rest. Here's the Roasted Radish recipe too."
+     },
+     {
+      "text": "Roasted Radish first. Keep the sweetness of the fields.",
+      "reply": "Then we'll start from the soil. I'll write the recipe out for you, and Clear Broth won't leave the menu either."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "The new menu's up, but one of my regulars asked if I'd stopped making the porridge they always have."
+     },
+     {
+      "text": "I was so busy serving new flavors, I never asked which everyday dish people find comfort in."
+     },
+     {
+      "text": "The usual dishes stay, and new ones start as small portions. Take this Milk Porridge recipe home too."
+     },
+     {
+      "text": "How should I write the menu so it's easy to choose, whether you want something new or your usual?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Put the home-style dishes first, and list ingredients next to the new ones.",
+      "reply": "Good. See what's familiar first, then decide whether to try a little something new."
+     },
+     {
+      "text": "List new and old side by side, with a note about small tasting portions.",
+      "reply": "That's thoughtful too. Trying something new shouldn't mean giving up the bowl you've always loved."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The valley menu's copied out. Next to each dish are the names of who grew the vegetables, kept the chickens and supplied the milk."
+     },
+     {
+      "text": "Your farm has a supplier sign too. It doesn't say biggest or most—just where this came from."
+     },
+     {
+      "text": "I tucked the Berry Pie recipe in the back. Use whatever berries are in season, and anyone can learn it."
+     },
+     {
+      "text": "Should the first line be about the ingredients, or the people who cook together?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Where the ingredients come from, so people know what they're eating.",
+      "reply": "Good. Follow where it came from, and you'll meet the people who tend it every day."
+     },
+     {
+      "text": "The work everyone shared, so the effort behind a meal gets seen.",
+      "reply": "Good. From planting to the table, nobody's part gets left out."
+     }
+    ]
+   },
+   "event800": {
+    "steps": [
+     {
+      "text": "A special dinner after the Diner closes. I saved just enough for two. No menu tests today, and no rushing orders."
+     },
+     {
+      "text": "You came, so I want to say it plainly: I'd like us to be together, and share days with time to really taste things."
+     },
+     {
+      "text": "When two people cook, one doesn't always cook while the other always cleans. However we split it today, we can rethink it tomorrow."
+     },
+     {
+      "text": "For this dinner, shall we simmer a soup together first, or slowly roast the vegetables?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Simmer the soup, and chat while the steam rises.",
+      "reply": "Lovely. We'll take turns minding the heat, and take our time talking at the table."
+     },
+     {
+      "text": "Roast the vegetables, and find out how tender we each like them.",
+      "reply": "Good. One little bite each—both our tastes count."
+     }
+    ]
+   },
+   "event1000": {
+    "steps": [
+     {
+      "text": "I brought a weekly menu for home. Let's look it over here at the door, and not make it tighter than the Diner's schedule."
+     },
+     {
+      "text": "I want to live with you. A simple meal on busy days, cooking together when we're free—both count as living well."
+     },
+     {
+      "text": "Shopping, cooking and cleaning, we'll take turns and talk it over. If one of us dislikes something, we write it down. A menu doesn't get to decide for us."
+     },
+     {
+      "text": "This week, should we set aside one evening to cook together, or each write down a favorite dish and pick a free day as we go?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Set aside an evening, and pick the dishes together that day.",
+      "reply": "Okay. If something comes up, we'll move it. Something to look forward to, not homework we owe."
+     },
+     {
+      "text": "Each write a favorite dish, and cook them together when we're free.",
+      "reply": "Okay. You teach me one, I'll teach you one, and the menu will grow along with our life."
+     }
+    ]
+   }
+  },
+  "shenzhou": {
+   "name": "Shen Zhou",
+   "role": "Fishery Surveyor",
+   "workplace": {
+    "spot": "Tackle Hut & Riverside survey point"
+   },
+   "dialogue": {
+    "firstMeet": "I'm Shen Zhou. I keep records of the fish, and of the water. If you want to learn fishing, first come see where to stand.",
+    "seasons": {
+     "spring": [
+      "Silverscale bite at any hour. Practice your first casts on them.",
+      "The water's color is as worth recording as the fish. Don't just stare at your rod.",
+      "Some little fish are here every year. Seeing them again and again is a good thing.",
+      "Spotted Trout in the Mountain Stream like mornings. Later on, try for something else.",
+      "Even after the Sluice Gate is fixed, we need to keep watching how the riverbank changes."
+     ],
+     "summer": [
+      "The sun's up early, so my survey sheets get a few more lines.",
+      "I'm glad the river's getting lively. I have to keep a closer eye on the waterweed, though.",
+      "Not every bank is safe to stand on. Safety matters more than casting far.",
+      "While you wait for a bite, look at the far bank. Don't turn resting into a contest too.",
+      "The Wetland viewing area needs a path. Putting up one sign isn't enough."
+     ],
+     "autumn": [
+      "Leaves float on the water. Don't take every ripple for a fish.",
+      "The river sounds slower in fall. My records can't slack off with it.",
+      "Even counts of common fish can tell you how this season changed.",
+      "Leave a little room at your fishing spot, and the next person has somewhere to stand.",
+      "I want to paint this year's water colors side by side. They don't have to look pretty."
+     ],
+     "winter": [
+      "If your hands are cold, make the trip shorter. Your rod will still be there tomorrow.",
+      "Stay off the ice edges. The safe spots are enough for our records.",
+      "The fish barely move. We don't have to keep chasing them either.",
+      "On snowy banks, the footprints show who comes by often.",
+      "A whole year recorded, and my favorites are still the ordinary days."
+     ]
+    },
+    "rain": [
+     "I'm recording rainfall under the eaves. Come over if you want to talk—just don't stand on the muddy slope.",
+     "Some fish get active in the rain, but there aren't any more safe places to stand."
+    ],
+    "friendship": {
+     "0": [
+      "Bait cuts down the waiting, but you can practice without it.",
+      "If you want to hand in a sample, just tell me. I won't take fish out of your hands."
+     ],
+     "200": [
+      "I'll put your records with mine, and keep the differences too.",
+      "With someone watching the river with me, I'm not always afraid I've missed something."
+     ],
+     "400": [
+      "A viewing area can't just look nice. It has to leave room for people who fish.",
+      "I get a bit anxious about this. Remind me to finish what I'm saying."
+     ],
+     "600": [
+      "The new display doesn't take anyone's old fishing spot. That way both sides are looked after.",
+      "When you pass this stretch of river from now on, you can point out the changes and tell your own story."
+     ]
+    },
+    "gift": {
+     "love": "Even common fish deserve a careful look. Thank you for bringing this.",
+     "like": "This carries a bit of the river or the woods with it. I like it.",
+     "neutral": "Thank you. Next time you pass, stop and sit a while. You don't always have to bring something.",
+     "dislike": "I understand the thought, but this sort of thing doesn't suit my records desk."
+    },
+    "birthday": "You remembered today. Then I'll add a line to my records: someone came to watch the river with me.",
+    "festival": {
+     "flower_fair": "I picked out a few Riverside plant records. While you learn the flowers, you can meet the neighbors by the water.",
+     "fishing_derby": "No need to rush the three-minute rounds. Fishing slowly with assist on still counts as taking part.",
+     "picnic": "Put picnic leftovers in the event box. Don't leave them by the river.",
+     "firefly": "Follow the safe walkway to find the lantern lights. You can see them all without wading in.",
+     "market": "Common river fish have stories too. A stall isn't only about who has the rarest.",
+     "harvest_coop": "I'll carry the empty baskets. Check the count on full ones before they go.",
+     "snow_craft": "It's fine if this little wooden river bends. Real rivers aren't straight anyway.",
+     "hearth_night": "I want to tell about a day I came back empty-handed. I still saw beautiful water that day."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "Today isn't about catching the most. Let's just look at the water together."
+     },
+     {
+      "text": "I've recorded fish counts, but I often write too little about how the banks change."
+     },
+     {
+      "text": "On sunny days we sit on the safe walkway, on rainy days under the eaves. Either way, we can keep records."
+     },
+     {
+      "text": "For this page, do you want to record the schools of fish first, or the waterline on the bank?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "The fish first, then fill in the surroundings.",
+      "reply": "Good. Write down exactly what we see first, then look for why they're here."
+     },
+     {
+      "text": "The waterline first, as a reference for later fish records.",
+      "reply": "You notice the details. The marks water leaves can help us remember yesterday too."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "I brought back today's records. There are fewer safe fishing spots over in the Wetland now."
+     },
+     {
+      "text": "At first I just wanted to fence the place off. Then I remembered people who fish need a way through too."
+     },
+     {
+      "text": "The viewing area moves to a side that doesn't block anyone. A sign shouldn't take away what people normally catch."
+     },
+     {
+      "text": "Tonight let's sort out the map. Help me pick which layer to mark first, and we'll lay the other on top."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Draw the safe paths and existing fishing spots first.",
+      "reply": "Good. Once there's a path underfoot, we can talk about where to stop and watch."
+     },
+     {
+      "text": "Draw where the waterweed and fish gather first.",
+      "reply": "Good. See where they need to be, then line up the paths for people."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "I brought back the display notes. It'll sit off to the side of the bank, not on anyone's usual spot."
+     },
+     {
+      "text": "These records of common fish go in too. Protecting the river can't only speak for the rare names."
+     },
+     {
+      "text": "The sign talks about the changes we've seen. It's not an excuse to cut what people normally catch."
+     },
+     {
+      "text": "Pick how it opens—something that makes passersby want to stop a moment."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Start with the common fish we saw again and again all year.",
+      "reply": "Good. Seeing them often is news worth keeping in itself."
+     },
+     {
+      "text": "Put before-and-after water colors of the same stretch side by side.",
+      "reply": "Good. The changes don't need exaggerating. People can see them for themselves, in time."
+     }
+    ]
+   },
+   "event800": {
+    "steps": [
+     {
+      "text": "The river's still quiet this early. I'll close today's survey sheet. I'd like to hear how you picture the life ahead."
+     },
+     {
+      "text": "I'd like us to be together. I'll keep recording the river, and I'd like to tell you the small, everyday things too."
+     },
+     {
+      "text": "We don't have to walk the same path every day. If we say where we're going, and want to talk when we're back, that's enough."
+     },
+     {
+      "text": "On a morning with nowhere to be, would you rather walk the safe path together, or sit under the eaves with tea?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Walk the safe path a while and see the water's color that day.",
+      "reply": "Okay. We'll turn back when we're tired. A walk doesn't have to become a survey."
+     },
+     {
+      "text": "Have tea under the eaves and hear about your new findings.",
+      "reply": "Okay. I want to hear about your fields too. No one has to hand in a report today."
+     }
+    ]
+   },
+   "event1000": {
+    "steps": [
+     {
+      "text": "I brought my river survey schedule. Looking at it here at our door, the way home suddenly feels more real."
+     },
+     {
+      "text": "I want to live with you. Before heading out, we'll say when we expect to be back, and change plans if the weather turns."
+     },
+     {
+      "text": "The farm work and surveys won't just disappear. We'll set aside time to eat together, and leave each other time alone too."
+     },
+     {
+      "text": "On our home schedule, should we mark shared breakfasts first, or a weekly evening chat?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Shared breakfasts, and we talk about our plans before heading out.",
+      "reply": "Okay. If a morning gets too busy, we say so ahead. A promise should be reassuring, not something that rushes us."
+     },
+     {
+      "text": "The evening chat, taking our time with the week's discoveries.",
+      "reply": "Okay. When things change, we'll adjust together, and look after both the river and our days at home."
+     }
+    ]
+   }
+  },
+  "heyan": {
+   "name": "He Yan",
+   "role": "Carpenter",
+   "workplace": {
+    "spot": "Carpentry Shop counter"
+   },
+   "dialogue": {
+    "firstMeet": "I'm He Yan, the carpenter. The shop opens at 9 and closes at 5, and I'm off on Tuesdays. Give me exact measurements first, then we'll talk design.",
+    "seasons": {
+     "spring": [
+      "Spring wood holds moisture. Don't rush to seal it into a wall.",
+      "Keep the ruler flush. A little crooked, and you'll be sanding again later.",
+      "I drew the old bridge's joints. To keep a craft alive, you have to understand it first.",
+      "To judge a chair, sitting in it a while beats looking from across the room.",
+      "Keep the paths you walk at home clear first. Cabinets can come later."
+     ],
+     "summer": [
+      "Don't pile wood shavings near the stove. I check again before closing.",
+      "In the heat, wood moves too. Joints need a little give.",
+      "I want to give the bench edges that don't dig into your legs.",
+      "Soup can be sipped slowly. Rush lunch, and the whole afternoon feels rushed.",
+      "New patterns are fine to try, but the load-bearing parts of a bridge can't come down to taste."
+     ],
+     "autumn": [
+      "Fall light comes in low. You can see old knife marks in the grain.",
+      "Some old timber is better kept as a sample. No need to force it back into the bridge.",
+      "Sit a while after farm work. Benches aren't only for people with time to spare.",
+      "I sketched two valley patterns on paper. Take a look when you have time.",
+      "Dry out the wood you'll need for winter now. Hauling it in at the last minute is too late."
+     ],
+     "winter": [
+      "Warm your hands before working in the cold. A blade doesn't care how experienced you are.",
+      "It's warm in the Carpentry Shop. Shake off the snow when you come in.",
+      "The old ways had their reasons, and their limits for the time.",
+      "I'm leaving that faint mark on the tabletop. I still remember who measured it.",
+      "I've fixed a lot this year. I'd like to know if everything's working well for people."
+     ]
+    },
+    "rain": [
+     "The lumber's in the shed. A good day to take measurements off the plans, slowly.",
+     "Come in out of the rain. Don't step up to the saw bench in wet shoes."
+    ],
+    "friendship": {
+     "0": [
+      "Write down what you want made. We'll fill in any missing measurements together.",
+      "You can look at samples without buying. Careful of the plane by the edge."
+     ],
+     "200": [
+      "You hold the measuring tape steady. I don't have to worry about the other end slipping.",
+      "I copied the old bridge's lines for you, too."
+     ],
+     "400": [
+      "Explaining both the old and new methods is the only way people can really choose.",
+      "I noted the pattern you chose. The load-bearing measurements still go by the calculations."
+     ],
+     "600": [
+      "That bench has two people's work in it, and it needs room for many more to sit.",
+      "You don't need an excuse to buy something when you visit. The tea stool's right here."
+     ]
+    },
+    "gift": {
+     "love": "This is exactly right. Once I finish what I'm working on, I want a proper look.",
+     "like": "Thanks. I'll remember both the material and the thought.",
+     "neutral": "I'll take it. Next time you pass, stopping to chat is nice too.",
+     "dislike": "Thanks for thinking of me, but I'm not much good at cooking raw fish and the like."
+    },
+    "birthday": "I can work a little less today. If you'll sit with me, I'll heat the kettle again.",
+    "festival": {
+     "flower_fair": "I adjusted the display heights. You can read the flower labels even sitting down.",
+     "fishing_derby": "Pick whatever tackle décor you like. Keep the everyday rod that works for you.",
+     "picnic": "Lay the picnic blanket flat, and don't let the bench ends block the walkway.",
+     "firefly": "Test where the garden lanterns go first, then see which color you like.",
+     "market": "Carve fewer words on the display sign. Just make it clear where things came from.",
+     "harvest_coop": "Give each other a heads-up before lifting crates. No one should carry the whole load.",
+     "snow_craft": "Build a snow house from borrowed wood pieces. Taking it apart and starting over is craft too.",
+     "hearth_night": "No talk of deadlines tonight. If anyone has a story about old furniture, I'd like to hear it."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "I kept this section of frame we took out of the old bridge, and drew the measurements of both ends on paper."
+     },
+     {
+      "text": "Lay the ruler against the old joint and you can see how they left gaps back then. The cracked parts can only be samples."
+     },
+     {
+      "text": "To fix the bridge, we connect the path with ordinary Wood and Stone first. We can't wait for Deep Woods materials to start."
+     },
+     {
+      "text": "You hold one end. We'll pick an order to measure, and redo it if the numbers are off."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Measure the joints first, then check the span between the ends.",
+      "reply": "Good. Only when the parts match the full length can we trust the plans."
+     },
+     {
+      "text": "Check the span first, then record each joint.",
+      "reply": "All right. Fix the big measurements first, and we won't miss a single detail of the old craft."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "The new plan and the old bridge's patterns are both laid out. I've checked the load-bearing measurements separately."
+     },
+     {
+      "text": "Old techniques can stay where they fit, and the new methods need a clear reason for the change."
+     },
+     {
+      "text": "How the bridge carries people and what it's built from don't depend on decoration. We're only choosing the trim pattern."
+     },
+     {
+      "text": "One version has waves, one has leaves. Which would you rather people see as they cross?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Keep the waves, to remember the river below.",
+      "reply": "Good. I'll carve the lines a little shallower, so the old pattern sits comfortably on the new bridge."
+     },
+     {
+      "text": "Carve leaves, a little hint of the woods on the far bank.",
+      "reply": "Good. A new design carrying the old knifework—and it's still a bridge everyone can cross."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "I've rounded the bench edges, and changed the height to the numbers we noted when you tried it."
+     },
+     {
+      "text": "I left the last stretch of the valley pattern for us to trace together. Our knife marks don't have to match exactly."
+     },
+     {
+      "text": "In the Town Square, the bench has to leave room for carts. Room to sit and room to pass—only then is it done."
+     },
+     {
+      "text": "Should this last stroke run from the river to the fields, or from the fields to the mountain road?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "River to fields, to show how water reaches the farm.",
+      "reply": "Good. Whoever sits here can follow the pattern and talk about their own work."
+     },
+     {
+      "text": "Fields to mountain road, a hint of going further.",
+      "reply": "Good. Everyone has their own idea of where the road leads. First, let them sit comfortably."
+     }
+    ]
+   },
+   "event800": {
+    "steps": [
+     {
+      "text": "Work's done, the plans are spread out, and the lamp lights just this one table. Today, I want to design a piece for the two of us."
+     },
+     {
+      "text": "I'd like to be with you—not just find an excuse to meet when there's work to do."
+     },
+     {
+      "text": "Measurements can be redone and ideas can change. First, let's each say what's comfortable to sit in."
+     },
+     {
+      "text": "Should I draw a bench for sitting side by side, or a little table for tea across from each other?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "A bench, to rest side by side after work.",
+      "reply": "Okay. We'll test the backrest angle together, so neither of us has to put up with being uncomfortable."
+     },
+     {
+      "text": "A little table, with room to talk face to face.",
+      "reply": "Okay. I'll round the edges, and over quiet tea, we won't have to think about work."
+     }
+    ]
+   },
+   "event1000": {
+    "steps": [
+     {
+      "text": "The house extension is done. I brought a sketch of a work corner—let's talk it over before we set anything up inside."
+     },
+     {
+      "text": "I want to live with you, and still keep places for each of us to work and rest. Tools can't take over the shared hallway."
+     },
+     {
+      "text": "I'll keep carpentry at the shop as much as I can and only do quiet little fixes at home. Your plans go in here too."
+     },
+     {
+      "text": "For the work corner, should we have one shared table, or two separate little storage spots?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "A shared table, and we tidy it together after each use.",
+      "reply": "Okay. Whoever uses it first says so, and there's always room for the other's things."
+     },
+     {
+      "text": "Two storage corners, with an open space between.",
+      "reply": "Okay. We each have our own spot, and a place to sit down together."
+     }
+    ]
+   }
+  },
+  "zhouqin": {
+   "name": "Zhou Qin",
+   "role": "Rancher",
+   "workplace": {
+    "spot": "Ranch counter"
+   },
+   "dialogue": {
+    "firstMeet": "I'm Zhou Qin. The Ranch is open 8 to 4, closed Mondays. Check that you've got room and enough hay before you decide which animal to take.",
+    "seasons": {
+     "spring": [
+      "New grass is coming up, but check it's enough for a meal. Green ground alone doesn't count.",
+      "Chickens learn where the Feed Trough is. Before you move it, think about how they'll get there.",
+      "I check the latches in the morning and again at night, so I'm not worrying at bedtime.",
+      "Take your time naming an animal. Feed it first.",
+      "Lots of spring rain. Keeping some Hay indoors beats a last-minute run to the shop."
+     ],
+     "summer": [
+      "When the sun's at its fiercest, I let them rest in the shade.",
+      "No need to rush petting each one. Get steady on your feet, then come close.",
+      "When the product slot's full, collect it. Animals need room to leave things too.",
+      "Damp Hay clumps. Shake it loose before you stack it.",
+      "Before you raise more, work out how much time you're willing to spend each day."
+     ],
+     "autumn": [
+      "Stock up winter feed bit by bit. No need to spend everything today.",
+      "That one step of space in front of the barn door comes in handy for carts and chicks alike.",
+      "Animals take a while to look around a new spot. Don't rush them.",
+      "Even with a good harvest, don't forget feeding happens every day.",
+      "Write down which day you ran short on hay, and you'll already know what to fix tomorrow."
+     ],
+     "winter": [
+      "Keep them inside when it snows, and put the Hay where they can reach it.",
+      "Missed a feeding? Start again with the next one. Don't spend all day blaming yourself.",
+      "Warm your hands before petting them. You're comfortable, and they're at ease.",
+      "A bell reminds you to tend them. It can't put out feed for you.",
+      "Winter's a good time to look at your layout—which paths always make you go the long way."
+     ]
+    },
+    "rain": [
+     "No grazing today. Check the troughs, then the doors.",
+     "The rain's loud. Say something before you go into the pen. Don't reach in suddenly."
+    ],
+    "friendship": {
+     "0": [
+      "Which kind do you want to raise? Let me tell you what space it needs first.",
+      "Keep your feed math straight, and caring for them won't get more frantic over time."
+     ],
+     "200": [
+      "You crouched down to check the trough. Now I know my instructions weren't wasted.",
+      "Learn one animal's routine first. It's not too late to add more after."
+     ],
+     "400": [
+      "Crowded doesn't always mean you need to expand. Try moving that thing by the door first.",
+      "We looked at this layout together. If it doesn't flow, we can change it again."
+     ],
+     "600": [
+      "The care booklet's by the counter. Your experience is written in it too.",
+      "When you hear the bell, think of them. And don't get so busy you forget yourself."
+     ]
+    },
+    "gift": {
+     "love": "Now this is practical. Animals and people both need to eat well. Thanks.",
+     "like": "I can use this. I'll take it.",
+     "neutral": "Thanks for thinking of me. I'll set it here for now.",
+     "dislike": "I appreciate it, but this kind of thing can't get mixed in with the feed."
+    },
+    "birthday": "The animals still need feeding on my birthday. But sitting with you once I'm done—I'm glad of that.",
+    "festival": {
+     "flower_fair": "Set the flower pots a bit further back, so passing critters don't nibble them.",
+     "fishing_derby": "Dry your shoes after watching the contest. The riverbank mud is slippery.",
+     "picnic": "There's enough food from the event for everyone. No need to take the animals' feed for tomorrow.",
+     "firefly": "I shut the barn up before coming, so I can enjoy the lanterns without worrying.",
+     "market": "Lay out the goods neatly, and keep the descriptions honest.",
+     "harvest_coop": "Keep feed and cooking ingredients on separate sides, so they don't get mixed up when moving.",
+     "snow_craft": "Give the little snow house a wide door, so the wooden animals inside live comfortably.",
+     "hearth_night": "With someone keeping track of the chores, I can actually sit and listen a while."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "This care list goes: troughs first, then doors, and only then count today's eggs."
+     },
+     {
+      "text": "Having enough hay is one thing. Whether the animals can reach it is another."
+     },
+     {
+      "text": "Take one more look before latching the door, so you don't shut out one that's still coming back."
+     },
+     {
+      "text": "Pick one to check with me first. We'll do the other right after."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Troughs and paths first, to see if each one can reach.",
+      "reply": "Right. Putting out feed means nothing if they can't get to it."
+     },
+     {
+      "text": "Latches and the route back to the pen first, then the feed.",
+      "reply": "Good. A clear way home means one less worry at night."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "This building has everything it needs, but there's only a narrow gap left at the door."
+     },
+     {
+      "text": "Let's move things around on paper first. No need to touch the animals or buildings yet."
+     },
+     {
+      "text": "Putting the troughs against the wall frees the middle. Moving tools to the side widens the entrance too."
+     },
+     {
+      "text": "Which do you want to try first? Either way, we walk the route in and out afterward."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Move the tools to the side and keep the troughs where they're used to them.",
+      "reply": "Good. A smaller change. Let's see if the entrance flows better."
+     },
+     {
+      "text": "Put the troughs against the wall and leave a straight path down the middle.",
+      "reply": "Good. Then let's see if the one at the very back can make the turn on the way out."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The care booklet's done. The first page says: they can see it, reach it, and eat it."
+     },
+     {
+      "text": "I picked out the little bell too. It hangs where it won't bump the animals' heads—it's only there to remind people."
+     },
+     {
+      "text": "Your layout tips are in the back. A different building still means walking it again."
+     },
+     {
+      "text": "On the cover, should we put the morning feeding order, or the evening pen check?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "The morning feeding, so the day starts with full bellies.",
+      "reply": "Good. The evening check goes on the next page, so finishing one end doesn't mean forgetting the other."
+     },
+     {
+      "text": "The evening pen check, to remind everyone to look once more before bed.",
+      "reply": "Good. Turn the page and it's the next day's feed. That's how the care all connects."
+     }
+    ]
+   }
+  },
+  "yelan": {
+   "name": "Ye Lan",
+   "role": "Herbalist",
+   "workplace": {
+    "spot": "Clinic medicine cabinet"
+   },
+   "dialogue": {
+    "firstMeet": "I'm Ye Lan. I look after the Clinic. Someone's here from 8 in the morning to 9 at night. On Thursdays I go out gathering herbs, but someone stays at the counter so your trip isn't wasted.",
+    "seasons": {
+     "spring": [
+      "Identify herbs by the underside of the leaf. Don't just go by whether they look alike.",
+      "I divided my foraging bag into sections, so I don't have to sort everything again when I get back.",
+      "Leave some new shoots alone. Let them grow before you pick them.",
+      "Even when you're caring for others, you need time to eat. I'm still learning that.",
+      "Clear records of what the Clinic uses tell me how much to gather next time."
+     ],
+     "summer": [
+      "Keep the Honey covered. I can't have ants swarming the medicine cabinet.",
+      "It's hot in the hills. Plan for water and your return time before heading out.",
+      "Herbs drying fast doesn't mean they're drying well. They still need turning.",
+      "One more person helped prepare medicine today. I finally got to sit down for lunch.",
+      "If you don't know a leaf, bring a sketch and ask. Don't put it in the pot first."
+     ],
+     "autumn": [
+      "Check herbs for damp before storing them. Even the pretty leaves.",
+      "Keep the herb garden paths wide, so people with canes can get in.",
+      "Everyone writes in with different needs. I go by what's actually short.",
+      "Even after a good season's gathering, save seeds for next year.",
+      "Chrysanthemums and herbs have different uses. They each need their own label."
+     ],
+     "winter": [
+      "It's easy to forget to drink water in the cold. I keep a cup by the medicine cabinet too.",
+      "I write down whatever I get done today. The empty boxes are for tomorrow.",
+      "When snow covers the roots, even in the usual spots you have to identify them again.",
+      "The Clinic light's on. Take your time if you want to talk.",
+      "I want the herb garden looked after, and the people looking after it to get rest."
+     ]
+    },
+    "rain": [
+     "Keep wet herbs separate. Let them air out before putting them in the cabinet.",
+     "The herb trails are slippery. Staying in to sort the Clinic counts as real work today."
+    ],
+    "friendship": {
+     "0": [
+      "Tell me what you need first, and I'll check what we have in stock.",
+      "More herbs isn't always better. Work out what they're for first."
+     ],
+     "200": [
+      "I've noted where both medicine packets go. No one will be left waiting without anyone knowing.",
+      "Asking which one we're short on helps more than bringing a whole basketful."
+     ],
+     "400": [
+      "The help schedule has my rest time on it too. That column was your idea.",
+      "We'll plan things together. No one has to cover every gap alone."
+     ],
+     "600": [
+      "Someone keeps track of what's taken from the herb garden and what's replanted. A little at a time can last.",
+      "I have time to sit today. With the cabinet closed, I don't have to stay on my feet."
+     ]
+    },
+    "gift": {
+     "love": "This came at just the right time. I'll note where it's from and how it's used. Thank you.",
+     "like": "Thank you. Something chosen this carefully suits me well.",
+     "neutral": "I'll take it. Next time, don't feel you always have to bring something.",
+     "dislike": "Thank you, but ore scraps and odds and ends should stay away from the medicine cabinet."
+    },
+    "birthday": "You remembered my day. I've written rest into today's plans. Let's have a cup of hot tea.",
+    "festival": {
+     "flower_fair": "If you're not sure of a flower, read the label first. Even if you like it, don't taste it.",
+     "fishing_derby": "Take a break during the contest. If your hands get cold, warm them up first.",
+     "picnic": "Wash the vegetables before sharing. Simple ingredients can take good care of everyone.",
+     "firefly": "I like a spot under the lanterns where I can sit. Once I've rested, I'll go on looking.",
+     "market": "I write an herb's origin and uses separately. A label shouldn't decide for people.",
+     "harvest_coop": "Keep light and heavy things apart. If you're tired of carrying, switching to sorting is fine.",
+     "snow_craft": "Come warm up if your hands are cold. Your craft won't look worse for going a little slower.",
+     "hearth_night": "Let's save a little time tonight for the people who care for others, and hear about them for once."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "The basic herbs for our two elderly neighbors are ready. Names and doses can't get mixed up."
+     },
+     {
+      "text": "If a packet's missing something, write it down. Don't just swap in something else because it's on hand."
+     },
+     {
+      "text": "I'll check the prescriptions; you help sort where they go. I copied the Antidote recipe for you too."
+     },
+     {
+      "text": "We can check labels or plan the delivery order first. Both have to match in the end."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Check each label first, then sort by where they live.",
+      "reply": "Good. Make sure the contents are right, then make the route easy."
+     },
+     {
+      "text": "List who needs a delivery first, then check doses packet by packet.",
+      "reply": "Good. No one gets missed, and every packet has a clear destination."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "There was a line at the cabinet today, and gathering, sorting and deliveries all piled up at once."
+     },
+     {
+      "text": "I took on each task, thinking I could just hold out a little longer. My lunch went cold again."
+     },
+     {
+      "text": "The help schedule lists what each person is willing to do. If you can't finish, you hand it off. One person can't carry it all."
+     },
+     {
+      "text": "Which would you help me sort out first? After, I'll teach you to make this Herb Tea—and save time to sit down myself."
+     }
+    ],
+    "choice": [
+     {
+      "text": "List the urgent deliveries first, then plan the gathering and sorting.",
+      "reply": "Good. The urgent things get covered, and nobody has to guess about the rest."
+     },
+     {
+      "text": "Ask how long everyone can help first, then split the work into small pieces.",
+      "reply": "Good. We'll plan around time people can really give, and I'll write my rest in too."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The sign-in sheet for the community herb garden is ready. The entrance is wide, so people with canes don't have to squeeze past flower pots."
+     },
+     {
+      "text": "Only a little is taken from the garden each day, and it's written down. Replanting and tending have people to take them on, too."
+     },
+     {
+      "text": "These are the herbs I sorted today—take them. The garden isn't meant to be emptied in one go."
+     },
+     {
+      "text": "Help me pick what the sign should say first. The other part follows right after."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Taking and signing in first, so visitors know how to share.",
+      "reply": "Good. People know how to use it, and can see how much is left."
+     },
+     {
+      "text": "Taking turns tending first, so the people who replant get remembered.",
+      "reply": "Good. Not just what's taken, but who keeps it growing."
+     }
+    ]
+   },
+   "event800": {
+    "steps": [
+     {
+      "text": "The herb garden sign is wiped clean. Once this little patch is done, I want to keep the rest of today for myself."
+     },
+     {
+      "text": "When I care for others, I always remember to ask if they're tired. For myself, I often skip it. With you, I want to slowly change that."
+     },
+     {
+      "text": "I'd like for us to be together. Neither of us has to carry everything for the other. We lend a hand when we can."
+     },
+     {
+      "text": "Shall we spend tonight's rest on a cup of tea, or sitting quietly by the garden?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Make tea, and write down when you'll rest tomorrow.",
+      "reply": "Okay. Rest deserves careful planning too. No need to wait until everything's done."
+     },
+     {
+      "text": "Sit by the garden a while, and don't add any new tasks today.",
+      "reply": "Okay. Looking at the herbs is enough. We can be comfortable together without talking."
+     }
+    ]
+   },
+   "event1000": {
+    "steps": [
+     {
+      "text": "I measured this empty cabinet by our door. I'd like to talk with you about how we'll organize an herb cabinet at home."
+     },
+     {
+      "text": "I want to live with you. Clinic supplies stay at the Clinic, and our everyday things at home get their own clear place."
+     },
+     {
+      "text": "Labels, dosage notes and restock dates all have a spot. If you're not feeling well, say so. Caring for each other shouldn't mean guessing."
+     },
+     {
+      "text": "For our first shared plan, should we write where things go, or reminders for rest and restocking?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Where things go, so we can both find them.",
+      "reply": "Okay. Everyday things within easy reach, and anything unfamiliar, we ask before using."
+     },
+     {
+      "text": "Rest reminders first, and fill the cabinet bit by bit.",
+      "reply": "Okay. The cabinet can fill up slowly. How we're each doing deserves care starting today."
+     }
+    ]
+   }
+  },
+  "luyao": {
+   "name": "Lu Yao",
+   "role": "Miner",
+   "workplace": {
+    "spot": "Mine Entrance"
+   },
+   "dialogue": {
+    "firstMeet": "Lu Yao. Usually at the Mine Entrance or on the Mountain Path. Learn the exits first and bring enough supplies. Don't want to go down the Mines? That's fine. The trail markers come in handy anyway.",
+    "seasons": {
+     "spring": [
+      "When the meltwater comes down, old footprints don't prove a path is safe.",
+      "Arrows on a sign have to make sense to someone here for the first time.",
+      "Don't save your Backpack just for ore. Food for the trip back counts as luggage too.",
+      "I always check the knots once more before heading out. Doesn't take long.",
+      "The bench on the Mountain Path is free. Legs going weak? Sit. Nobody's timing you."
+     ],
+     "summer": [
+      "It's cool in the Mines, but don't lose track of how long it's been outside.",
+      "Keep lunch where you can grab it. Digging through your bag when you're starving makes you rush.",
+      "Not feeling up to it today? Take the detour. You won't lose a route for it.",
+      "I listen for the hammer, and for anyone nearby calling out.",
+      "A lit exit is more reassuring than bringing back one more chunk of ore."
+     ],
+     "autumn": [
+      "Fallen leaves cover the stone steps. Watch your footing.",
+      "I never burned the records of the old accident. I just didn't want to look at them before.",
+      "Everything in the rescue cabinet needs its use written down.",
+      "If someone walks slowly, we push the meeting time back a bit.",
+      "Ore you bring back gets sorted. So do experiences—close calls aren't the same as skill."
+     ],
+     "winter": [
+      "If your fingers go numb, stop. Don't wait until you can't hold anything to admit it.",
+      "Even if you want to see the snow from up high today, ask about the trail first.",
+      "I dried out the spare rope. Wet rope freezes, and the knots won't come undone.",
+      "When I finish my bento, I bring the empty box back. It reminds me to head home.",
+      "Something I learned this year: it's okay to say ahead of time that I'm a bit worried."
+     ]
+    },
+    "rain": [
+     "You can wait under the shelter at the Mine Entrance. Don't rush downhill through the mud.",
+     "If rain smears a sign, wipe it clean first. Even on a familiar path, don't guess."
+    ],
+    "friendship": {
+     "0": [
+      "Light, route, supplies. Check those three first.",
+      "You can ask for directions without going down. Safety advice is free."
+     ],
+     "200": [
+      "Watching you check the arrows reminded me of when I first got here.",
+      "Someone who'll turn back to find the exit—I worry less when they go farther."
+     ],
+     "400": [
+      "Now that I've talked about what happened, I don't have to act like I'm fine every time.",
+      "Practice or detour, both can be done properly. Whichever you pick, I'll be there with you."
+     ],
+     "600": [
+      "Ropes and cabinet are checked. Today I can sit down and eat without worrying.",
+      "Those details you reminded me about—I tell newcomers about them now too."
+     ]
+    },
+    "gift": {
+     "love": "Good material, good supplies. Thanks. You know what I think about before heading out.",
+     "like": "I can use this. I'll keep it somewhere easy to find.",
+     "neutral": "Thanks. Come sit a while sometime.",
+     "dislike": "Thanks for the thought, but I'm no good at caring for flowers like these. They'd get crushed at the Mine Entrance."
+    },
+    "birthday": "I want to knock off on time today. You're here, so let's eat while the food's still hot.",
+    "festival": {
+     "flower_fair": "When it's crowded, I stand on the outside to leave room for the flower viewers.",
+     "fishing_derby": "Today's not about nerve. Get your footing, then cast.",
+     "picnic": "I'll help steady the long tables. After that, nobody spends the whole time working.",
+     "firefly": "The lanterns light the way home clearly. That eases my mind more than how bright they are.",
+     "market": "Common ore can make a fine display. Don't take risks just for a stall.",
+     "harvest_coop": "Check your footing first, then lift the crates together.",
+     "snow_craft": "The path on this snow mountain can wind around. The peak isn't the only nice view.",
+     "hearth_night": "I want to thank the people who waited for me to come home, and the ones who told me to turn back in time."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "Read this Mine Entrance map in three parts: the way out, the danger limits, and places to rest."
+     },
+     {
+      "text": "The arrows can't only make sense to people who know the way. Even if the lights go out, there need to be markers back."
+     },
+     {
+      "text": "No need to go down to prove you're brave. We'll check the markers from somewhere safe."
+     },
+     {
+      "text": "Do you want to go in the order you'd head out, or work backward from the way home?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Work back from the exit, to make sure you can find the way home even when tired.",
+      "reply": "Good. If it makes sense on the way back, it's not just a map for when you're fresh."
+     },
+     {
+      "text": "In order of setting out, noting forks and rest spots along the way.",
+      "reply": "Good. Every time you have to decide where to go, there should be a sign."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "There was an accident once. I rushed ahead without making sure the people behind me were keeping up."
+     },
+     {
+      "text": "After that, every time I heard falling rocks, I wanted to hurry everyone to safety, and I couldn't get the words out right."
+     },
+     {
+      "text": "Today's just a safety drill. If you want to practice, we go slow. Choosing the detour isn't backing down."
+     },
+     {
+      "text": "Help me pick one, and let's be clear on how we check on each other along the way."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Practice stopping and answering in a safe spot first, then walk together.",
+      "reply": "Good. This time, I'll hear you answer before moving on."
+     },
+     {
+      "text": "Mark the detour first, and agree on each waiting point.",
+      "reply": "Good. When there's a way back, everyone needs to know about it."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The safety ropes are rechecked, and the rescue cabinet lists how much to use and who restocks it."
+     },
+     {
+      "text": "The supply point before the boss stays somewhere safe. Read the notes before taking anything—it doesn't refill the moment it's emptied."
+     },
+     {
+      "text": "I wrote the old accident in as the reason for the checklist. It's not just a list of strict rules anymore."
+     },
+     {
+      "text": "For this last card, should it remind people to check before they leave, or to report back safe?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Checking before leaving, so everyone knows what's missing.",
+      "reply": "Good. Missing something? Get it. No relying on luck."
+     },
+     {
+      "text": "Reporting back safe, so the people waiting are counted too.",
+      "reply": "Good. A trip only ends when someone knows you're back."
+     }
+    ]
+   },
+   "event800": {
+    "steps": [
+     {
+      "text": "This is a safe lookout with a railing, and we know the way. What I want to say doesn't need a dangerous place to sound serious."
+     },
+     {
+      "text": "I'd like us to be together. I used to think I had to shoulder every risk myself. Now I want to learn to let someone know what I'm worried about."
+     },
+     {
+      "text": "You don't have to take risks with me to prove anything. If you want to stop or go back, just say so."
+     },
+     {
+      "text": "Let's make an easy memory here today. Sit and watch the mountain shadows, or walk the safe path to the next bench?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Sit and watch the shadows, and take our time with what's left to say.",
+      "reply": "Okay. There's nowhere far we have to reach today. Right here is good."
+     },
+     {
+      "text": "Walk the safe path a little, then head back together.",
+      "reply": "Okay. We'll agree on the way back first, and decide together how far to go."
+     }
+    ]
+   },
+   "event1000": {
+    "steps": [
+     {
+      "text": "Standing at our door, I want to pick a spot for a travel-log corner before we talk about where to go next."
+     },
+     {
+      "text": "I want to live with you. And I'll always be clear about when I plan to be back, who I'm with and my backup route."
+     },
+     {
+      "text": "The corner is for things we've seen, not records we have to beat. Coming home safe makes even an ordinary day worth keeping."
+     },
+     {
+      "text": "Should the first card be our promise to come home safe, or the trail we walked together?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "The promise to come home, and we tell each other if plans change.",
+      "reply": "Okay. No one waiting has to guess. When we're back, we'll take our time telling about the trip."
+     },
+     {
+      "text": "The safe trail, with our return date written beside it.",
+      "reply": "Okay. The paths we've walked and the home that waits—both where we can see them."
+     }
+    ]
+   }
+  },
+  "aman": {
+   "name": "Ah Man",
+   "role": "Waystation Clerk",
+   "workplace": {
+    "spot": "Waystation Counter"
+   },
+   "dialogue": {
+    "firstMeet": "I'm Ah Man. I take in everyone's mail and point folks the right way. Until the Waystation's fixed up, I'll be out front of the Town Hall, so no letter goes unclaimed.",
+    "seasons": {
+     "spring": [
+      "The flower on the envelope is only drawn on. No need to pick a real one to match it.",
+      "Write the street, then add a doorway people know. Then it can't go astray.",
+      "If ripe Wild Berries remind you of someone, send them a line. That's nice too.",
+      "Found an old postcard while sorting today. The postmark's even older than I guessed.",
+      "I split the town mail from the outside mail, so folks nearby aren't left waiting."
+     ],
+     "summer": [
+      "Don't tuck Blueberries under the mailbag. Last time I nearly had it backwards.",
+      "Take the Mountain Path slow in the heat. No letter's due date is worth running yourself ragged.",
+      "Some folks write so tiny, but the last line always turns out warm.",
+      "The map's fold ran right through a street name, so I copied out another.",
+      "There's a breeze on the porch. Letters come out neater sitting than standing."
+     ],
+     "autumn": [
+      "Draw fallen leaves on a postcard if you like, but don't tuck wet ones inside.",
+      "If an address isn't complete, I look for clues first. I don't just guess someone and hand it over.",
+      "A bit of tartness in berries is good. Perks you up after a long walk.",
+      "I'd like a message wall, so people coming back and people staying can both write on it.",
+      "Not every letter needs big news. \"Got home safe\" is plenty to read over and over."
+     ],
+     "winter": [
+      "Ink dries slowly in the cold. Let it sit a while longer before you fold it.",
+      "When there's snow on the Mountain Path, the schedule notice goes where everyone can see it.",
+      "Can't think how to start? Write what you ate today.",
+      "The empty spots on the message wall are for short notes, and for folks who haven't decided yet.",
+      "At year's end, what I most want to count is how many letters found their person."
+     ]
+    },
+    "rain": [
+     "The mailbag's under the eaves. Go on, brush the rain off your shoulders first.",
+     "Don't pry wet paper apart. Let it dry, and I'll look it over with you."
+    ],
+    "friendship": {
+     "0": [
+      "Looking for someone? Start with a name. No full name? We can track them down by place.",
+      "The address is on the back of a postcard. Don't get lost in the scenery!"
+     ],
+     "200": [
+      "The backlog pile's finally shorter. I'm keeping the pigeonhole you sorted just as it is.",
+      "With you helping on place names, even old postmarks aren't so hard to read."
+     ],
+     "400": [
+      "That letter with the missing address only got delivered because we asked around properly.",
+      "Walking a few extra steps to find someone beats having them open the wrong letter."
+     ],
+     "600": [
+      "Your writing's on the wall. I see it every day when I open up.",
+      "Whether you're out on the road or at home, there's always a spot here to leave a note."
+     ]
+    },
+    "gift": {
+     "love": "Just what I've been craving! Thanks. I'll take my time with it once the mail's sorted.",
+     "like": "I like it. Gives me something to look forward to between runs.",
+     "neutral": "Thanks. Let me find it a spot where it won't squash the mail.",
+     "dislike": "Thanks for thinking of me, but anything from the mine has to stay well away from the mailbag."
+    },
+    "birthday": "You even remembered my birthday! This postcard isn't getting mailed. I'm keeping it for myself.",
+    "festival": {
+     "flower_fair": "Write big on the flower signs so first-timers can read them too.",
+     "fishing_derby": "I'm logging the rounds for everyone. Missed a fish? Don't rush to start over.",
+     "picnic": "Save an extra seat at the picnic table, so neighbours coming in off the road can sit too.",
+     "firefly": "The three lantern spots are like little postmarks on a map. Follow the trail, take your time.",
+     "market": "Keep the stall descriptions short. Leave time for folks to chat in person.",
+     "harvest_coop": "Sorting's my thing. Label where each crate goes first, and no one hauls them back and forth.",
+     "snow_craft": "I built a little post booth, with a spot by the door to shelter from the snow.",
+     "hearth_night": "Anonymous greetings don't need to be pretty. Truly thinking of someone is enough."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "There are six postcards in the backlog. I've put the private letters from the mailbag away. Today we only sort these event samples."
+     },
+     {
+      "text": "This side's for town addresses, that side goes on the outside runs. Don't sort by the picture and send them the wrong way."
+     },
+     {
+      "text": "The sorted counts have to match the original list, and the samples go back to the event cabinet after. None go home."
+     },
+     {
+      "text": "Want to start with the place names, or count each pile first?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Place names first. I'll set aside any I'm unsure of.",
+      "reply": "Good. Keep the questions to ask, instead of stuffing them in a pile that looks close enough."
+     },
+     {
+      "text": "Count the total first, then recount each pile after sorting.",
+      "reply": "Good. All six are here, and where each one goes is written out clearly."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "Half this letter's address is missing. It only mentions a corner and an old house number."
+     },
+     {
+      "text": "I won't open the letter inside. First, let's check the place on the envelope against the map."
+     },
+     {
+      "text": "Folks at two public spots remember the old street names. We'll ask, then double-check the recipient."
+     },
+     {
+      "text": "Do you want to start from today's doorways, or from the old street name?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Check the current doorway at the Clinic, then ask the Carpentry Shop about renovation records.",
+      "reply": "Good. Once we're sure where things are today, the old names have something to match against."
+     },
+     {
+      "text": "Ask the Carpentry Shop about the old house number, then confirm the usual name at the Clinic.",
+      "reply": "Good. Once the history and the present line up, the letter goes to the person meant to get it."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The message wall has rows of empty squares. Short notes are fine. It doesn't have to read like a travelogue."
+     },
+     {
+      "text": "Sign it if you want. If you'd rather not write, just reading is fine. No note doesn't mean you don't care."
+     },
+     {
+      "text": "Help me pick the first local message, one you'll still recognize whenever you come back."
+     },
+     {
+      "text": "I like both. Your pick goes on top, and the other goes in my own little notebook."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Write: \"Take it slow out there. There's a seat for you when you're back.\"",
+      "reply": "Nice. It reads like the empty bench on the porch, waiting for someone."
+     },
+     {
+      "text": "Write: \"An ordinary day is still worth writing down.\"",
+      "reply": "Nice. You don't need a long trip every time. Life right here has things worth saying too."
+     }
+    ]
+   }
+  },
+  "duanxing": {
+   "name": "Duan Xing",
+   "role": "Travelling Trader",
+   "workplace": {
+    "spot": "Waystation Porch"
+   },
+   "dialogue": {
+    "firstMeet": "Duan Xing, trader. Item names, prices, delivery dates, all laid out. While the Waystation's being fixed, find me outside the Town Hall. Look it over before you buy.",
+    "seasons": {
+     "spring": [
+      "New stock can have a pretty name, but the actual quantity still gets written down.",
+      "A delivery date I missed last year doesn't vanish just because I turned the page.",
+      "Whether a jam jar seals tight matters more than how pretty the jar is.",
+      "Ask about costs and I'll list them. No need to hide every trade secret.",
+      "Keep the first order small. Easier for both of us to check."
+     ],
+     "summer": [
+      "It's hot on the road. How long goods keep has to be built into the schedule.",
+      "Have some tea before you check the books. Tired eyes skip lines.",
+      "The same batch can't be marked \"ready\" on two different orders.",
+      "If a delivery date changes, I'll tell you first. You won't find out standing at the counter.",
+      "Processing time is worth money too. Compare only raw prices and the math won't add up."
+     ],
+     "autumn": [
+      "Harvest means lots of goods. The busier it gets, the more we count face to face.",
+      "Want to stock up for winter? Set aside enough for daily costs first.",
+      "Any number changed on the price board gets a date beside it.",
+      "I like sensible packaging. Steady to carry, easy to open.",
+      "A promised refund is a refund. You don't fob someone off with a discount on the next order."
+     ],
+     "winter": [
+      "When snow shuts the road, write down what you know and what you don't, separately.",
+      "The books are settled. Have another cup of tea.",
+      "Note every late delivery this year, so I can fix next year's plans.",
+      "The plaque is a token of our dealings. No materials locked away behind it.",
+      "Someone who comes back to point out a wrong entry? I'll gladly hear them out."
+     ]
+    },
+    "rain": [
+     "If rain blocks the road, say so. Don't keep people waiting on a vague date.",
+     "The ledger's in the cabinet. Check it at your own pace. No need to count stock in the rain."
+    ],
+    "friendship": {
+     "0": [
+      "Here's the list. Go through names and prices one by one.",
+      "If it's not right, don't buy. Asking doesn't mean you owe me."
+     ],
+     "200": [
+      "You count carefully. You spotted that missing line first.",
+      "Put the practice order away when you're done. Nothing delivered, nothing marked received."
+     ],
+     "400": [
+      "After sorting out that late order, I write my notices clearer than before.",
+      "Delay or refund, the other side should truly get to choose."
+     ],
+     "600": [
+      "The price board's out in the open. Regulars and newcomers go by the same book.",
+      "This plaque marks keeping your word, not buying the most."
+     ]
+    },
+    "gift": {
+     "love": "Made with real care, or a well-chosen tea. Thanks. I'll take my time with it.",
+     "like": "Good stuff. I'll take it as a kindness, not a trade.",
+     "neutral": "Thanks. Gifts go in a separate column. Business still goes by the deal.",
+     "dislike": "Thanks for the thought, but I've no use for odds and ends like these. Next time, a chat is plenty."
+    },
+    "birthday": "Nobody's keeping score today. Come sit a while. I'll brew the tea.",
+    "festival": {
+     "flower_fair": "At the swap stall, say up front what you've each brought. Clear talk, easy minds.",
+     "fishing_derby": "Plain supplies do the job. Keep your derby keepsake wherever you like.",
+     "picnic": "If there's enough for the event, nobody adds to the bill. Just relax and eat.",
+     "firefly": "Pick a lantern in whatever color pleases you. None's worth more than another here.",
+     "market": "Keep the Market Medallion for your Collection. Remember to take your exhibit back after today.",
+     "harvest_coop": "Check the names and portions once first. Then wherever it goes, you know what's what.",
+     "snow_craft": "Count the borrowed wood pieces before you take them. At cleanup, every one comes back.",
+     "hearth_night": "Tonight I'll tell how I set things straight after a late delivery. Not much of a pretty story."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "This is a practice order. The crates are just samples. Counting them doesn't mean you've bought them."
+     },
+     {
+      "text": "Right item? Check the quantity. Right quantity? Ask when it arrives."
+     },
+     {
+      "text": "If something's missing, leave it blank with a note. Don't fill in a number just to make the paper look nice."
+     },
+     {
+      "text": "Want to check the crates against the list, or go down the list and find each crate?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Count the crates, then fill the numbers back in line by line.",
+      "reply": "Good. Write what you see, and note the batch that hasn't arrived separately."
+     },
+     {
+      "text": "Read the names and delivery dates first, then check each crate's count.",
+      "reply": "Good. Put the promise next to the goods, and you can see where they differ."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "This shipment came in late. I have to tell whoever's waiting first, not make them chase me down."
+     },
+     {
+      "text": "I can explain why, but any fix I promise has to be one I can actually deliver."
+     },
+     {
+      "text": "Let's practice keeping a deal on a training order. They choose delay or refund. Your money isn't touched."
+     },
+     {
+      "text": "Help me finish writing one of the notes. The other stays on the order too."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Write the new delivery date first, and check they're willing to wait.",
+      "reply": "Right. If they won't wait, it's a refund. Telling them isn't the same as them agreeing."
+     },
+     {
+      "text": "List the refund option first, then explain they can choose to wait.",
+      "reply": "Right. With a clear refund on offer, a deal they choose to keep actually counts."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The open price board's written up. Cost, shipping and last update each get a column."
+     },
+     {
+      "text": "Friends go by this list too. Nobody has to wonder if someone else got a different price."
+     },
+     {
+      "text": "Next to it is a plaque for stories of kept promises. Main quest materials won't be hidden away as friendship perks."
+     },
+     {
+      "text": "Pick one item for the most visible spot. The rest stay up too."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Show the total and the breakdown first, so people know where their money goes.",
+      "reply": "Good. Do the math, then decide. Nobody should feel awkward asking a price."
+     },
+     {
+      "text": "Put delivery dates and change notes first, so waiting comes with a firm answer.",
+      "reply": "Good. When it arrives and how much it costs both belong out in the open."
+     }
+    ]
+   }
+  },
+  "anbo": {
+   "name": "Uncle An",
+   "role": "Council Convener",
+   "workplace": {
+    "spot": "Outside Town Hall"
+   },
+   "dialogue": {
+    "firstMeet": "Just call me Uncle An. I'm the one who calls the council together. We asked you to work that wild land hoping for a new neighbour, not to hand you a bill with a due date.",
+    "seasons": {
+     "spring": [
+      "Leave some slack in your plans before planting. Same goes for public projects.",
+      "The old waterway names are written in a thin booklet, so nobody who asks has to guess.",
+      "If you find a road hard going, just write it on the board.",
+      "Before making a promise, ask the folks doing the work how much time they need.",
+      "It's normal for newcomers to forget street names. I took wrong turns myself back then."
+     ],
+     "summer": [
+      "The Town Hall door's open. If you disagree, come in and say so.",
+      "It's hot. Meetings shouldn't drag on and make everyone miss a meal.",
+      "Project order depends on need and materials, not on whoever's loudest.",
+      "When we record contributions, the little things go in too, like clearing a blocked path.",
+      "I like a plain cup of tea. Expensive gifts are hard to accept."
+     ],
+     "autumn": [
+      "The harvest ledger's full, but don't rush to fill in the empty project columns.",
+      "If it's not done, write \"in progress.\" Folks rest easier when they can see clearly.",
+      "Grain has weight. So do promises.",
+      "Every contribution keeps a note of where it went, so it can still be checked years from now.",
+      "Some want the road fixed first, some the houses. Both deserve to finish making their case."
+     ],
+     "winter": [
+      "Skipping a meeting on a snowy day won't make us lose the plan.",
+      "It's warm in the Town Hall. Come with a question, or just come sit.",
+      "Whatever we didn't finish this year, we'll keep at next year.",
+      "The open planning board keeps blank spaces, so those who come later aren't shut out.",
+      "Seeing everyone with their own plans puts me more at ease than deciding for them all."
+     ]
+    },
+    "rain": [
+     "On rainy days, come inside to talk. If your note gets wet, we'll copy it out again.",
+     "I'll check the progress on the project signs myself. Can't only report good news on sunny days."
+    ],
+    "friendship": {
+     "0": [
+      "Want to know the budget? Come look. Public accounts are for everyone to see.",
+      "Some things I have to ask about too. I won't give you a firm answer just to be quick."
+     ],
+     "200": [
+      "Now that you know all the Old Sluice Gate's names, it's more than a project number.",
+      "You're willing to hear old stories, and that reminds me to make room for the folks of today."
+     ],
+     "400": [
+      "Once every opinion was written down, it was actually clearer where to start next.",
+      "That promise you pointed out is still on the board. I haven't wiped it off."
+     ],
+     "600": [
+      "Everyone on the contributors list did their own part. Nobody's just there to fill space.",
+      "The blank spaces on the planning board are still there. Your ideas can start from there too."
+     ]
+    },
+    "gift": {
+     "love": "Simple and honest, just how I like it. Come, sit down and have a drink.",
+     "like": "Thank you. Something for everyday use is just right.",
+     "neutral": "I appreciate the thought. No need to spend money just to come see me.",
+     "dislike": "Thank you for thinking of me, but something this valuable makes me a bit uneasy. Next time, let's just have tea."
+    },
+    "birthday": "Another year gone. You sitting with me a while beats any big party you could plan for me.",
+    "festival": {
+     "flower_fair": "The Flower Fair gives new neighbours a reason to say hello. Even naming a flower wrong starts a chat.",
+     "fishing_derby": "Those watching are guests today too. Not everyone needs a score.",
+     "picnic": "One more chair at the long table. Our plans should leave a little more room, too.",
+     "firefly": "Every turn along the way is marked. Take your time looking, no rush.",
+     "market": "Contributions aren't only exhibits. Whoever lends tables and chairs deserves a mention too.",
+     "harvest_coop": "Even if the bridge isn't fixed yet, neighbours can help out in Town. Everyone just does a share.",
+     "snow_craft": "The snow houses are all different heights. Put together, they look like a place where people live.",
+     "hearth_night": "Let's write down the promises kept this year, and honestly keep the unfinished ones on the list too."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "The Old Sluice Gate's name isn't a project number. Folks on both banks came up with it together, long ago."
+     },
+     {
+      "text": "There are two water level records here, one upstream, one by the fields. Leave out either and the story's incomplete."
+     },
+     {
+      "text": "There's time for old stories, but the repairs still need checking. We can't only remember the day the water came back."
+     },
+     {
+      "text": "Shall we start with people's memories, or line up the two water records first?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Hear how folks on both banks use the water, then compare the records.",
+      "reply": "Good. That way the days behind the numbers are kept too."
+     },
+     {
+      "text": "Compare the water lines first, then ask people what they saw back then.",
+      "reply": "Good. Records and memories check each other, and we don't rush to decide for anyone."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "At council, some want the road fixed first, others worry about leaky roofs. Nobody's worried over nothing."
+     },
+     {
+      "text": "I was afraid the arguing would go nowhere, and I nearly set the order in stone for everyone."
+     },
+     {
+      "text": "Let's list the need, the materials on hand and what waiting costs, then decide what comes first this stretch."
+     },
+     {
+      "text": "Which column will you help me sort out first? Everyone still gets their say on the other."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Start with who and where is affected every day.",
+      "reply": "Good. We judge urgency by real lives, not just a show of hands."
+     },
+     {
+      "text": "Check the materials and the timelines we can actually keep first.",
+      "reply": "Good. Once we know what's doable, we can explain clearly why the rest has to wait."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The open planning board is up. Done, in progress and not started yet each have their place."
+     },
+     {
+      "text": "The contributors list isn't ranked by money spent. Surveying, record-keeping, caretaking and gathering materials all go on it."
+     },
+     {
+      "text": "The blank spaces are for those who come later, and for things we haven't figured out yet."
+     },
+     {
+      "text": "For the first column, should folks see what's already been done, or what they can join in on next?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "List the finished contributions first, each marked with where it came from.",
+      "reply": "Good. If past work can be checked, newcomers know the board can be trusted."
+     },
+     {
+      "text": "List the help needed next, so anyone who wants to join can find a place.",
+      "reply": "Good. Joining in is an invitation, not a quota anyone has to fill."
+     }
+    ]
+   }
+  },
+  "linyou": {
+   "name": "Lin You",
+   "role": "Student (12)",
+   "workplace": {
+    "spot": "Classroom Desk"
+   },
+   "dialogue": {
+    "firstMeet": "I'm Lin You! I'm twelve, and I'm in Teacher Song Ning's class. I'm drawing a map of Town. The tree outside the school came out a bit chubby. Can you tell which one it is?",
+    "seasons": {
+     "spring": [
+      "There are two rows of tiny footprints in the mud! I'm waiting for our teacher so we can look together.",
+      "I drew the spring flowers along the edge of my map. That way I remember them without picking any.",
+      "Seed packets are so small, but the leaves that grow can cover my whole hand!",
+      "A bird's building a nest. Let's stand back so it doesn't have to keep hiding from us.",
+      "I want to put a sun mark on my way to school, and draw a different map for rainy days."
+     ],
+     "summer": [
+      "The cicadas are so loud, I can barely fit all the sound lines in my drawing!",
+      "When you go watch animals, bring water, and tell your family where you're going first.",
+      "There's shade by the school window, so I don't have to squint drawing maps in the afternoon.",
+      "If you cut the Melon into little pieces, everyone gets some!",
+      "The lights by the river shine on the water. I only watch from the trail when a grown-up's with me."
+     ],
+     "autumn": [
+      "Fallen leaves look like little maps. Too bad none of them show the way to school.",
+      "There's a leaf next to this footprint. I'll draw how big it is first.",
+      "I drew different fruit on each fruit tree, so you can find them even if you can't read.",
+      "After school, we're looking at the field edges with our teacher. We'll be back before dark.",
+      "I keep trying to draw a cat sitting nice and still, but it always moves on the last stroke!"
+     ],
+     "winter": [
+      "Footprints show up really clearly in snow, but you have to go around the icy paths.",
+      "My gloves are too thick. My circles come out like potatoes.",
+      "I'm drawing a spring map in the Classroom. I left a space for when new flowers bloom.",
+      "Little animals have their own warm spots. We shouldn't dig up their nests.",
+      "I'm going home early today. I can keep drawing the map tomorrow."
+     ]
+    },
+    "rain": [
+     "Our teacher moved nature class indoors. Even old notes turn up new questions!",
+     "I'm drawing the muddy slope as a dotted line for now. I'll fix it once a grown-up says it's okay to walk."
+    ],
+    "friendship": {
+     "0": [
+      "The map isn't finished yet, but you can look at the school corner first.",
+      "You don't have to catch an animal to look at its footprints, right?"
+     ],
+     "200": [
+      "I copied down the footprint sizes you noted, with the date right beside them!",
+      "Now when I can't see something clearly, I draw a question mark."
+     ],
+     "400": [
+      "The long way round can be drawn clearly too. Being safe matters more than being short.",
+      "The part our teacher checked with us, I filled in as a solid line."
+     ],
+     "600": [
+      "I drew the little icons in the corner of the map. Everyone can use them!",
+      "Next time I draw a new path, I'll still ask a grown-up to check it with me first."
+     ]
+    },
+    "gift": {
+     "love": "It's my favorite fruit! Thanks! I'll wash it and share some with everyone.",
+     "like": "Thanks! Let me think which observation card I can use it on.",
+     "neutral": "Thanks for bringing something! You can also just tell me what you saw today.",
+     "dislike": "Thanks, but I can't do spicy stuff or odds and ends like this. Next time let's just look at maps together."
+    },
+    "birthday": "It's my birthday! I'm drawing everyone's little wishes on the back of my map to show my family at home.",
+    "festival": {
+     "flower_fair": "I recognized the leaf on this flower sign! I want to draw it in my class notebook.",
+     "fishing_derby": "I'm watching from behind the railing with our teacher. I'm drawing everyone's hats!",
+     "picnic": "I washed the fruit and put it on the table for everyone to share.",
+     "firefly": "I'm following the lit trail with our teacher to find the lanterns. No running to the water!",
+     "market": "My map's on the little stall. Come help me check the icons!",
+     "harvest_coop": "I only sort the light little baskets. Heavy crates are for grown-ups.",
+     "snow_craft": "The wood pieces don't have sharp edges. I want to build a school with big windows!",
+     "hearth_night": "My anonymous greeting is just a drawing of a chair. I hope everyone has somewhere to rest."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "Teacher Song Ning brought rubbings of the two pet footprints we looked at yesterday, in a safe clearing on the Farm. They're here on this desk."
+     },
+     {
+      "text": "One's round, and one drags a bit of mud. I didn't chase after them. I just drew the leaves beside them to compare."
+     },
+     {
+      "text": "Our teacher says you can't tell which animal it was from one footprint. Anything I didn't see clearly gets a question mark."
+     },
+     {
+      "text": "Can you help me pick what to record first? We'll look at both, then put the rubbings back in the class folder."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Compare the sizes first, and draw the leaves beside them.",
+      "reply": "Okay! With something to compare the size to, we won't have to guess next time."
+     },
+     {
+      "text": "Check which way the footprints point, then write the date.",
+      "reply": "Okay! I'll draw the direction clearly, and I won't forget the date."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "My map is missing a bit of line between the school and South Street. The little muddy slope I drew gets hard to walk after rain."
+     },
+     {
+      "text": "Teacher Song Ning took us around by the public trail and checked there were railings and places to rest all along it."
+     },
+     {
+      "text": "On this class route card, both turns are checked. Paths nobody's checked stay dotted, and they're not for shortcuts."
+     },
+     {
+      "text": "Help me pick how to mark it, so even first-timers know which safe way to go."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Draw a line of arrows along the public trail.",
+      "reply": "Okay! I'll run the arrows all the way to the school gate, with no gaps at the turns."
+     },
+     {
+      "text": "Draw a bold mark at each of the two turns.",
+      "reply": "Okay! Next to both marks, I'll write \"Walk with a grown-up.\""
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "Our teacher put my little icons in the corner of the map! Footprints mean observation notes, and a little house means a place to rest."
+     },
+     {
+      "text": "They just help people find the way. Dangerous spots keep their old warnings, and the icons don't cover them up at all."
+     },
+     {
+      "text": "Neighbours who come to class can see this page. I'd like you to keep a copy of how to draw them in your own notes, too."
+     },
+     {
+      "text": "Let's fill in the last box of the legend! Should we draw a bench for resting first, or a little school book?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "The bench first, so tired walkers can find it easily.",
+      "reply": "Okay! I'll draw the bench nice and wide, with room to walk past."
+     },
+     {
+      "text": "The book first, so people coming to class can find their way.",
+      "reply": "Okay! And I'll write the school's opening hours beside it."
+     }
+    ]
+   }
+  },
+  "songning": {
+   "name": "Song Ning",
+   "role": "Teacher",
+   "workplace": {
+    "spot": "Lectern"
+   },
+   "dialogue": {
+    "firstMeet": "I'm Song Ning, and I teach at the School. In nature class there's no rush to learn every plant. First we learn to describe clearly what we see. If you've noticed things in your fields, come share them.",
+    "seasons": {
+     "spring": [
+      "New leaves and old leaves aren't the same color. That's where today's observation starts.",
+      "A specimen card can show a living plant. There's no need to pick it.",
+      "A child asked why seeds sleep so long. I wrote that question into my lesson notes, too.",
+      "Before holding class by a field, we ask the owner first and check the paths are passable.",
+      "Look at the same flower again a few days later, and slowly your notes gain a before and after."
+     ],
+     "summer": [
+      "We start outdoor lessons early and head back to the Classroom once the sun is high.",
+      "To study reflections in the water, there's no need to reach past the railing.",
+      "Today everyone describes the edge of a leaf. Just writing \"pretty\" doesn't count.",
+      "I've left time for breaks in class. If you're tired, it's fine to say so.",
+      "Summer insect songs are lovely to record. Listen quietly for a while and you'll find something."
+     ],
+     "autumn": [
+      "We borrow fallen leaves to observe, and once we're done they go back somewhere suitable.",
+      "The same crop grows differently in different fields. A good chance to talk about care.",
+      "Answers in class don't need to be tidy. An honest record is more useful than a lucky guess.",
+      "This harvest season, I'd like a farmer to share some experiences. Only if they're willing.",
+      "I've set out the old specimen cards so everyone can find this year's changes for themselves."
+     ],
+     "winter": [
+      "We can't go far in the snow, but the light by the window is enough for an observation lesson.",
+      "Today we're comparing tree shadows from three seasons. You can see all four from the Classroom, too.",
+      "If you don't know a word, draw it. A drawing is a sincere way of saying something, too.",
+      "The children want to draw next year's fields. First I asked them to leave the paths wide enough.",
+      "The textbooks are mended. I left the folded corners, though. Those are the pages people turn to most."
+     ]
+    },
+    "rain": [
+     "We're using indoor observation cards today. We'll go out and check once the paths dry.",
+     "Just wipe the mud off your shoes. You can tell me why you're late in your own time."
+    ],
+    "friendship": {
+     "0": [
+      "Start with something you've seen.",
+      "If you borrow observation cards from the School, remember to write the return date."
+     ],
+     "200": [
+      "Your notes were so specific, the children could follow them and observe again.",
+      "Leaving blank space on a card is good. Whoever comes later has room to add."
+     ],
+     "400": [
+      "Rainy-day lessons have two plans now, so I don't have to hurry everyone along at the last minute.",
+      "You pointing out what doesn't work in class helps more than a polite compliment."
+     ],
+     "600": [
+      "Before I use any of your farm experiences, I'll always check that you're willing.",
+      "It's good for the children to know a farm has its uncertain moments too."
+     ]
+    },
+    "gift": {
+     "love": "This flower is perfect for an observation card. Thank you. I'll note where it came from, too.",
+     "like": "Thank you. This can go in the class's seasonal records.",
+     "neutral": "Thank you for the thought. I'd love to hear what you've seen lately, too.",
+     "dislike": "Thank you, but odds and ends like this don't really belong in a classroom."
+    },
+    "birthday": "I've tucked today's birthday wishes into my lesson notes. The next page is saved for tomorrow's questions, as always.",
+    "festival": {
+     "flower_fair": "Observe the flower before you flip the sign. A wrong guess still adds a new note.",
+     "fishing_derby": "The children watching are all behind the safety line. Noting the colors of the fish is fun, too.",
+     "picnic": "If everyone tells where one ingredient came from, this meal becomes a nature lesson.",
+     "firefly": "You can sketch where the lanterns are. Tonight, adults will walk the trail with the children.",
+     "market": "Leave an observation card by each exhibit, so later visitors have questions to ask, too.",
+     "harvest_coop": "Light and heavy tasks are kept separate. Helping isn't measured by how strong you are.",
+     "snow_craft": "The children can build however they like. First, they learn where the borrowed wood pieces go back.",
+     "hearth_night": "If you didn't follow part of a story, ask. No need to rush to sum it up for the teller."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "Here are drawings of three common plants. The plants themselves stayed by the field. Today we'll make specimen cards from the drawings."
+     },
+     {
+      "text": "Write flower shape, leaf edge and date separately. If you're unsure of a name, leave it blank for now, so a guess doesn't become the answer."
+     },
+     {
+      "text": "These class cards stay here. Put them back in the folder when you're done. Nothing comes out of your Backpack."
+     },
+     {
+      "text": "Why don't you choose how to arrange them, so the children can use the cards to find the plants again?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Lay out the three leaf drawings first, then add notes one by one.",
+      "reply": "Good. See what's alike and what's different first, then find words for what you noticed."
+     },
+     {
+      "text": "Arrange them by date, with a column for changes.",
+      "reply": "Good. Come back in a while and we can keep adding notes."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "This is the record of our rainy-day backup lesson. The mud on the planned route hadn't dried, so we held class indoors that day."
+     },
+     {
+      "text": "Some children worried it wouldn't count without living plants, so we set the windowsill pot plants beside our earlier cards."
+     },
+     {
+      "text": "Everyone found two differences in the records. Once the paths are safe, adults will go along to check. No rushing up muddy slopes."
+     },
+     {
+      "text": "Next time the weather's like this, should we compare leaf shapes first, or have everyone share how they observed?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Compare leaf shapes first, so everyone gets to pick up a pencil.",
+      "reply": "Good. With cards laid out on the table, even children who haven't been to the fields can join in."
+     },
+     {
+      "text": "Take turns sharing how they observed, then check the cards together.",
+      "reply": "Good. Hearing different experiences teaches them to ask why."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "Nature class now has a farm story for background, about caring, observing and trying again when problems come up."
+     },
+     {
+      "text": "We'll only use your farm experiences if you want us to. If you'd rather not be named, we'll use a general example with no source."
+     },
+     {
+      "text": "Either way, it's the same lesson. The children won't need to visit your fields, and your usual days won't be disturbed."
+     },
+     {
+      "text": "How would you like this lesson's background to be kept?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "You can use my farm. Just show me what you'll say first.",
+      "reply": "Of course. I'll give you the draft to check before I plan the lesson."
+     },
+     {
+      "text": "Use a general example. I'd like to keep farm life to myself.",
+      "reply": "Of course. Your personal experiences stay out of class. We'll explain it with public records."
+     }
+    ]
+   }
+  },
+  "bailu": {
+   "name": "Bai Lu",
+   "role": "Painter",
+   "workplace": {
+    "spot": "Easel"
+   },
+   "dialogue": {
+    "firstMeet": "I'm Bai Lu. I usually paint in the Community Hall. No need to rush to name a painting. Whatever spot catches your eye, let's start talking from there.",
+    "seasons": {
+     "spring": [
+      "Fresh green is so bright that, when I paint it, I keep a little gray in.",
+      "Not all the flowers are out yet. Bare branches are worth painting too.",
+      "The light slants in from the street corner today. I want to wait while it drifts over to the door.",
+      "Before I paint the field paths, I make sure I know where people walk.",
+      "The same view at a different hour is like the same words in a different tone of voice."
+     ],
+     "summer": [
+      "My Honey Drink's in the shade. I'll have it after this stroke.",
+      "Afternoon shadows are short, so the open ground in the picture looks bigger.",
+      "Lantern light needn't be painted exactly. First, remember how it falls on the water.",
+      "I want to try leaving out one color, and see if the painting still holds together.",
+      "That cloud you described... I still haven't found a color that can catch it."
+     ],
+     "autumn": [
+      "Fall isn't only gold. The blue on wet stones runs deep, too.",
+      "The hardest thing to paint at a market is the moment someone decides to stop.",
+      "Walk a place you've painted once more, and you'll always spot what you missed.",
+      "Today I'm painting just one stretch of field path, not cramming the whole valley in.",
+      "The way leaves pile against the wall looks more natural than anything I could arrange."
+     ],
+     "winter": [
+      "Snow softens every sound, near and far. A painting can leave space empty too.",
+      "If I move the easel over a little, everyone can sit around the bench in the Community Hall.",
+      "When your hands are cold, have something warm first. No need to force a painting.",
+      "I looked through last winter's sketches. Back then I always wanted to fill every corner.",
+      "The new painting has no name yet. I'll let it hang on the wall a few days first."
+     ]
+    },
+    "rain": [
+     "Rain blurs the colors together. I'll draw the outlines first and sort them out later.",
+     "The light indoors changes too. Today I'll just watch it slowly from the easel."
+    ],
+    "friendship": {
+     "0": [
+      "You don't have to judge a painting. Just tell me where your eyes stopped.",
+      "There's a free seat by the easel if you're tired from walking."
+     ],
+     "200": [
+      "The colors you picked made me see the same street all over again.",
+      "I'm keeping both sketches. Neither has to make way for the other."
+     ],
+     "400": [
+      "This time I narrowed the subject, and the painting can finally breathe.",
+      "That detail you pointed out did more than a pretty sky ever could."
+     ],
+     "600": [
+      "Since the paintings went up in the Community Hall, I often stand back and listen to people talk.",
+      "That landscape belongs here. I only held on to what I saw for a little while."
+     ]
+    },
+    "gift": {
+     "love": "The color and the scent are both just right. Thank you.",
+     "like": "Thank you. Today's observations just gained one more little clue.",
+     "neutral": "I'll take it. Next time, coming empty-handed to talk about painting is nice too.",
+     "dislike": "Thanks, but Coal and odds and ends like these don't belong on my painting table."
+    },
+    "birthday": "Today I'm giving myself half a day off. I'll take a small sheet of paper out with me, with no rule about what it becomes.",
+    "festival": {
+     "flower_fair": "Even one kind of flower comes in lighter and darker shades. I want to paint them side by side.",
+     "fishing_derby": "Every ripple on the river is different. Just watching keeps me busy.",
+     "picnic": "The picnic cloth makes the food look brighter. I'll eat first, then paint.",
+     "firefly": "The three lantern lights needn't look alike. The water adds its own stroke.",
+     "market": "Leave a little empty space on the stall, so visitors know where to start looking.",
+     "harvest_coop": "Once the flower boxes are set, I'd like to paint people sitting down after the hauling's done.",
+     "snow_craft": "I'm using two close colors for my snow scene. Even from afar, you can tell front from back.",
+     "hearth_night": "Tonight I'll just listen to stories. The sketch paper can wait until tomorrow."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "I did two small sketches of the same corner of the Town Square. Same outlines, one in warm colors, one in cool."
+     },
+     {
+      "text": "The warm one is like a sunny afternoon, the cool one like a cloud just covering the sun. It's a color exercise, so no need to wait for the weather to change."
+     },
+     {
+      "text": "I'm keeping both. I'd like to hear which one shows you the everyday life you know first."
+     },
+     {
+      "text": "You choose which one I finish today. I'll take my time with the other later."
+     }
+    ],
+    "choice": [
+     {
+      "text": "The warm one. Keep that wooden stool sunning by the window.",
+      "reply": "All right. If the warmth sits on the stool, the walls don't all have to glow too."
+     },
+     {
+      "text": "The cool one. Let the quiet of the corner show.",
+      "reply": "All right. Give the shadows a few layers. Quiet has its own color, too."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "Exhibit sketches cover half the table. Field paths, Riverside, the street corner... I wanted them all, and now you can't tell what I'm really looking at."
+     },
+     {
+      "text": "I've put the Riverside one in my folder for now. This time I'll pick either the field path or the corner, and look closely."
+     },
+     {
+      "text": "Whichever I pick gets its own place. The other subject can wait. It doesn't have to be given up forever for this show."
+     },
+     {
+      "text": "Where would you like to rest your eyes with me?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "The field path. See how footsteps wore the dirt trail in.",
+      "reply": "All right. The path and the grassy edges first. The far-off hills can wait."
+     },
+     {
+      "text": "The street corner. See where neighbours stop.",
+      "reply": "All right. I'll paint the doorways and the bench clearly. There don't need to be many people."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The subject we settled on last time is finished. The Community Hall hung that original landscape on this wall."
+     },
+     {
+      "text": "I left the sketches beside it, so everyone can see how it went from wanting to paint everything to truly looking at one place."
+     },
+     {
+      "text": "There's space left in front of it, so you can see it clearly sitting down, without squeezing behind the easel."
+     },
+     {
+      "text": "The label card still has one empty line. Should it be the date I observed it, or the name of the place?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "The date, so people remember the season.",
+      "reply": "All right. The view will keep changing. A date gives this one moment of seeing a place to land."
+     },
+     {
+      "text": "The place name, so passersby recognize their own lives.",
+      "reply": "All right. Once they recognize it, maybe they'll tell me about their own picture of it."
+     }
+    ]
+   }
+  },
+  "wenheng": {
+   "name": "Wen Heng",
+   "role": "Archivist",
+   "workplace": {
+    "spot": "By the Bookshelves"
+   },
+   "dialogue": {
+    "firstMeet": "Wen Heng. I keep the archives. If the valley you remember differs from what's on paper, please tell me. I check the source first, then decide how to fill the gap.",
+    "seasons": {
+     "spring": [
+      "Waterlines shift. The date on the back of a photo is more useful than you'd think.",
+      "The new observation notes still have mud on them. I'll lay them on paper to dry first.",
+      "The handwriting on a seed packet is a record of this season, too.",
+      "I won't erase the question marks on the old map. Notes get added once there's evidence.",
+      "Someone remembers which rock the spring water reached. I kept their exact words beside it."
+     ],
+     "summer": [
+      "It's humid. Don't store pages against the wall.",
+      "That one ferry crossing has two old names. We can't keep only the one we know better.",
+      "Envelopes from the Waystation are dated, but what's inside didn't necessarily happen that day.",
+      "Summer brings lots of records. I sort them by source, so hearsay and measurements don't get mixed.",
+      "You can describe the river's color, but a color can't stand in for a water level."
+     ],
+     "autumn": [
+      "The small corrections in a harvest ledger say more about the year's hardships than the totals.",
+      "When a stall label says where something came from, even an ordinary thing is worth a look.",
+      "I set the new map beside the old photos and look first for points that surely haven't changed.",
+      "Leaves pressed in a book leave marks. When I take one out, I make a separate note.",
+      "Someone corrected one of my transcriptions today. This page is finally a bit more reliable."
+     ],
+     "winter": [
+      "Old paper turns brittle. Turn the pages slowly. No need to hurry through.",
+      "Winter is good for sorting oral accounts. The parts the speaker wasn't sure of stay in, too.",
+      "Keep photos from before and after the rebuilding, so \"change\" isn't just an empty word.",
+      "Not every blank needs filling. Some things simply aren't known yet.",
+      "This year's index is finished. It can still be corrected next year."
+     ]
+    },
+    "rain": [
+     "Leave your wet umbrella by the door. There's already a dry mat on the records table.",
+     "You can hear the rain clearly. Just right for checking a few oral accounts line by line."
+    ],
+    "friendship": {
+     "0": [
+      "Even if I can't find it, you'll get an answer. I won't fill in with guesses.",
+      "Please keep borrowed photos on the table. And don't miss the writing on the back."
+     ],
+     "200": [
+      "For the two waterlines you checked, I noted the evidence beside the index.",
+      "The old photo finally has a date we can trace. Future searches will be easier."
+     ],
+     "400": [
+      "The correction page sits with the old one, so how the mistake came about is kept too.",
+      "When you disagreed with that note, you gave your evidence. I appreciate that."
+     ],
+     "600": [
+      "The comparison exhibit now has a page of your observations. Name and source both checked.",
+      "The archive will keep growing. Life today is worth recording carefully too."
+     ]
+    },
+    "gift": {
+     "love": "This mineral deserves a close look. If you remember where it came from, let's write it on a card together.",
+     "like": "Thank you. Useful for observation and comparison.",
+     "neutral": "Received. I'll put it somewhere appropriate.",
+     "dislike": "Thank you, but things like this would soil the records. They can't go in the archive cabinet."
+    },
+    "birthday": "Today I'm not fact-checking anyone's write-up about me. A cup of hot water and one small thing you saw firsthand is just right.",
+    "festival": {
+     "flower_fair": "If the flower signs note their source, next year we can look back and see which ones stayed.",
+     "fishing_derby": "Results are a record. The weather and how people took part should go in too.",
+     "picnic": "Home dishes often go by different names. I'd like to note them all alongside.",
+     "firefly": "The lantern spots go on today's map, but it's not a survey of the river.",
+     "market": "When you collect your exhibit, check it against the loan form. The Market Medallion is logged separately in your Collection.",
+     "harvest_coop": "Sorting counts and the helpers' list are written separately, so neither goods nor people get left out.",
+     "snow_craft": "Photograph the finished snow scene, and return the borrowed wood pieces by count.",
+     "hearth_night": "For stories people want kept, I ask the teller first, then write them up as records."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "I found this old photo of the waterways in a lending ledger. The original stays in the Archive. We'll work from the protective copy on the table."
+     },
+     {
+      "text": "Two pencil lines on the back point to the water inlet and the old footpath. The date gives only a season, so we can't treat it as an exact year."
+     },
+     {
+      "text": "Uncle An's account and the project records are beside it. We mark what can be verified first, and the rest stays open."
+     },
+     {
+      "text": "Which line do you want to check first? Once both are done, the copy goes back in the archive folder."
+     }
+    ],
+    "choice": [
+     {
+      "text": "The inlet first, then the footpath's position.",
+      "reply": "Good. Start with a fixed structure, and the second line gains a reference point."
+     },
+     {
+      "text": "The old footpath first, then back to the inlet.",
+      "reply": "Good. Start from where people walked. The waterline still needs its own evidence."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "On this map, a side channel was copied down as the main channel, and several later notes repeated the same mistake."
+     },
+     {
+      "text": "We've laid out the photo's two lines, the oral account and the project records. The parts that back each other up are circled."
+     },
+     {
+      "text": "A correction doesn't mean pulling the old page. I keep the original, the date of the change and the evidence, so later readers know why."
+     },
+     {
+      "text": "Should the correction notice start with the photo, or with the project records?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "The photo first, so people can see the two original lines.",
+      "reply": "Good. Underneath, I'll state that the date is unconfirmed. Missing evidence doesn't become certainty."
+     },
+     {
+      "text": "List the project records first, then explain how the old map was miscopied.",
+      "reply": "Good. Every correction can be traced to a source, and the original page stays available."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The before-and-after rebuilding exhibit is set up. The old waterlines and today's routes each have a column, and anything unconfirmed keeps its note."
+     },
+     {
+      "text": "Contributors' records are listed by source, so everyone's work isn't reduced to a single project figure."
+     },
+     {
+      "text": "The comparison maps use the same reference points. You can see what changed, and the life that didn't."
+     },
+     {
+      "text": "There's room for a reading tip at the top. Should it remind people to check the dates first, or to find the reference points?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Check the dates, then read the changes.",
+      "reply": "Good. Records from different times each keep their place, so before and after never get flipped."
+     },
+     {
+      "text": "Find the shared reference points, then follow the waterways.",
+      "reply": "Good. Once readers know where they are, they can take their time reading their own valley."
+     }
+    ]
+   }
+  },
+  "shipo": {
+   "name": "Granny Shi",
+   "role": "Longtime Resident",
+   "workplace": {
+    "spot": "South Street Bench"
+   },
+   "dialogue": {
+    "firstMeet": "Folks round here call me Granny Shi, and so can you. I've walked plenty of the old waterways. Some I don't recall so well, but let's sit and talk it over.",
+    "seasons": {
+     "spring": [
+      "Spring water used to wind round that rock. Where it runs now, you'll have to go see for yourself, from somewhere safe.",
+      "Don't toss all the tender greens in the pot at once. Think which ones can take the cooking.",
+      "The ground's warming up. No need for an extra cushion on the bench now.",
+      "A new road's not good just for being wide. It's good if these old legs can manage it.",
+      "When flowers bloom, let them be. You can enjoy them for days just passing by."
+     ],
+     "summer": [
+      "Hot soup can wait a moment. Catching your breath won't hold up the work.",
+      "Sit in the shade come afternoon. Toughing it out in the sun doesn't make you a hard worker.",
+      "My old fan still works fine, and the new windows let the air through. Each has its use.",
+      "I go see the lanterns by the river with the neighbours, and we come home along the lit path.",
+      "Salt can always be fixed. Have a little taste first, then decide."
+     ],
+     "autumn": [
+      "This year's vegetables taste of this year. They needn't match the old days.",
+      "Don't leave the empty baskets by the door after harvest. Folks with carts need to get by.",
+      "The new flower boxes look lovely. Nudge them to the side a bit and they'd be handier still.",
+      "Don't go just praising the old days, mind. Travelling the waterways back then was far more bother than now.",
+      "Sweep the leaves into one pile, so folks by the bench keep their shoes clean."
+     ],
+     "winter": [
+      "Warm the soup bowls on cold days, so there's still steam when they reach the table.",
+      "When the snow's deep, don't play the hero. Wait till the path's cleared.",
+      "When stories go round the hearth and you miss a bit, ask them to say it again. No need to pretend.",
+      "This year brought plenty of new things, and a few more folks willing to sit a while.",
+      "Winter's long. Work meant for tomorrow can be set down today."
+     ]
+    },
+    "rain": [
+     "Heavy rain? Come in and sit. Old waterway stories tell just as well in here.",
+     "The benches in the Community Hall are nice and dry. When the roads are slick, we move our gathering there."
+    ],
+    "friendship": {
+     "0": [
+      "If you've something to say, sit down and say it. Standing in the doorway gets in folks' way.",
+      "Knowing the old roads doesn't mean I needn't ask about the new ones."
+     ],
+     "200": [
+      "You take a moment when you taste the soup. That's how you get a feel for the salt.",
+      "There's no secret to this home-style soup. If you fancy it, try another pot."
+     ],
+     "400": [
+      "You didn't mind my chatter, and you were willing to look the path over again.",
+      "Old habits worth keeping, we keep. The awkward ones, we change together."
+     ],
+     "600": [
+      "There's a spot at the bench gathering where you can stretch your legs. If you're busy, come next time.",
+      "My wish isn't long: may folks here walk easy, and always find a seat."
+     ]
+    },
+    "gift": {
+     "love": "That's the taste of home, just right. Thank you. Let it cool a touch, then we'll talk.",
+     "like": "Thank you. Things that help you live well are the real deal.",
+     "neutral": "I'll take it. Next time, come sit empty-handed, that's fine too.",
+     "dislike": "Thanks for thinking of me, but raw fish doesn't agree with me. Cooked home food suits me better."
+    },
+    "birthday": "Even at seventy, you live it one meal at a time. I'll set out an extra chair today. Anyone free, come sit.",
+    "festival": {
+     "flower_fair": "I still remember this flower's old name. Read me the new one, too.",
+     "fishing_derby": "Come sit after the derby. No bites won't spoil the festival.",
+     "picnic": "The food needn't be fancy. Everyone eating comfortably is what counts.",
+     "firefly": "I walk the lit trail with the neighbours, and when I tire, I watch from a bench.",
+     "market": "Put out ordinary household things too, so folks can see how everyday life goes.",
+     "harvest_coop": "I'll leave the heavy work to others. Sitting and sorting these greens helps all the same.",
+     "snow_craft": "Leave a flat path to the snow house door, so visitors can get in.",
+     "hearth_night": "A light gift's no matter. Taking the trouble to send your greetings is what gives it weight."
+    }
+   },
+   "event200": {
+    "steps": [
+     {
+      "text": "The Clear Broth's off the stove and on the little table by my rattan chair. Today's lesson is about heat. I won't take any ingredients from you."
+     },
+     {
+      "text": "Wash the Wild Greens before they go in, and add the quick-cooking ones later. Go easy on salt. You can add more after tasting."
+     },
+     {
+      "text": "In the old days every home's pot was different. Even the same traditional soup had its own way in each house."
+     },
+     {
+      "text": "Once this bowl's cooled a bit, will you smell it first, or take a little sip to check the salt?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Smell it first, then have a little taste.",
+      "reply": "Good. Remember the aroma and the saltiness separately, and next time you'll know."
+     },
+     {
+      "text": "A little taste first, then say which green stands out.",
+      "reply": "Good. No rush to answer. Your tongue needs time to sort out the flavors too."
+     }
+    ]
+   },
+   "event400": {
+    "steps": [
+     {
+      "text": "I always kept my bucket by the door, but now the new carts have to go round it. Nearly had another squabble over it yesterday."
+     },
+     {
+      "text": "New things that save effort are good, and old habits can move too. So first we measured the path in front of the door."
+     },
+     {
+      "text": "There's a flat way in and out by the bench now. Sunny days we sit on South Street, rainy days in the Community Hall, so folks with bad legs don't come for nothing."
+     },
+     {
+      "text": "Help me think how to word the gathering invitation so the neighbours get it easily."
+     }
+    ],
+    "choice": [
+     {
+      "text": "Start with the place and the step-free path.",
+      "reply": "Right. Anyone who wants to come should know the way first. I'll move that bucket inside."
+     },
+     {
+      "text": "Say it moves to the Community Hall on rainy days, then add the time.",
+      "reply": "Good. No one should be hunting for a chair in the rain. Place and time, both written out."
+     }
+    ]
+   },
+   "event600": {
+    "steps": [
+     {
+      "text": "The bench gathering's all arranged. South Street when it's sunny, the Community Hall when it rains. This time I sent the invitations out first."
+     },
+     {
+      "text": "After sitting a while, folks said the new road has places to rest now, and old neighbours bump into each other more."
+     },
+     {
+      "text": "I wrote my wish for the Town's changes on this card: may folks here walk easy, and always find a seat."
+     },
+     {
+      "text": "Before I take the card to the bench, have a look for me. Should I write bigger, or leave a space for others to add to?"
+     }
+    ],
+    "choice": [
+     {
+      "text": "Write bigger, so it can be read sitting down.",
+      "reply": "All right. I'll trace it out slow and clear, so nobody has to lean in close."
+     },
+     {
+      "text": "Leave a space for the neighbours to add to.",
+      "reply": "All right. My line goes first, and everyone can write the days that follow."
+     }
+    ]
+   }
+  }
+ }
+}

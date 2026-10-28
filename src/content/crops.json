@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "designStatus": "未经实机平衡验证的策划初值",
+  "threeVersion": "0.186.1",
+  "calendar": {
+    "seasonDays": 28,
+    "seasonsPerYear": 4,
+    "startMinute": 360,
+    "endMinute": 1560,
+    "standardGameMinutesPerRealSecond": 1
+  },
+  "player": {
+    "hp": 100,
+    "energy": 200,
+    "satiety": 70,
+    "money": 500,
+    "initialRadishSeeds": 12,
+    "backpackSlots": 24,
+    "hotbarSlots": 8
+  },
+  "crops": [
+    {
+      "id": "spring_radish",
+      "name": "小萝卜",
+      "seasons": [
+        "春"
+      ],
+      "seedBuy": 20,
+      "baseSell": 40,
+      "growthDays": 4,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 20,
+      "availableFromDay": 1
+    },
+    {
+      "id": "spring_pea",
+      "name": "豌豆",
+      "seasons": [
+        "春"
+      ],
+      "seedBuy": 45,
+      "baseSell": 35,
+      "growthDays": 7,
+      "regrowDays": 3,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 7,
+      "firstSeasonGrossProfit": 200,
+      "availableFromDay": 1
+    },
+    {
+      "id": "spring_lettuce",
+      "name": "生菜",
+      "seasons": [
+        "春"
+      ],
+      "seedBuy": 30,
+      "baseSell": 60,
+      "growthDays": 5,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 30,
+      "availableFromDay": 1
+    },
+    {
+      "id": "spring_carrot",
+      "name": "胡萝卜",
+      "seasons": [
+        "春"
+      ],
+      "seedBuy": 40,
+      "baseSell": 85,
+      "growthDays": 6,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 45,
+      "availableFromDay": 1
+    },
+    {
+      "id": "spring_cauliflower",
+      "name": "花椰菜",
+      "seasons": [
+        "春"
+      ],
+      "seedBuy": 80,
+      "baseSell": 180,
+      "growthDays": 10,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 100,
+      "availableFromDay": 1
+    },
+    {
+      "id": "spring_strawberry",
+      "name": "草莓",
+      "seasons": [
+        "春"
+      ],
+      "seedBuy": 90,
+      "baseSell": 65,
+      "growthDays": 9,
+      "regrowDays": 4,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 5,
+      "firstSeasonGrossProfit": 235,
+      "availableFromDay": 8
+    },
+    {
+      "id": "spring_flax",
+      "name": "亚麻",
+      "seasons": [
+        "春"
+      ],
+      "seedBuy": 45,
+      "baseSell": 85,
+      "growthDays": 6,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 40,
+      "availableFromDay": 1
+    },
+    {
+      "id": "spring_daisy",
+      "name": "雏菊",
+      "seasons": [
+        "春"
+      ],
+      "seedBuy": 35,
+      "baseSell": 75,
+      "growthDays": 6,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 40,
+      "availableFromDay": 1
+    },
+    {
+      "id": "summer_tomato",
+      "name": "番茄",
+      "seasons": [
+        "夏"
+      ],
+      "seedBuy": 65,
+      "baseSell": 55,
+      "growthDays": 8,
+      "regrowDays": 3,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 7,
+      "firstSeasonGrossProfit": 320,
+      "availableFromDay": 1
+    },
+    {
+      "id": "summer_cucumber",
+      "name": "黄瓜",
+      "seasons": [
+        "夏"
+      ],
+      "seedBuy": 55,
+      "baseSell": 45,
+      "growthDays": 7,
+      "regrowDays": 3,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 7,
+      "firstSeasonGrossProfit": 260,
+      "availableFromDay": 1
+    },
+    {
+      "id": "summer_pepper",
+      "name": "甜椒",
+      "seasons": [
+        "夏"
+      ],
+      "seedBuy": 60,
+      "baseSell": 45,
+      "growthDays": 6,
+      "regrowDays": 3,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 8,
+      "firstSeasonGrossProfit": 300,
+      "availableFromDay": 1
+    },
+    {
+      "id": "summer_melon",
+      "name": "甜瓜",
+      "seasons": [
+        "夏"
+      ],
+      "seedBuy": 100,
+      "baseSell": 230,
+      "growthDays": 11,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 130,
+      "availableFromDay": 1
+    },
+    {
+      "id": "summer_corn",
+      "name": "玉米",
+      "seasons": [
+        "夏",
+        "秋"
+      ],
+      "seedBuy": 60,
+      "baseSell": 55,
+      "growthDays": 9,
+      "regrowDays": 4,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 5,
+      "firstSeasonGrossProfit": 215,
+      "availableFromDay": 1
+    },
+    {
+      "id": "summer_sunflower",
+      "name": "向日葵",
+      "seasons": [
+        "夏"
+      ],
+      "seedBuy": 55,
+      "baseSell": 120,
+      "growthDays": 8,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 65,
+      "availableFromDay": 1
+    },
+    {
+      "id": "summer_blueberry",
+      "name": "蓝莓",
+      "seasons": [
+        "夏"
+      ],
+      "seedBuy": 100,
+      "baseSell": 70,
+      "growthDays": 10,
+      "regrowDays": 4,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 5,
+      "firstSeasonGrossProfit": 250,
+      "availableFromDay": 1
+    },
+    {
+      "id": "summer_cotton",
+      "name": "棉花",
+      "seasons": [
+        "夏"
+      ],
+      "seedBuy": 60,
+      "baseSell": 130,
+      "growthDays": 8,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 70,
+      "availableFromDay": 1
+    },
+    {
+      "id": "autumn_pumpkin",
+      "name": "南瓜",
+      "seasons": [
+        "秋"
+      ],
+      "seedBuy": 110,
+      "baseSell": 260,
+      "growthDays": 12,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 150,
+      "availableFromDay": 1
+    },
+    {
+      "id": "autumn_sweet_potato",
+      "name": "红薯",
+      "seasons": [
+        "秋"
+      ],
+      "seedBuy": 60,
+      "baseSell": 130,
+      "growthDays": 8,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 70,
+      "availableFromDay": 1
+    },
+    {
+      "id": "autumn_eggplant",
+      "name": "茄子",
+      "seasons": [
+        "秋"
+      ],
+      "seedBuy": 65,
+      "baseSell": 55,
+      "growthDays": 7,
+      "regrowDays": 4,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 6,
+      "firstSeasonGrossProfit": 265,
+      "availableFromDay": 1
+    },
+    {
+      "id": "autumn_beet",
+      "name": "甜菜",
+      "seasons": [
+        "秋"
+      ],
+      "seedBuy": 50,
+      "baseSell": 105,
+      "growthDays": 6,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 55,
+      "availableFromDay": 1
+    },
+    {
+      "id": "autumn_cranberry",
+      "name": "蔓越莓",
+      "seasons": [
+        "秋"
+      ],
+      "seedBuy": 100,
+      "baseSell": 75,
+      "growthDays": 9,
+      "regrowDays": 4,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 5,
+      "firstSeasonGrossProfit": 275,
+      "availableFromDay": 1
+    },
+    {
+      "id": "autumn_sorghum",
+      "name": "高粱",
+      "seasons": [
+        "秋"
+      ],
+      "seedBuy": 40,
+      "baseSell": 80,
+      "growthDays": 6,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 40,
+      "availableFromDay": 1
+    },
+    {
+      "id": "autumn_chrysanthemum",
+      "name": "菊花",
+      "seasons": [
+        "秋"
+      ],
+      "seedBuy": 45,
+      "baseSell": 95,
+      "growthDays": 7,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 50,
+      "availableFromDay": 1
+    },
+    {
+      "id": "autumn_buckwheat",
+      "name": "荞麦",
+      "seasons": [
+        "秋"
+      ],
+      "seedBuy": 35,
+      "baseSell": 70,
+      "growthDays": 5,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 35,
+      "availableFromDay": 1
+    },
+    {
+      "id": "winter_radish",
+      "name": "雪萝卜",
+      "seasons": [
+        "冬"
+      ],
+      "seedBuy": 40,
+      "baseSell": 85,
+      "growthDays": 6,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 45,
+      "availableFromDay": 1
+    },
+    {
+      "id": "winter_kale",
+      "name": "羽衣甘蓝",
+      "seasons": [
+        "冬"
+      ],
+      "seedBuy": 65,
+      "baseSell": 145,
+      "growthDays": 9,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 80,
+      "availableFromDay": 1
+    },
+    {
+      "id": "winter_leek",
+      "name": "冬葱",
+      "seasons": [
+        "冬"
+      ],
+      "seedBuy": 45,
+      "baseSell": 95,
+      "growthDays": 7,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 50,
+      "availableFromDay": 1
+    },
+    {
+      "id": "winter_wheat",
+      "name": "霜麦",
+      "seasons": [
+        "冬"
+      ],
+      "seedBuy": 35,
+      "baseSell": 70,
+      "growthDays": 6,
+      "regrowDays": 0,
+      "yieldPerHarvest": 1,
+      "firstSeasonHarvestCount": 1,
+      "firstSeasonGrossProfit": 35,
+      "availableFromDay": 1
+    }
+  ]
+}
