@@ -1678,6 +1678,7 @@
  "state.snow": "Snow",
  "state.sunny": "Sunny",
  "title.about": "About",
+ "title.sourceOn": "View the source code on {0}",
  "title.appearance": "Appearance",
  "title.artSoundCredits": "Art & Sound Credits",
  "title.astralLand": "Astral Land",

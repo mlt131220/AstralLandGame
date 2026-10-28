@@ -10,6 +10,11 @@
   No install needed. Play on desktop, phone or gamepad, even offline.
 </p>
 
+<p align="center">
+  <a href="https://github.com/mlt131220/AstralLandGame"><img src="https://img.shields.io/badge/Github-mlt131220/AstralLandGame-8732D7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://gitee.com/mlt131220/AstralLandGame"><img src="https://img.shields.io/badge/Gitee-mlt131220/AstralLandGame-8732D7?style=for-the-badge&logo=gitee&logoColor=white" alt="Gitee"></a>
+</p>
+
 <p align="center"><a href="README.md">中文</a> | English</p>
 
 ---

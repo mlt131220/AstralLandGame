@@ -9,6 +9,11 @@
   打开网页就能玩，不用安装；电脑、手机、手柄都能玩，也能离线游玩。
 </p>
 
+<p align="center">
+  <a href="https://github.com/mlt131220/AstralLandGame"><img src="https://img.shields.io/badge/Github-mlt131220/AstralLandGame-8732D7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://gitee.com/mlt131220/AstralLandGame"><img src="https://img.shields.io/badge/Gitee码云-mlt131220/AstralLandGame-8732D7?style=for-the-badge&logo=gitee&logoColor=white" alt="Gitee"></a>
+</p>
+
 <p align="center">中文 | <a href="README.en.md">English</a></p>
 
 ---

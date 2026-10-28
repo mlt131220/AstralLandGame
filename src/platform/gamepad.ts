@@ -48,7 +48,7 @@ export function readPad(dt: number): PadFrame | null {
 export const navDir = (f: PadFrame) => (['up', 'down', 'left', 'right'] as const).find((k) => f.pressed.has(k) || f.pressed.has('s_' + k) || f.pressed.has('rep_' + k))
 
 // ---------- 界面的空间导航：在最上层容器（面板 > 标题）的可聚焦元素之间按方向移动焦点 ----------
-const FOCUSABLE = 'button:not([disabled]), input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'
+const FOCUSABLE = 'button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'
 function scope() {
   const panels = [...document.querySelectorAll<HTMLElement>('.panel, .settings, .card, .main-menu')].filter((e) => e.offsetParent)
   return panels[panels.length - 1] ?? document.body

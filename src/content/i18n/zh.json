@@ -1678,6 +1678,7 @@
  "state.snow": "雪",
  "state.sunny": "晴",
  "title.about": "关于",
+ "title.sourceOn": "在 {0} 查看源代码",
  "title.appearance": "外观",
  "title.artSoundCredits": "美术与声音致谢",
  "title.astralLand": "星界 Astral Land",

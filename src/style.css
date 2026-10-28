@@ -32,17 +32,17 @@
 html, body, #app { margin: 0; height: 100%; overflow: hidden; }
 img { -webkit-user-drag: none; }
 
-button {
+button, a.btn {
   font: inherit; color: var(--ink); cursor: pointer; background: none;
   border: 10px solid transparent; border-image: url('/assets/ui/button_brown.png') 12 fill / 10px / 0 stretch;
   padding: 0 10px; min-height: 40px; line-height: 1.2; transition: transform 0.08s, filter 0.12s;
 }
-button:hover:not(:disabled) { filter: brightness(1.06) drop-shadow(0 2px 0 rgba(0, 0, 0, 0.15)); transform: translateY(-1px); }
-button:active:not(:disabled) { transform: translateY(1px); }
+button:hover:not(:disabled), a.btn:hover { filter: brightness(1.06) drop-shadow(0 2px 0 rgba(0, 0, 0, 0.15)); transform: translateY(-1px); }
+button:active:not(:disabled), a.btn:active { transform: translateY(1px); }
 button:disabled { opacity: 0.45; cursor: default; }
 button.primary { font-weight: 700; color: #2e4a14; box-shadow: inset 0 0 0 2px rgba(110, 160, 60, 0.55); border-radius: 6px; }
 button.danger { color: #fff; border-image-source: url('/assets/ui/button_red.png'); }
-button:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline: 3px solid #f0c040; outline-offset: 2px; }
+button:focus-visible, a:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline: 3px solid #f0c040; outline-offset: 2px; }
 /* 可选中的物品格（按钮）：外观由里面的 .slot 画 */
 button.cell { border: 0; border-image: none; padding: 0; min-height: 0; line-height: normal; text-align: left; }
 button.cell:hover:not(:disabled), button.cell:active:not(:disabled) { transform: none; }
@@ -251,6 +251,10 @@ html[lang='en'] .volume select { width: 100%; min-width: 0; }
 /* ---------- 主菜单 ---------- */
 .main-menu { display: flex; flex-direction: column; gap: 10px; width: min(300px, 90%); margin-top: 6px; }
 .main-menu button.big { min-height: 52px; font-size: 1.2rem; letter-spacing: 0.2em; }
+/* 源代码仓库链接：两个半宽按钮，带平台图标 */
+.repo-links { display: flex; gap: 10px; margin-top: 4px; }
+.repo-links a { flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; font-weight: 700; letter-spacing: 0.04em; }
+.repo-links svg { width: 22px; height: 22px; flex: none; }
 .about { width: min(560px, 100%); }
 .about h2 { margin-top: 0; color: var(--wood-dark); }
 select { font: inherit; color: var(--ink); background: #fffaf0; border: 2px solid var(--wood); border-radius: 6px; padding: 2px 6px; }
